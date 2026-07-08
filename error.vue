@@ -2,6 +2,8 @@
 import type { NuxtError } from '#app'
 
 defineProps<{ error: NuxtError }>()
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -11,10 +13,10 @@ defineProps<{ error: NuxtError }>()
         {{ error.statusCode }}
       </h1>
       <p class="text-muted mb-8">
-        {{ error.message }}
+        {{ error.statusCode === 404 ? t('error.message') : error.message }}
       </p>
       <UButton to="/" variant="solid">
-        Retour à l'accueil
+        {{ t('error.backHome') }}
       </UButton>
     </UContainer>
   </NuxtLayout>
