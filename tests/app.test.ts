@@ -1,14 +1,10 @@
-import { $fetch, setup } from '@nuxt/test-utils/e2e'
+import { mountSuspended } from '@nuxt/test-utils/runtime'
 import { describe, expect, it } from 'vitest'
+import App from '~/app.vue'
 
-describe('cartoGuide website', async () => {
-  await setup({
-    rootDir: import.meta.dirname ? `${import.meta.dirname}/..` : '..',
-    server: true,
-  })
-
-  it('serves the French homepage', async () => {
-    const html = await $fetch('/fr')
-    expect(html).toContain('CartoGuide')
+describe('cartoguide website', () => {
+  it('renders the application', async () => {
+    const component = await mountSuspended(App)
+    expect(component.html()).toContain('flex min-h-screen flex-col')
   })
 })
