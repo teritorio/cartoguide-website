@@ -8,6 +8,10 @@ const { data: page } = await useAsyncData(
   () => queryCollection(collectionName.value).path(`/${locale.value}/contact`).first(),
 )
 
+if (!page.value) {
+  throw createError({ statusCode: 404, fatal: true })
+}
+
 useHead({
   title: () => page.value?.title,
   meta: [
