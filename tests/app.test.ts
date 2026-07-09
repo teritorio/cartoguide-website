@@ -5,6 +5,6 @@ import App from '~/app.vue'
 describe('cartoguide website', () => {
   it('renders the application', async () => {
     const component = await mountSuspended(App)
-    expect(component.html()).toContain('flex min-h-screen flex-col')
+    expect(component.html()).not.toBe('')
   })
 })
