@@ -1,3 +1,5 @@
+import process from 'node:process'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
@@ -89,6 +91,10 @@ export default defineNuxtConfig({
     preference: 'light',
   },
 
+  sourcemap: {
+    client: 'hidden',
+  },
+
   runtimeConfig: {
     public: {
       sentryDsn: '',
@@ -96,10 +102,11 @@ export default defineNuxtConfig({
   },
 
   sentry: {
-    sourceMapsUploadOptions: {
-      org: 'teritorio',
-      project: 'cartoguide-website',
-    },
+    sentryUrl: process.env.SENTRY_URL,
+    org: process.env.SENTRY_ORG,
+    project: process.env.SENTRY_PROJECT,
+    authToken: process.env.SENTRY_AUTH_TOKEN,
+    telemetry: false,
   },
 
   compatibilityDate: '2025-03-24',
