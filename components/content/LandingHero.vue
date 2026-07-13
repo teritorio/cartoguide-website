@@ -7,6 +7,7 @@ const props = defineProps<{
   primaryTo?: string
   secondaryLabel?: string
   secondaryTo?: string
+  screenshot?: string
 }>()
 
 const resolvedPrimaryTo = useLocaleTo(computed(() => props.primaryTo))
@@ -16,7 +17,10 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 <template>
   <section class="relative py-24 sm:py-32 overflow-hidden">
     <div class="hero-gradient absolute inset-0" />
-    <div class="hero-map absolute inset-0" />
+    <div
+      class="hero-map absolute inset-0"
+      :style="screenshot ? { backgroundImage: `url('${screenshot}')` } : undefined"
+    />
     <UContainer class="relative">
       <div class="mx-auto max-w-3xl text-center">
         <p v-if="headline" class="text-sm font-semibold text-primary">
