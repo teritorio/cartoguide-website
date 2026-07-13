@@ -5,8 +5,40 @@ html {
   color-scheme: light only !important;
 }
 
-/* CartoGuide brand colors (reference — applied in M3 design system)
-   primary (sky):    #082e4e · #1F71B8
-   secondary (emerald): #51A775
-   accent (orange):  #EA5B0C
+/*
+  CartoGuide brand palette
+  Override sky (primary) and emerald (secondary) via :root — NOT @theme,
+  which would conflict with @nuxt/ui's own @theme processing and cause an HMR loop.
+  CSS custom properties set in :root cascade correctly at runtime:
+    bg-sky-500 → var(--color-sky-500) → our brand blue #1F71B8 ✓
+    --color-primary-100 (via @nuxt/ui alias) → var(--color-sky-100) → our value ✓
+
+  Anchors: #1F71B8 (500), #082e4e (900), #51A775 (500 green), #EA5B0C (accent)
 */
+:root {
+  /* Primary — brand blue */
+  --color-sky-50: #eff6fe;
+  --color-sky-100: #dbecfb;
+  --color-sky-200: #b8d9f7;
+  --color-sky-300: #84bcf0;
+  --color-sky-400: #4e98e2;
+  --color-sky-500: #1f71b8;
+  --color-sky-600: #1a5e9a;
+  --color-sky-700: #144979;
+  --color-sky-800: #0e345a;
+  --color-sky-900: #082e4e;
+  --color-sky-950: #041929;
+
+  /* Secondary — brand green */
+  --color-emerald-50: #f0faf4;
+  --color-emerald-100: #d8f1e4;
+  --color-emerald-200: #b3e4ca;
+  --color-emerald-300: #83ccab;
+  --color-emerald-400: #6bbb92;
+  --color-emerald-500: #51a775;
+  --color-emerald-600: #3d8e60;
+  --color-emerald-700: #2d6e4a;
+  --color-emerald-800: #1e4e34;
+  --color-emerald-900: #133321;
+  --color-emerald-950: #091d12;
+}
