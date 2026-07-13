@@ -108,6 +108,10 @@ export default defineNuxtConfig({
     project: process.env.SENTRY_PROJECT,
     authToken: process.env.SENTRY_AUTH_TOKEN,
     telemetry: false,
+    sourcemaps: {
+      // Delete source map files after Sentry upload so they're not published to GitHub Pages
+      filesToDeleteAfterUpload: '.output/public/_nuxt/**/*.map',
+    },
   },
 
   compatibilityDate: '2025-03-24',

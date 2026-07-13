@@ -18,11 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - uses: pnpm/action-setup@v5
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
@@ -32,8 +32,15 @@ jobs:
 
       - name: Generate static site
         run: pnpm generate
+        env:
+          NUXT_PUBLIC_SENTRY_DSN: ${{ secrets.NUXT_PUBLIC_SENTRY_DSN }}
+          NUXT_PUBLIC_MATOMO_SITE_ID: ${{ secrets.NUXT_PUBLIC_MATOMO_SITE_ID }}
+          SENTRY_URL: https://sentry.teritorio.xyz/
+          SENTRY_ORG: teritorio
+          SENTRY_PROJECT: cartoguide-website
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: .output/public
 
