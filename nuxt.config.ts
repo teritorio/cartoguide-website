@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       ],
       meta: [
-        { name: 'theme-color', content: '#1075BB' },
+        { name: 'theme-color', content: '#1F71B8' },
         { property: 'og:image', content: 'https://cartoguide.teritorio.xyz/og-image.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },

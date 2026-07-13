@@ -1,12 +1,12 @@
 {
-  "name": "Clearance",
-  "short_name": "Clearance",
-  "description": "Open source quality filter for OpenStreetMap replication",
+  "name": "CartoGuide",
+  "short_name": "CartoGuide",
+  "description": "Open source interactive map based on OpenStreetMap",
   "lang": "en",
   "start_url": "/en/",
   "display": "browser",
   "background_color": "#ffffff",
-  "theme_color": "#ffbb00",
+  "theme_color": "#1F71B8",
   "icons": [
     {
       "src": "/favicon.svg",

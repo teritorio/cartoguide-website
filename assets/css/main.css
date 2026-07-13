@@ -4,3 +4,17 @@
 html {
   color-scheme: light only !important;
 }
+
+/* CartoGuide brand colors
+   primary (sky):    #082e4e · #1F71B8
+   secondary (emerald): #51A775
+   accent (orange):  #EA5B0C
+*/
+@theme {
+  --color-sky-950: #082e4e;
+  --color-sky-700: #082e4e;
+  --color-sky-600: #1f71b8;
+  --color-sky-500: #1f71b8;
+  --color-emerald-500: #51a775;
+  --color-emerald-600: #3d8c5f;
+}
