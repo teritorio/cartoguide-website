@@ -1,3 +1,5 @@
+import process from 'node:process'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
@@ -5,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
     '@nuxt/image',
+    '@sentry/nuxt/module',
   ],
 
   css: ['~/assets/css/main.css'],
@@ -86,6 +89,29 @@ export default defineNuxtConfig({
 
   colorMode: {
     preference: 'light',
+  },
+
+  sourcemap: {
+    client: 'hidden',
+  },
+
+  runtimeConfig: {
+    public: {
+      sentryDsn: '',
+      matomoSiteId: '',
+    },
+  },
+
+  sentry: {
+    sentryUrl: process.env.SENTRY_URL,
+    org: process.env.SENTRY_ORG,
+    project: process.env.SENTRY_PROJECT,
+    authToken: process.env.SENTRY_AUTH_TOKEN,
+    telemetry: false,
+    sourcemaps: {
+      // Delete source map files after Sentry upload so they're not published to GitHub Pages
+      filesToDeleteAfterUpload: '.output/public/_nuxt/**/*.map',
+    },
   },
 
   compatibilityDate: '2025-03-24',
