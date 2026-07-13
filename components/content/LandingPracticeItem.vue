@@ -12,10 +12,10 @@ defineProps<{
         <UIcon :name="icon" class="size-6 text-primary" />
       </div>
       <div>
-        <h3 v-if="title" class="text-base font-semibold">
+        <h3 v-if="title" class="text-base font-semibold text-slate-900">
           {{ title }}
         </h3>
-        <div class="text-sm text-muted [&_p]:m-0" :class="{ 'mt-1': title }">
+        <div class="text-sm text-slate-600 [&_p]:m-0" :class="{ 'mt-1': title }">
           <MDCSlot :use="$slots.default" />
         </div>
       </div>

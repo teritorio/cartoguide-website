@@ -9,7 +9,7 @@ defineProps<{
     <div v-if="icon" class="mb-4 mx-auto flex size-10 items-center justify-center rounded-lg bg-primary/10">
       <UIcon :name="icon" class="size-5 text-primary" />
     </div>
-    <div class="text-base text-muted leading-relaxed">
+    <div class="text-base text-slate-700 leading-relaxed">
       <MDCSlot :use="$slots.default" />
     </div>
   </div>

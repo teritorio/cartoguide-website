@@ -11,11 +11,11 @@ defineProps<{
       <div v-if="icon" class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-primary/10">
         <UIcon :name="icon" class="size-6 text-primary" />
       </div>
-      <h3 class="text-base font-semibold">
+      <h3 class="text-base font-semibold text-slate-900">
         {{ title }}
       </h3>
     </div>
-    <div class="text-sm text-muted">
+    <div class="text-sm text-slate-600">
       <MDCSlot :use="$slots.default" />
     </div>
   </div>
