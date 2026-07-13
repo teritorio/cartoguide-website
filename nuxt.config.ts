@@ -98,6 +98,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       sentryDsn: '',
+      matomoSiteId: '',
     },
   },
 
