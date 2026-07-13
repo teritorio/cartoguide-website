@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
     '@nuxt/image',
+    '@sentry/nuxt/module',
   ],
 
   css: ['~/assets/css/main.css'],
@@ -86,6 +87,19 @@ export default defineNuxtConfig({
 
   colorMode: {
     preference: 'light',
+  },
+
+  runtimeConfig: {
+    public: {
+      sentryDsn: '',
+    },
+  },
+
+  sentry: {
+    sourceMapsUploadOptions: {
+      org: 'teritorio',
+      project: 'cartoguide-website',
+    },
   },
 
   compatibilityDate: '2025-03-24',
