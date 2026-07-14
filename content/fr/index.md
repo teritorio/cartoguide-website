@@ -74,37 +74,41 @@ title: Tout ce dont vous avez besoin pour valoriser votre territoire
 
 ::landing-use-cases
 ---
-headline: Pour qui ?
-title: Adapté aux acteurs du territoire
-description: "CartoGuide s'adresse aux organisations qui souhaitent mettre en valeur et rendre accessible la richesse de leur territoire."
+headline: Secteurs d'activité
+title: Adapté à votre secteur
+description: "CartoGuide est déployé dans quatre grands domaines : tourisme, information territoriale, alimentation locale et santé."
 ---
 
   ::landing-use-case
   ---
-  icon: i-lucide-building
+  icon: i-lucide-compass
+  title: Tourisme & attractivité
+  ---
+  Offices de tourisme, destinations et stations thermales — valorisez hébergements, restaurants, activités et balades sur une carte enrichie depuis vos SIT (Sirtaqui, Apidae, Tourinsoft).
+  ::
+
+  ::landing-use-case
+  ---
+  icon: i-lucide-building-2
   title: Collectivités territoriales
   ---
+  Communes, intercommunalités et départements — informez vos habitants sur les services publics, commerces, mobilités et ressources de votre territoire.
   ::
 
   ::landing-use-case
   ---
-  icon: i-lucide-tree-pine
-  title: Parcs naturels et espaces protégés
+  icon: i-lucide-leaf
+  title: Alimentation & circuits courts
   ---
+  Pays et territoires — mettez en valeur vos producteurs locaux, marchés et routes gourmandes pour dynamiser la consommation de proximité.
   ::
 
   ::landing-use-case
   ---
-  icon: i-lucide-info
-  title: Offices de tourisme et agences de destination
+  icon: i-lucide-heart-pulse
+  title: Santé
   ---
-  ::
-
-  ::landing-use-case
-  ---
-  icon: i-lucide-map
-  title: Gestionnaires de patrimoine territorial
-  ---
+  CPTS et structures de santé — facilitez l'accès aux professionnels de santé de votre territoire grâce à un annuaire cartographique interactif.
   ::
 
 ::

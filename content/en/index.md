@@ -74,37 +74,41 @@ title: Everything you need to showcase your territory
 
 ::landing-use-cases
 ---
-headline: Who is it for?
-title: Tailored for territorial actors
-description: "CartoGuide is designed for organizations that want to showcase and make accessible the richness of their territory."
+headline: Use cases
+title: Tailored to your sector
+description: "CartoGuide is deployed across four key domains: tourism, territorial information, local food, and healthcare."
 ---
 
   ::landing-use-case
   ---
-  icon: i-lucide-building
+  icon: i-lucide-compass
+  title: Tourism & attractiveness
+  ---
+  Tourist offices, destinations and spa resorts — showcase accommodations, restaurants, activities and trails on a map enriched from your tourism information systems.
+  ::
+
+  ::landing-use-case
+  ---
+  icon: i-lucide-building-2
   title: Local authorities
   ---
+  Municipalities, inter-municipal communities and departments — keep residents informed about public services, businesses, mobility and local resources.
   ::
 
   ::landing-use-case
   ---
-  icon: i-lucide-tree-pine
-  title: Natural parks and protected areas
+  icon: i-lucide-leaf
+  title: Food & short supply chains
   ---
+  Territories and pays — highlight local producers, markets and gourmet trails to support local and short-circuit consumption.
   ::
 
   ::landing-use-case
   ---
-  icon: i-lucide-info
-  title: Tourism offices and destination agencies
+  icon: i-lucide-heart-pulse
+  title: Healthcare
   ---
-  ::
-
-  ::landing-use-case
-  ---
-  icon: i-lucide-map
-  title: Territorial heritage managers
-  ---
+  Healthcare professional communities — make it easy for residents to find health professionals in your area with an interactive directory map.
   ::
 
 ::

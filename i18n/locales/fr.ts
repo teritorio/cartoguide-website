@@ -2,6 +2,7 @@ export default defineI18nLocale(async () => ({
   nav: {
     home: 'CartoGuide',
     features: 'Fonctionnalités',
+    useCases: 'Cas d\'usage',
     contact: 'Contact',
     github: 'GitHub',
     seeCartoGuide: 'Voir CartoGuide',
