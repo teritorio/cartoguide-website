@@ -3,7 +3,7 @@ title: "Funcionalidades"
 description: "Descubra las funcionalidades de CartoGuide: búsqueda geográfica, mapa interactivo, optimización móvil y valorización de datos OpenStreetMap."
 ---
 
-::landing-hero
+::landing-page-header
 ---
 headline: Funcionalidades
 title: Un mapa interactivo diseñado para valorizar su territorio

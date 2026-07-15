@@ -3,7 +3,7 @@ title: "Features"
 description: "Discover CartoGuide features: geographic search, interactive map, mobile optimization and OpenStreetMap data showcase."
 ---
 
-::landing-hero
+::landing-page-header
 ---
 headline: Features
 title: An interactive map designed to showcase your territory

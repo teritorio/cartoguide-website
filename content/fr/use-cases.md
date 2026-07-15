@@ -3,7 +3,7 @@ title: "Cas d'usage"
 description: "CartoGuide est utilisé par 30+ organisations territoriales dans quatre secteurs : tourisme, collectivités, alimentation locale et santé."
 ---
 
-::landing-hero
+::landing-page-header
 ---
 headline: Cas d'usage
 title: CartoGuide, adapté à votre secteur
