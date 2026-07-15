@@ -26,18 +26,16 @@ description: "Les acteurs du territoire produisent des données de qualité. Ell
   ::landing-problem-card
   ---
   icon: i-lucide-database-zap
+  title: Des sources de données fragmentées
   ---
-  **Des sources de données fragmentées**
-
   SIT touristiques (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, OpenStreetMap, back-office métier — chaque outil dans son silo, aucune vue unifiée pour vos habitants et visiteurs.
   ::
 
   ::landing-problem-card
   ---
   icon: i-lucide-monitor-x
+  title: Des interfaces inadaptées au terrain
   ---
-  **Des interfaces inadaptées au terrain**
-
   Les outils existants sont conçus pour les bureaux, pas pour les agents d'accueil ou les visiteurs en déplacement sur smartphone.
   ::
 
@@ -63,7 +61,7 @@ description: "CartoGuide connecte vos sources, les valorise sur une carte mobile
   icon: i-lucide-smartphone
   title: Mobile-first et intégrable
   ---
-  Interface pensée pour le terrain, intégrable via widget sur n'importe quel site. Logiciel libre sous licence MIT, déployé et maintenu par Teritorio.
+  Interface pensée pour le terrain, intégrable via widget ou iframe sur n'importe quel site web. Pas d'installation, pas d'infrastructure — CartoGuide s'adapte à votre écosystème numérique existant.
   ::
 
   ::landing-feature

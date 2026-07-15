@@ -26,18 +26,16 @@ description: "Territorial actors produce quality data. Yet it remains scattered 
   ::landing-problem-card
   ---
   icon: i-lucide-database-zap
+  title: Fragmented data sources
   ---
-  **Fragmented data sources**
-
   Tourism information systems (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, OpenStreetMap, proprietary back-offices — each tool in its own silo, no unified view for your residents and visitors.
   ::
 
   ::landing-problem-card
   ---
   icon: i-lucide-monitor-x
+  title: Interfaces not suited to the field
   ---
-  **Interfaces not suited to the field**
-
   Existing tools are designed for desktops, not for reception staff or visitors on the go with a smartphone.
   ::
 
@@ -45,7 +43,7 @@ description: "Territorial actors produce quality data. Yet it remains scattered 
 
 ::landing-solution
 ---
-headline: The CartoGuide answer
+headline: "CartoGuide's answer"
 title: One map, all your data, for all your audiences
 description: "CartoGuide connects your sources, showcases them on a mobile map and participates in the open digital commons."
 ---
@@ -63,7 +61,7 @@ description: "CartoGuide connects your sources, showcases them on a mobile map a
   icon: i-lucide-smartphone
   title: Mobile-first and embeddable
   ---
-  Interface designed for field use, embeddable via widget on any website. Open source under the MIT license, deployed and maintained by Teritorio.
+  Interface designed for field use, embeddable via widget or iframe on any website. No installation, no infrastructure — CartoGuide fits into your existing digital ecosystem.
   ::
 
   ::landing-feature
