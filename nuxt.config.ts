@@ -75,7 +75,13 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true,
-    typeCheck: true,
+    typeCheck: 'build',
+  },
+
+  vite: {
+    optimizeDeps: {
+      include: ['@unhead/schema-org/vue'],
+    },
   },
 
   nitro: {
