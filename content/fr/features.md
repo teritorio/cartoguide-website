@@ -59,7 +59,7 @@ title: Des outils puissants pour chaque usage territorial
 
   ::landing-feature
   ---
-  icon: i-lucide-users
+  icon: i-lucide-earth
   title: Mode contributeur et enrichissement OSM
   ---
   Activez le mode contributeur pour permettre à vos agents ou à votre communauté de signaler des mises à jour directement depuis la carte. Chaque contribution validée remonte dans OpenStreetMap, ce qui profite à l'ensemble de l'écosystème : Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN et bien d'autres. Contribuer à CartoGuide, c'est contribuer aux communs numériques.
@@ -100,10 +100,10 @@ description: "CartoGuide propose également des options avancées pour enrichir 
 
   ::landing-feature
   ---
-  icon: i-lucide-circle-dot
-  title: Clusters automatiques de POI
+  icon: i-lucide-languages
+  title: Interface multilingue
   ---
-  Quand plusieurs points d'intérêt sont proches, CartoGuide les regroupe automatiquement en clusters pour éviter la surcharge visuelle. Les clusters s'ouvrent au zoom pour révéler chaque POI individuellement. La carte reste lisible à toutes les échelles, que vous ayez 50 ou 5 000 points à afficher.
+  Interface disponible en français, anglais et espagnol, avec adaptation automatique à la langue du navigateur. Idéal pour les territoires transfrontaliers (Pays Basque, Suisse, Occitanie) qui accueillent des publics de plusieurs nationalités.
   ::
 
   ::landing-feature
@@ -136,7 +136,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Base cartographique libre et collaborative, enrichie par une communauté mondiale. Plus de 500 types de POI disponibles sur les fonds vectoriels Teritorio dérivés d'OSM. Les contributions effectuées depuis CartoGuide remontent directement dans la base OSM.
+  Base libre et collaborative avec plus de 500 types de POI — les contributions depuis CartoGuide remontent directement dans la base OSM mondiale.
   ::
 
   ::landing-feature
@@ -144,7 +144,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-building
   title: Sirtaqui et Apidae
   ---
-  Intégration native des systèmes d'information touristique Sirtaqui (Nouvelle-Aquitaine) et Apidae (Auvergne-Rhône-Alpes et autres régions). Les fiches établissements, hébergements, restaurants et loisirs sont synchronisées automatiquement depuis les SIT régionaux vers CartoGuide.
+  Les deux principaux SIT touristiques en France (Nouvelle-Aquitaine, Auvergne-Rhône-Alpes) — fiches établissements, hébergements et loisirs synchronisées automatiquement.
   ::
 
   ::landing-feature
@@ -152,15 +152,15 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-tent
   title: Geotrek et Open Agenda
   ---
-  Geotrek pour les itinéraires de randonnée et les sites naturels, Open Agenda pour les événements culturels et sportifs. Ces deux sources couvrent les usages clés du tourisme de proximité et de la découverte locale, avec une synchronisation automatique quotidienne.
+  Itinéraires de randonnée et sites naturels (Geotrek) + événements culturels et sportifs (Open Agenda) — synchronisation quotidienne automatique.
   ::
 
   ::landing-feature
   ---
   icon: i-lucide-bus
-  title: GTFS et transports en commun
+  title: GTFS — Transports en commun
   ---
-  Intégration des données de transport en commun au format GTFS (General Transit Feed Specification). Affichez les arrêts de bus, tramway, métro et train à proximité de chaque point d'intérêt, pour faciliter la mobilité des visiteurs sans voiture.
+  Arrêts de bus, tramway, métro et train affichés à proximité de chaque point d'intérêt pour faciliter la mobilité des visiteurs sans voiture.
   ::
 
   ::landing-feature
@@ -168,7 +168,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-globe
   title: Tourinsoft et autres SIT
   ---
-  Connexion possible avec Tourinsoft et d'autres systèmes d'information touristiques régionaux. L'architecture ouverte de CartoGuide permet d'intégrer toute source disposant d'une API ou d'un export structuré, quelle que soit la région ou le secteur d'activité.
+  Compatible avec Tourinsoft et tout système d'information touristique régional disposant d'une API ou d'un export structuré.
   ::
 
   ::landing-feature
@@ -176,7 +176,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-pencil
   title: Back-office Elasa
   ---
-  Pour vos données propriétaires ou non référencées dans les SIT, le back-office Elasa vous permet de saisir et gérer vos propres points d'intérêt directement dans CartoGuide. Une solution pour les offices de tourisme souhaitant maîtriser intégralement leur catalogue sans dépendre d'un SIT régional.
+  Saisissez et gérez vos données propriétaires directement dans CartoGuide, sans dépendre d'un SIT régional.
   ::
 
 ::

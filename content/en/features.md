@@ -1,6 +1,6 @@
 ---
 title: "CartoGuide Features — Geographic Search, Multi-source Data, Widget"
-description: "Isochrone search, multi-source data (OSM + tourism information systems), QR code favorites, OSM contributor mode, embeddable widget. Showcase your territory's data."
+description: "Isochrone search, multi-source data (OSM + tourism information systems), QR code favorites, OSM contributor mode, embeddable widget. Deployed by 30+ territorial organizations."
 ---
 
 ::landing-page-header
@@ -59,7 +59,7 @@ title: Powerful tools for every territorial use case
 
   ::landing-feature
   ---
-  icon: i-lucide-users
+  icon: i-lucide-earth
   title: Contributor mode and OSM enrichment
   ---
   Enable contributor mode to let your agents or community report updates directly from the map. Each validated contribution flows back into OpenStreetMap, benefiting the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others. Contributing to CartoGuide means contributing to the digital commons.
@@ -100,10 +100,10 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
 
   ::landing-feature
   ---
-  icon: i-lucide-circle-dot
-  title: Automatic POI clusters
+  icon: i-lucide-languages
+  title: Multilingual interface
   ---
-  When several points of interest are close together, CartoGuide automatically groups them into clusters to avoid visual clutter. Clusters open on zoom to reveal each POI individually. The map remains readable at every scale, whether you have 50 or 5,000 points to display.
+  Interface available in French, English and Spanish, automatically adapting to the visitor's browser language. Ideal for cross-border territories (Basque Country, Switzerland, Occitania) welcoming audiences from multiple countries.
   ::
 
   ::landing-feature
@@ -136,7 +136,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Free and collaborative cartographic base, enriched by a global community. Over 500 POI types available on Teritorio vector basemaps derived from OSM. Contributions made from CartoGuide flow directly back into the OSM database.
+  Free and collaborative base with over 500 POI types — contributions from CartoGuide flow directly back into the global OSM database.
   ::
 
   ::landing-feature
@@ -144,7 +144,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-building
   title: Sirtaqui and Apidae
   ---
-  Native integration of the tourism information systems Sirtaqui (Nouvelle-Aquitaine) and Apidae (Auvergne-Rhône-Alpes and other regions). Business, accommodation, restaurant and leisure listings are automatically synchronized from the regional TISes into CartoGuide.
+  France's two main regional tourism information systems — listings automatically synchronized from Nouvelle-Aquitaine and Auvergne-Rhône-Alpes.
   ::
 
   ::landing-feature
@@ -152,15 +152,15 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-tent
   title: Geotrek and Open Agenda
   ---
-  Geotrek for hiking routes and natural sites, Open Agenda for cultural and sporting events. These two sources cover the key use cases for local tourism and discovery, with automatic daily synchronization.
+  Hiking routes and natural sites (Geotrek) + cultural and sports events (Open Agenda) — automatic daily synchronization.
   ::
 
   ::landing-feature
   ---
   icon: i-lucide-bus
-  title: GTFS and public transport
+  title: GTFS — Public transport
   ---
-  Integration of public transport data in GTFS (General Transit Feed Specification) format. Display nearby bus, tram, metro and train stops for every point of interest, making it easier for car-free visitors to get around.
+  Bus, tram, metro and train stops displayed near every point of interest to support car-free visitor mobility.
   ::
 
   ::landing-feature
@@ -168,7 +168,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-globe
   title: Tourinsoft and other TISes
   ---
-  Connection available with Tourinsoft and other regional tourism information systems. CartoGuide's open architecture allows integration of any source with an API or structured export, regardless of region or sector.
+  Compatible with Tourinsoft and any tourism information system with an API or structured export.
   ::
 
   ::landing-feature
@@ -176,7 +176,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-pencil
   title: Elasa back-office
   ---
-  For proprietary data not listed in the TISes, the Elasa back-office lets you enter and manage your own points of interest directly in CartoGuide. A solution for tourism offices that want full control over their catalogue without depending on a regional TIS.
+  Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS.
   ::
 
 ::
