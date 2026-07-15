@@ -78,12 +78,6 @@ export default defineNuxtConfig({
     typeCheck: 'build',
   },
 
-  vite: {
-    optimizeDeps: {
-      include: ['@unhead/schema-org/vue'],
-    },
-  },
-
   nitro: {
     prerender: {
       routes: ['fr', 'en', 'es'].flatMap(locale => [
