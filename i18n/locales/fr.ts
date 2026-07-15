@@ -39,4 +39,16 @@ export default defineI18nLocale(async () => ({
     empty: 'Cette page n\'a pas encore de contenu.',
     notFound: 'Page introuvable',
   },
+  faq: {
+    q1: 'Qu\'est-ce que CartoGuide ?',
+    a1: 'CartoGuide est une application web cartographique open source basée sur OpenStreetMap. Elle agrège vos données territoriales (SIT touristiques, Geotrek, Open Agenda, GTFS, back-office) et les valorise sur une carte interactive optimisée mobile.',
+    q2: 'CartoGuide est-il gratuit ?',
+    a2: 'CartoGuide est un logiciel libre sous licence MIT, librement utilisable et modifiable. Teritorio propose des services d\'hébergement, de déploiement et d\'accompagnement pour les organisations qui souhaitent être guidées.',
+    q3: 'Quelles sources de données CartoGuide supporte-t-il ?',
+    a3: 'CartoGuide se connecte à OpenStreetMap, aux SIT touristiques (Sirtaqui, Apidae, Tourinsoft), à Geotrek, Open Agenda, GTFS, aux SIG open data et aux contenus éditoriaux du back-office Elasa. Les données sont synchronisées chaque soir.',
+    q4: 'CartoGuide fonctionne-t-il sur mobile ?',
+    a4: 'Oui, CartoGuide est conçu mobile-first. L\'interface est responsive et optimisée pour les smartphones, tablettes et ordinateurs. Elle est pensée pour les agents de terrain, les personnels d\'accueil et les visiteurs en déplacement.',
+    q5: 'Comment contribuer à OpenStreetMap avec CartoGuide ?',
+    a5: 'CartoGuide intègre un mode contributeur qui permet à vos agents et bénévoles d\'enrichir les données OpenStreetMap directement depuis la carte. Ces contributions profitent à tout l\'écosystème : Géovélo, la SNCF, Apple Maps, l\'IGN et bien d\'autres.',
+  },
 }))

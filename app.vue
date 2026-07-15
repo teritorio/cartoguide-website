@@ -21,11 +21,17 @@ useHead({
 useSchemaOrg([
   defineSoftwareApp({
     name: 'CartoGuide',
-    operatingSystem: 'Any',
-    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Web',
+    applicationCategory: 'GISApplication',
     offers: {
       price: '0',
       priceCurrency: 'EUR',
+    },
+    license: 'https://opensource.org/licenses/MIT',
+    author: {
+      '@type': 'Organization',
+      'name': 'Teritorio',
+      'url': 'https://www.teritorio.fr',
     },
   }),
 ])

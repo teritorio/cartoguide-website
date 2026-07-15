@@ -40,6 +40,7 @@ export default defineNuxtConfig({
       name: 'Teritorio',
       url: 'https://www.teritorio.fr',
       logo: 'https://www.teritorio.fr/wp-content/themes/teritorio/assets/images/favicon/favicon-194x194.png',
+      sameAs: ['https://github.com/teritorio'],
     },
   },
 
