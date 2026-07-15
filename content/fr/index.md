@@ -16,6 +16,66 @@ screenshot: /hero-screenshot.png
 ---
 ::
 
+::landing-problem
+---
+headline: Le défi des territoires
+title: Des données précieuses, mais invisibles
+description: "Les acteurs du territoire produisent des données de qualité. Elles restent pourtant dispersées dans des silos, inaccessibles au grand public."
+---
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-database-zap
+  ---
+  **Des sources de données fragmentées**
+
+  SIT touristiques (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, OpenStreetMap, back-office métier — chaque outil dans son silo, aucune vue unifiée pour vos habitants et visiteurs.
+  ::
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-monitor-x
+  ---
+  **Des interfaces inadaptées au terrain**
+
+  Les outils existants sont conçus pour les bureaux, pas pour les agents d'accueil ou les visiteurs en déplacement sur smartphone.
+  ::
+
+::
+
+::landing-solution
+---
+headline: La réponse CartoGuide
+title: Une carte, toutes vos données, pour tous vos publics
+description: "CartoGuide connecte vos sources, les valorise sur une carte mobile et s'inscrit dans une démarche de communs numériques."
+---
+
+  ::landing-feature
+  ---
+  icon: i-lucide-plug
+  title: Connecteurs multisources
+  ---
+  OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS, back-office — toutes vos données dans une seule interface, synchronisées chaque soir.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-smartphone
+  title: Mobile-first et intégrable
+  ---
+  Interface pensée pour le terrain, intégrable via widget sur n'importe quel site. Logiciel libre sous licence MIT, déployé et maintenu par Teritorio.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-share-2
+  title: Contribuer aux communs numériques
+  ---
+  En enrichissant OpenStreetMap depuis CartoGuide, vos données profitent à tout l'écosystème : Géovélo, la SNCF, Apple Maps, l'IGN et bien d'autres acteurs du territoire.
+  ::
+
+::
+
 ::landing-features
 ---
 headline: Fonctionnalités
