@@ -16,6 +16,64 @@ screenshot: /hero-screenshot.png
 ---
 ::
 
+::landing-problem
+---
+headline: The territorial challenge
+title: Valuable data, but invisible
+description: "Territorial actors produce quality data. Yet it remains scattered across silos, inaccessible to the general public."
+---
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-database-zap
+  title: Fragmented data sources
+  ---
+  Tourism information systems (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, OpenStreetMap, proprietary back-offices — each tool in its own silo, no unified view for your residents and visitors.
+  ::
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-monitor-x
+  title: Interfaces not suited to the field
+  ---
+  Existing tools are designed for desktops, not for reception staff or visitors on the go with a smartphone.
+  ::
+
+::
+
+::landing-solution
+---
+headline: "CartoGuide's answer"
+title: One map, all your data, for all your audiences
+description: "CartoGuide connects your sources, showcases them on a mobile map and participates in the open digital commons."
+---
+
+  ::landing-feature
+  ---
+  icon: i-lucide-plug
+  title: Multi-source connectors
+  ---
+  OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS, back-office — all your data in a single interface, synchronized every night.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-smartphone
+  title: Mobile-first and embeddable
+  ---
+  Interface designed for field use, embeddable via widget or iframe on any website. No installation, no infrastructure — CartoGuide fits into your existing digital ecosystem.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-share-2
+  title: Contributing to the digital commons
+  ---
+  By enriching OpenStreetMap through CartoGuide, your data benefits the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.
+  ::
+
+::
+
 ::landing-features
 ---
 headline: Features

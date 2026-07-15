@@ -16,6 +16,64 @@ screenshot: /hero-screenshot.png
 ---
 ::
 
+::landing-problem
+---
+headline: El reto de los territorios
+title: Datos valiosos, pero invisibles
+description: "Los actores del territorio producen datos de calidad. Sin embargo, permanecen dispersos en silos, inaccesibles para el gran público."
+---
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-database-zap
+  title: Fuentes de datos fragmentadas
+  ---
+  SIT turísticos (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, OpenStreetMap, back-office propio — cada herramienta en su silo, ninguna vista unificada para sus habitantes y visitantes.
+  ::
+
+  ::landing-problem-card
+  ---
+  icon: i-lucide-monitor-x
+  title: Interfaces inadecuadas para el trabajo de campo
+  ---
+  Las herramientas existentes están diseñadas para escritorios, no para el personal de acogida ni para los visitantes en movimiento con un smartphone.
+  ::
+
+::
+
+::landing-solution
+---
+headline: La respuesta CartoGuide
+title: Un mapa, todos sus datos, para todos sus públicos
+description: "CartoGuide conecta sus fuentes, las valoriza en un mapa móvil y participa en una dinámica de bienes comunes digitales."
+---
+
+  ::landing-feature
+  ---
+  icon: i-lucide-plug
+  title: Conectores multifuente
+  ---
+  OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS, back-office — todos sus datos en una sola interfaz, sincronizados cada noche.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-smartphone
+  title: Mobile-first e integrable
+  ---
+  Interfaz diseñada para el trabajo de campo, integrable mediante widget o iframe en cualquier sitio web. Sin instalación, sin infraestructura — CartoGuide se adapta a su ecosistema digital existente.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-share-2
+  title: Contribuir a los bienes comunes digitales
+  ---
+  Al enriquecer OpenStreetMap desde CartoGuide, sus datos benefician a todo el ecosistema: Géovélo, la SNCF, Apple Maps, el IGN y muchos otros actores del territorio.
+  ::
+
+::
+
 ::landing-features
 ---
 headline: Funcionalidades
