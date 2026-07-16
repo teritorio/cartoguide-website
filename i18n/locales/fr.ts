@@ -46,7 +46,7 @@ export default defineI18nLocale(async () => ({
     },
     isFree: {
       q: 'CartoGuide est-il gratuit ?',
-      a: 'CartoGuide est un logiciel libre sous licence MIT, librement utilisable et modifiable. Teritorio propose des services d\'hébergement, de déploiement et d\'accompagnement pour les organisations qui souhaitent être guidées.',
+      a: 'CartoGuide est un logiciel libre sous licence AGPL-3.0, librement utilisable et modifiable. Teritorio propose des services d\'hébergement, de déploiement et d\'accompagnement pour les organisations qui souhaitent être guidées.',
     },
     dataSources: {
       q: 'Quelles sources de données CartoGuide supporte-t-il ?',

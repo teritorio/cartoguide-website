@@ -250,7 +250,7 @@ CartoGuide est un logiciel libre, mais le déployer efficacement demande du temp
 ::landing-cta
 ---
 title: Un logiciel libre
-description: "CartoGuide est un logiciel libre sous licence MIT, développé et maintenu par Teritorio avec sa communauté."
+description: "CartoGuide est un logiciel libre sous licence AGPL-3.0, développé et maintenu par Teritorio avec sa communauté."
 primaryLabel: Voir sur GitHub
 primaryTo: https://github.com/teritorio/vido
 secondaryLabel: Parler de mon projet

@@ -46,7 +46,7 @@ export default defineI18nLocale(async () => ({
     },
     isFree: {
       q: 'Is CartoGuide free?',
-      a: 'CartoGuide is open source software under the MIT license, free to use and modify. Teritorio offers hosting, deployment, and support services for organizations that need guidance.',
+      a: 'CartoGuide is open source software under the AGPL-3.0 license, free to use and modify. Teritorio offers hosting, deployment, and support services for organizations that need guidance.',
     },
     dataSources: {
       q: 'What data sources does CartoGuide support?',
