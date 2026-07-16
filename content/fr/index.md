@@ -136,7 +136,7 @@ bg: bg-slate-100
 headline: Voyez CartoGuide en action
 title: Une carte interactive, directement dans votre navigateur
 description: "Naviguez, recherchez, explorez les points d'intérêt — sans quitter cette page."
-src: https://carte.seignanx.com/embedded?showEmbeddedUi=false
+src: https://carte.seignanx.com/embedded
 label: Ouvrir la carte en plein écran
 href: https://carte.seignanx.com
 ---

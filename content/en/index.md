@@ -136,7 +136,7 @@ bg: bg-slate-100
 headline: See CartoGuide in action
 title: An interactive map, right in your browser
 description: "Navigate, search, explore points of interest — without leaving this page."
-src: https://carte.seignanx.com/embedded?showEmbeddedUi=false
+src: https://carte.seignanx.com/embedded
 label: Open the full map
 href: https://carte.seignanx.com
 ---
