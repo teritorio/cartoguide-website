@@ -131,6 +131,17 @@ bg: bg-slate-100
 
 ::
 
+::landing-demo
+---
+headline: See CartoGuide in action
+title: An interactive map, right in your browser
+description: "Navigate, search, explore points of interest — without leaving this page."
+src: https://carte.seignanx.com/embedded?showEmbeddedUi=false
+label: Open the full map
+href: https://carte.seignanx.com
+---
+::
+
 ::landing-use-cases
 ---
 headline: Use cases

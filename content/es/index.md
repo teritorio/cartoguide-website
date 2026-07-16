@@ -131,6 +131,17 @@ bg: bg-slate-100
 
 ::
 
+::landing-demo
+---
+headline: Vea CartoGuide en acción
+title: Un mapa interactivo, directamente en su navegador
+description: "Navegue, busque, explore los puntos de interés — sin salir de esta página."
+src: https://carte.seignanx.com/embedded?showEmbeddedUi=false
+label: Abrir el mapa en pantalla completa
+href: https://carte.seignanx.com
+---
+::
+
 ::landing-use-cases
 ---
 headline: Sectores de actividad
