@@ -8,7 +8,7 @@ defineProps<{
 <template>
   <div class="flex flex-col rounded-xl border border-slate-200 bg-white p-4 sm:p-6">
     <div class="mb-3 flex items-center gap-3">
-      <NuxtImg v-if="logo" :src="logo" :alt="title" class="h-12 w-20 sm:h-16 sm:w-28 shrink-0 object-contain" />
+      <img v-if="logo" :src="logo" :alt="title" class="h-12 w-20 sm:h-16 sm:w-28 shrink-0 object-contain" loading="lazy">
       <h3 class="text-base font-semibold">
         {{ title }}
       </h3>
