@@ -27,6 +27,14 @@ title: Des outils puissants pour chaque usage territorial
 
   ::landing-feature
   ---
+  icon: i-lucide-filter
+  title: Filtrage par catégorie
+  ---
+  Explorez le territoire à votre rythme en filtrant les points d'intérêt par catégorie : hébergements, restaurants, activités, services publics, transports… Un clic affiche ou masque un type de contenu. Les sous-catégories et la navigation multi-niveaux permettent d'affiner la sélection jusqu'au point d'intérêt recherché.
+  ::
+
+  ::landing-feature
+  ---
   icon: i-lucide-database
   title: Données multisources connectées
   ---

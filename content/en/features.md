@@ -27,6 +27,14 @@ title: Powerful tools for every territorial use case
 
   ::landing-feature
   ---
+  icon: i-lucide-filter
+  title: Category filtering
+  ---
+  Browse the territory at your own pace by filtering points of interest by category: accommodation, restaurants, activities, public services, transport… One click shows or hides a content type. Sub-categories and multi-level navigation let you narrow your selection down to the exact point of interest you need.
+  ::
+
+  ::landing-feature
+  ---
   icon: i-lucide-database
   title: Connected multi-source data
   ---
