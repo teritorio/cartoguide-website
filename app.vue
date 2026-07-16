@@ -18,17 +18,23 @@ useHead({
   ],
 })
 
-useSchemaOrg([
-  defineSoftwareApp({
-    name: 'CartoGuide',
-    operatingSystem: 'Any',
-    applicationCategory: 'UtilitiesApplication',
-    offers: {
-      price: '0',
-      priceCurrency: 'EUR',
-    },
-  }),
-])
+useSchemaOrg([{
+  '@type': 'SoftwareApplication',
+  'name': 'CartoGuide',
+  'operatingSystem': 'Web',
+  'applicationCategory': 'GISApplication',
+  'offers': {
+    '@type': 'Offer',
+    'price': 0,
+    'priceCurrency': 'EUR',
+  },
+  'license': 'https://opensource.org/licenses/MIT',
+  'author': {
+    '@type': 'Organization',
+    'name': 'Teritorio',
+    'url': 'https://www.teritorio.fr',
+  },
+}])
 </script>
 
 <template>

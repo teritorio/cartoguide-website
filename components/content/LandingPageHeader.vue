@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
+  headline?: string
   title: string
   description?: string
   primaryLabel?: string
@@ -13,16 +14,19 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 </script>
 
 <template>
-  <section class="bg-slate-100 py-16 sm:py-24">
+  <section class="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
     <UContainer>
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
+      <div class="mx-auto max-w-3xl text-center">
+        <p v-if="headline" class="text-sm font-semibold text-primary">
+          {{ headline }}
+        </p>
+        <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
           {{ title }}
-        </h2>
-        <p v-if="description" class="mt-4 text-lg text-muted">
+        </h1>
+        <p v-if="description" class="mt-6 text-lg text-slate-600">
           {{ description }}
         </p>
-        <div class="mt-8 flex items-center justify-center gap-x-4">
+        <div v-if="primaryLabel || secondaryLabel" class="mt-8 flex items-center justify-center gap-x-4">
           <UButton
             v-if="primaryLabel && resolvedPrimaryTo"
             :to="resolvedPrimaryTo"

@@ -15,39 +15,46 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 </script>
 
 <template>
-  <section class="relative py-24 sm:py-32 overflow-hidden">
+  <section class="relative overflow-hidden py-24 sm:py-32">
     <div class="hero-gradient absolute inset-0" />
-    <div
-      class="hero-map absolute inset-0"
-      :style="screenshot ? { backgroundImage: `url('${screenshot}')` } : undefined"
-    />
+    <div class="hero-map absolute inset-0" />
     <UContainer class="relative">
-      <div class="mx-auto max-w-3xl text-center">
-        <p v-if="headline" class="text-sm font-semibold text-primary">
-          {{ headline }}
-        </p>
-        <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
-          {{ title }}
-        </h1>
-        <p class="mt-6 text-lg text-muted">
-          {{ description }}
-        </p>
-        <div class="mt-10 flex items-center justify-center gap-x-4">
-          <UButton
-            v-if="primaryLabel && resolvedPrimaryTo"
-            :to="resolvedPrimaryTo"
-            size="xl"
+      <div :class="screenshot ? 'flex flex-col items-center gap-12 lg:flex-row lg:gap-16' : 'mx-auto max-w-3xl text-center'">
+        <div :class="screenshot ? 'flex-1' : ''">
+          <p v-if="headline" class="text-sm font-semibold text-primary">
+            {{ headline }}
+          </p>
+          <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-6xl" :class="[!screenshot && 'text-center']">
+            {{ title }}
+          </h1>
+          <p class="mt-6 text-lg text-muted" :class="[!screenshot && 'text-center']">
+            {{ description }}
+          </p>
+          <div class="mt-10 flex flex-wrap items-center gap-4" :class="[!screenshot && 'justify-center']">
+            <UButton
+              v-if="primaryLabel && resolvedPrimaryTo"
+              :to="resolvedPrimaryTo"
+              size="xl"
+            >
+              {{ primaryLabel }}
+            </UButton>
+            <UButton
+              v-if="secondaryLabel && resolvedSecondaryTo"
+              :to="resolvedSecondaryTo"
+              size="xl"
+              variant="outline"
+            >
+              {{ secondaryLabel }}
+            </UButton>
+          </div>
+        </div>
+        <div v-if="screenshot" class="flex-1">
+          <img
+            :src="screenshot"
+            :alt="title"
+            class="w-full rounded-2xl border border-slate-200 shadow-2xl"
+            loading="eager"
           >
-            {{ primaryLabel }}
-          </UButton>
-          <UButton
-            v-if="secondaryLabel && resolvedSecondaryTo"
-            :to="resolvedSecondaryTo"
-            size="xl"
-            variant="outline"
-          >
-            {{ secondaryLabel }}
-          </UButton>
         </div>
       </div>
     </UContainer>

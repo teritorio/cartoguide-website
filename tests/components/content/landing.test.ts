@@ -2,6 +2,7 @@ import { mountSuspended } from '@nuxt/test-utils/runtime'
 import { describe, expect, it } from 'vitest'
 import { h } from 'vue'
 import LandingCta from '~/components/content/LandingCta.vue'
+import LandingFaq from '~/components/content/LandingFaq.vue'
 import LandingFeature from '~/components/content/LandingFeature.vue'
 import LandingFeatures from '~/components/content/LandingFeatures.vue'
 import LandingHero from '~/components/content/LandingHero.vue'
@@ -399,7 +400,32 @@ describe('landingServices', () => {
         title: 'Services Title',
       },
     })
-    expect(component.find('section').classes()).toContain('bg-slate-100')
+    expect(component.find('section').classes()).not.toContain('bg-slate-100')
+  })
+})
+
+describe('landingFaq', () => {
+  it('renders headline and title from i18n', async () => {
+    const component = await mountSuspended(LandingFaq)
+    expect(component.text()).toContain('FAQ')
+    expect(component.text()).toContain('Frequently asked questions')
+  })
+
+  it('renders all 8 FAQ questions from i18n', async () => {
+    const component = await mountSuspended(LandingFaq)
+    expect(component.text()).toContain('What is CartoGuide?')
+    expect(component.text()).toContain('Is CartoGuide free and open source?')
+    expect(component.text()).toContain('What data sources does CartoGuide support?')
+    expect(component.text()).toContain('Does CartoGuide work on mobile?')
+    expect(component.text()).toContain('Can CartoGuide be embedded in an existing website?')
+    expect(component.text()).toContain('How long does it take to deploy CartoGuide?')
+    expect(component.text()).toContain('What types of organizations use CartoGuide?')
+    expect(component.text()).toContain('How can we contribute to OpenStreetMap with CartoGuide?')
+  })
+
+  it('has white background as last section before footer', async () => {
+    const component = await mountSuspended(LandingFaq)
+    expect(component.find('section').classes()).not.toContain('bg-slate-100')
   })
 })
 

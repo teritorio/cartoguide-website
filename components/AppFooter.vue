@@ -14,8 +14,9 @@ const footerColumns = computed(() => [
     label: t('footer.resources'),
     children: [
       { label: 'GitHub', to: 'https://github.com/teritorio/vido', target: '_blank' },
+      { label: 'Clearance', to: 'https://clearance.teritorio.xyz/', target: '_blank' },
       { label: 'OpenStreetMap', to: 'https://www.openstreetmap.org', target: '_blank' },
-      { label: 'Documentation', to: 'https://documentation.communecarte.org/fr/osm/index.html', target: '_blank' },
+      { label: 'Documentation', to: 'https://documentation.communecarte.org/fr/cartoguide/', target: '_blank' },
     ],
   },
   {

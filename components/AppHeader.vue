@@ -12,15 +12,14 @@ const navItems = computed(() => [
     to: localePath('/features'),
   },
   {
+    label: t('nav.useCases'),
+    icon: 'i-lucide-compass',
+    to: localePath('/use-cases'),
+  },
+  {
     label: t('nav.contact'),
     icon: 'i-lucide-mail',
     to: localePath('/contact'),
-  },
-  {
-    label: t('nav.github'),
-    icon: 'i-lucide-github',
-    to: 'https://github.com/teritorio/vido',
-    target: '_blank',
   },
 ])
 </script>

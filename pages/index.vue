@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t, locale } = useI18n()
+const { t, tm, locale } = useI18n()
 
 const collectionName = computed(() => `content_${locale.value}` as const)
 
@@ -14,6 +14,22 @@ useHead({
     { name: 'description', content: () => page.value?.description },
   ],
 })
+
+const faqItems = computed(() => {
+  const list = tm('faq.items') as unknown
+  return Array.isArray(list) ? list as { question: string, answer: string }[] : []
+})
+
+useSchemaOrg([
+  defineWebPage({
+    '@type': ['WebPage', 'FAQPage'],
+    'mainEntity': faqItems.value.map(item => ({
+      '@type': 'Question',
+      'name': item.question,
+      'acceptedAnswer': { '@type': 'Answer', 'text': item.answer },
+    })),
+  }),
+])
 </script>
 
 <template>

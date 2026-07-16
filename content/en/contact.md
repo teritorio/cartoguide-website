@@ -1,4 +1,4 @@
 ---
-title: "Contact"
-description: "Contact the CartoGuide team for a demo, support, or any question about the open source web mapping application."
+title: "Let's Talk About Your CartoGuide Project — Contact Teritorio"
+description: "Talk to the Teritorio team about your needs. Personalised support, quote and deployment of CartoGuide for your territory."
 ---
