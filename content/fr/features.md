@@ -54,7 +54,7 @@ title: Des outils puissants pour chaque usage territorial
   icon: i-lucide-code
   title: Widget et API ouverte
   ---
-  Intégrez CartoGuide directement sur votre site web sous forme de widget ou d'iframe en quelques lignes. L'API ouverte permet d'aller plus loin : alimenter d'autres applications, synchroniser vos données avec des outils tiers ou construire des visualisations personnalisées. La solution s'adapte à votre écosystème numérique existant.
+  Intégrez CartoGuide directement sur votre site web sous forme de widget ou d'iframe en quelques lignes. L'API ouverte permet d'aller plus loin : alimenter d'autres applications, synchroniser vos données avec des outils tiers ou construire des visualisations personnalisées. La solution s'adapte à votre écosystème numérique existant — consultez le [guide d'intégration](https://documentation.communecarte.org/fr/cartoguide/integration-cartoguide.html) pour les paramètres et exemples.
   ::
 
   ::landing-feature
@@ -176,7 +176,18 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-pencil
   title: Back-office Elasa
   ---
-  Saisissez et gérez vos données propriétaires directement dans CartoGuide, sans dépendre d'un SIT régional.
+  Saisissez et gérez vos données propriétaires directement dans CartoGuide, sans dépendre d'un SIT régional. [→ Découvrir Elasa](https://documentation.communecarte.org/fr/cartoguide/decouvrir-cartoguide.html)
   ::
 
+::
+
+::landing-cta
+---
+title: Vous souhaitez voir CartoGuide en action ?
+description: "Découvrez comment d'autres organisations territoriales utilisent CartoGuide, ou échangez directement avec notre équipe."
+primaryLabel: Voir les cas d'usage
+primaryTo: /use-cases
+secondaryLabel: Demander une démo
+secondaryTo: /contact
+---
 ::
