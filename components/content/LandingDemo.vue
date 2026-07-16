@@ -14,7 +14,7 @@ const iframeSrc = ref<string | null>(null)
 onMounted(() => {
   const observer = new IntersectionObserver(
     ([entry]) => {
-      if (entry.isIntersecting) {
+      if (entry?.isIntersecting) {
         iframeSrc.value = props.src
         observer.disconnect()
       }
