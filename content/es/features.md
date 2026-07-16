@@ -1,6 +1,6 @@
 ---
 title: "Funcionalidades CartoGuide — Búsqueda geográfica, multifuente, widget"
-description: "Búsqueda isócrona, datos multifuente (OSM + SIT turísticos), favoritos con código QR, modo contribuidor OSM, widget integrable. Desplegado por más de 30 organizaciones territoriales."
+description: "Búsqueda isócrona, datos multifuente (OSM + SIT turísticos), favoritos con código QR, enlaces a editores OSM (iD, JOSM), widget integrable. Desplegado por más de 30 organizaciones territoriales."
 ---
 
 ::landing-page-header
@@ -68,9 +68,9 @@ title: Herramientas potentes para cada uso territorial
   ::landing-feature
   ---
   icon: i-lucide-earth
-  title: Modo contribuidor y enriquecimiento OSM
+  title: Modo contribuidor y enlaces OSM
   ---
-  Active el modo contribuidor para permitir que sus agentes o su comunidad reporten actualizaciones directamente desde el mapa. Cada contribución validada regresa a OpenStreetMap, beneficiando a todo el ecosistema: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN y muchos más. Contribuir a CartoGuide es contribuir a los bienes comunes digitales.
+  Active el modo contribuidor para mostrar, en cada ficha POI, enlaces hacia iD (editor web OSM) y JOSM (editor de escritorio), así como un enlace para añadir una nota OSM. La edición se realiza en las herramientas de OpenStreetMap — las contribuciones benefician a todo el ecosistema: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN y muchos más.
   ::
 
 ::
@@ -144,7 +144,7 @@ description: "CartoGuide se integra de forma nativa con los principales sistemas
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Base libre y colaborativa con más de 500 tipos de POI — las contribuciones desde CartoGuide regresan directamente a la base OSM mundial.
+  Base libre y colaborativa con más de 500 tipos de POI. El modo contribuidor de CartoGuide facilita el acceso a los editores OSM (iD, JOSM) desde cada ficha POI para enriquecer la base mundial.
   ::
 
   ::landing-feature

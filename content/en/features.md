@@ -1,6 +1,6 @@
 ---
 title: "CartoGuide Features — Geographic Search, Multi-source Data, Widget"
-description: "Isochrone search, multi-source data (OSM + tourism information systems), QR code favorites, OSM contributor mode, embeddable widget. Deployed by 30+ territorial organizations."
+description: "Isochrone search, multi-source data (OSM + tourism information systems), QR code favorites, OSM editor links (iD, JOSM), embeddable widget. Deployed by 30+ territorial organizations."
 ---
 
 ::landing-page-header
@@ -68,9 +68,9 @@ title: Powerful tools for every territorial use case
   ::landing-feature
   ---
   icon: i-lucide-earth
-  title: Contributor mode and OSM enrichment
+  title: Contributor mode and OSM links
   ---
-  Enable contributor mode to let your agents or community report updates directly from the map. Each validated contribution flows back into OpenStreetMap, benefiting the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others. Contributing to CartoGuide means contributing to the digital commons.
+  Enable contributor mode to display links to iD (web OSM editor) and JOSM (desktop editor), as well as an OSM note creation link, on each POI detail sheet. Editing happens in OpenStreetMap tools — contributions benefit the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others.
   ::
 
 ::
@@ -144,7 +144,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Free and collaborative base with over 500 POI types — contributions from CartoGuide flow directly back into the global OSM database.
+  Free and collaborative base with over 500 POI types. CartoGuide's contributor mode makes it easy to access OSM editors (iD, JOSM) from each POI detail sheet to enrich the global database.
   ::
 
   ::landing-feature

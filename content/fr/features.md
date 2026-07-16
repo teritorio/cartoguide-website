@@ -1,6 +1,6 @@
 ---
 title: "Fonctionnalités CartoGuide — Recherche géographique, multisources, widget"
-description: "Recherche isochrone, données multisources (OSM + SIT touristiques), favoris QR code, mode contributeur OSM, widget intégrable. Valorisez les données de votre territoire."
+description: "Recherche isochrone, données multisources (OSM + SIT touristiques), favoris QR code, liens vers les éditeurs OSM (iD, JOSM), widget intégrable. Valorisez les données de votre territoire."
 ---
 
 ::landing-page-header
@@ -68,9 +68,9 @@ title: Des outils puissants pour chaque usage territorial
   ::landing-feature
   ---
   icon: i-lucide-earth
-  title: Mode contributeur et enrichissement OSM
+  title: Mode contributeur et liens OSM
   ---
-  Activez le mode contributeur pour permettre à vos agents ou à votre communauté de signaler des mises à jour directement depuis la carte. Chaque contribution validée remonte dans OpenStreetMap, ce qui profite à l'ensemble de l'écosystème : Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN et bien d'autres. Contribuer à CartoGuide, c'est contribuer aux communs numériques.
+  Activez le mode contributeur pour afficher, sur chaque fiche POI, des liens vers iD (éditeur web OSM) et JOSM (éditeur de bureau), ainsi qu'un lien pour ajouter une note OSM. L'édition s'effectue dans les outils OpenStreetMap — les contributions profitent à l'ensemble de l'écosystème : Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN et bien d'autres.
   ::
 
 ::
@@ -144,7 +144,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Base libre et collaborative avec plus de 500 types de POI — les contributions depuis CartoGuide remontent directement dans la base OSM mondiale.
+  Base libre et collaborative avec plus de 500 types de POI. Le mode contributeur de CartoGuide facilite l'accès aux éditeurs OSM (iD, JOSM) depuis chaque fiche POI pour enrichir la base mondiale.
   ::
 
   ::landing-feature

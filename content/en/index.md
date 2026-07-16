@@ -69,7 +69,7 @@ description: "CartoGuide connects your sources, showcases them on a mobile map a
   icon: i-lucide-share-2
   title: Contributing to the digital commons
   ---
-  By enriching OpenStreetMap through CartoGuide, your data benefits the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.
+  CartoGuide makes it easier to contribute to OpenStreetMap by providing links to OSM editors (iD, JOSM) directly from each POI detail sheet. These contributions benefit the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.
   ::
 
 ::
@@ -126,7 +126,7 @@ bg: bg-slate-100
   icon: i-lucide-pencil
   title: Contributor mode
   ---
-  Let your agents and volunteers enrich OpenStreetMap data directly from the map, without leaving the CartoGuide interface.
+  Enable contributor mode to display links to OpenStreetMap editors (iD, JOSM) and OSM note creation on each POI detail sheet. Editing happens in OSM tools — CartoGuide makes the access seamless.
   ::
 
 ::
