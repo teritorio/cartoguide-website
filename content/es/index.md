@@ -247,9 +247,6 @@ CartoGuide es un software libre, pero desplegarlo eficazmente requiere tiempo y 
 **Desarrollos específicos** — Nuevas funcionalidades, integraciones sectoriales, adaptaciones según sus necesidades: Teritorio contribuye al software libre para que toda la comunidad se beneficie.
 ::
 
-::landing-faq
-::
-
 ::landing-cta
 ---
 title: Software libre
@@ -257,4 +254,7 @@ description: "CartoGuide es un software libre bajo licencia AGPL-3.0, desarrolla
 primaryLabel: Ver en GitHub
 primaryTo: https://github.com/teritorio/vido
 ---
+::
+
+::landing-faq
 ::

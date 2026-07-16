@@ -247,9 +247,6 @@ CartoGuide is open source software, but deploying it effectively takes time and 
 **Custom development** — New features, business integrations, tailored adaptations: Teritorio contributes back to the open source software so the whole community benefits.
 ::
 
-::landing-faq
-::
-
 ::landing-cta
 ---
 title: Open source software
@@ -257,4 +254,7 @@ description: "CartoGuide is open source software under the AGPL-3.0 license, dev
 primaryLabel: See on GitHub
 primaryTo: https://github.com/teritorio/vido
 ---
+::
+
+::landing-faq
 ::

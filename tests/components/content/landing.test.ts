@@ -423,9 +423,9 @@ describe('landingFaq', () => {
     expect(component.text()).toContain('How can we contribute to OpenStreetMap with CartoGuide?')
   })
 
-  it('has gray background for visual alternation', async () => {
+  it('has white background as last section before footer', async () => {
     const component = await mountSuspended(LandingFaq)
-    expect(component.find('section').classes()).toContain('bg-slate-100')
+    expect(component.find('section').classes()).not.toContain('bg-slate-100')
   })
 })
 
