@@ -1,6 +1,6 @@
 ---
-title: "Showcase your territory data on an interactive map"
-description: "Open source multi-source web mapping app — OpenStreetMap, tourism information systems, Geotrek and more. Mobile-optimized for territorial actors."
+title: "CartoGuide — Open Source Interactive Territorial Map"
+description: "Showcase your territorial data (OpenStreetMap, tourism information systems, Geotrek) on a mobile-optimized interactive map. Open source software deployed by 30+ local authorities and tourist offices."
 ---
 
 ::landing-hero

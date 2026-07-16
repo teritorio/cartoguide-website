@@ -1,6 +1,6 @@
 ---
-title: "Valorisez les données de votre territoire sur une carte interactive"
-description: "Web app cartographique open source et multisource — OpenStreetMap, SIT touristiques, Geotrek et plus. Optimisée mobile pour les acteurs du territoire."
+title: "CartoGuide — Carte interactive territoriale open source"
+description: "Valorisez vos données territoriales (OpenStreetMap, SIT touristiques, Geotrek) sur une carte interactive mobile. Logiciel libre déployé par 30+ collectivités et offices de tourisme."
 ---
 
 ::landing-hero

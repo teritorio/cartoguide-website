@@ -1,4 +1,4 @@
 ---
-title: "Contact"
-description: "Contactez l'équipe CartoGuide pour une démo, un accompagnement ou toute question sur la web app cartographique open source."
+title: "Demander une démo CartoGuide — Contact Teritorio"
+description: "Échangez avec l'équipe Teritorio sur vos besoins. Démonstration personnalisée, devis et accompagnement au déploiement de CartoGuide."
 ---

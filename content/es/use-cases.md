@@ -1,6 +1,6 @@
 ---
-title: "Casos de uso"
-description: "CartoGuide es utilizado por más de 30 organizaciones territoriales en cuatro sectores: turismo, colectividades, alimentación local y salud."
+title: "Casos de uso CartoGuide — Turismo, Colectividades, Alimentación, Salud"
+description: "CartoGuide desplegado para oficinas de turismo, colectividades, circuitos cortos y comunidades sanitarias. Más de 30 referencias en Francia y ultramar."
 ---
 
 ::landing-page-header
