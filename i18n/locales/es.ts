@@ -38,6 +38,7 @@ export default defineI18nLocale(async () => ({
   page: {
     empty: 'Esta página aún no tiene contenido.',
     notFound: 'Página no encontrada',
+    mapLoading: 'Cargando el mapa…',
   },
   faq: {
     headline: 'FAQ',
