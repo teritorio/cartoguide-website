@@ -61,7 +61,7 @@ export default defineI18nLocale(async () => ({
       },
       {
         question: 'Can CartoGuide be embedded in an existing website?',
-        answer: 'Yes, CartoGuide can be embedded via a widget or iframe in any website with just a few lines of code. An open API also lets you synchronize your partner digital tools and customize every aspect of the interface — colors, categories, map style — to match your visual identity.',
+        answer: 'Yes, CartoGuide is designed to fit into your existing digital ecosystem. It can be embedded via a widget or iframe in any website. Teritorio supports you in adapting the interface to your territory\'s needs.',
       },
       {
         question: 'How long does it take to deploy CartoGuide?',

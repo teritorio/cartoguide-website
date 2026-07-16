@@ -61,7 +61,7 @@ export default defineI18nLocale(async () => ({
       },
       {
         question: '¿Puede CartoGuide integrarse en un sitio web existente?',
-        answer: 'Sí, CartoGuide se puede integrar mediante un widget o iframe en cualquier sitio web con solo unas pocas líneas de código. Una API abierta también permite sincronizar sus herramientas digitales asociadas y personalizar cada aspecto de la interfaz — colores, categorías, fondo de mapa — para adaptarse a su identidad visual.',
+        answer: 'Sí, CartoGuide está diseñado para integrarse en su ecosistema digital existente. Puede integrarse mediante un widget o iframe en cualquier sitio web. Teritorio le acompaña para adaptar la interfaz a las necesidades de su territorio.',
       },
       {
         question: '¿Cuánto tiempo se tarda en desplegar CartoGuide?',
