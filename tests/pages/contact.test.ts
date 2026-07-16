@@ -8,7 +8,7 @@ describe('contact page', () => {
       route: '/fr/contact',
     })
     const text = component.text()
-    expect(text).toContain('Contactez-nous')
+    expect(text).toContain('Parlons de votre projet')
   })
 
   it('renders the demo info block', async () => {
@@ -16,7 +16,7 @@ describe('contact page', () => {
       route: '/fr/contact',
     })
     const text = component.text()
-    expect(text).toContain('Demander une démonstration')
+    expect(text).toContain('Ce que nous pouvons faire ensemble')
   })
 
   it('renders the external contact CTA button', async () => {

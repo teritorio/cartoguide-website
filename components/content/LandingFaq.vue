@@ -1,0 +1,21 @@
+<script setup lang="ts">
+const { t, tm } = useI18n()
+
+const items = computed(() => {
+  const list = tm('faq.items') as unknown
+  if (!Array.isArray(list))
+    return []
+  return (list as { question: string, answer: string }[]).map(
+    item => ({ label: item.question, content: item.answer }),
+  )
+})
+</script>
+
+<template>
+  <section class="bg-slate-100 py-16 sm:py-24">
+    <UContainer>
+      <LandingSectionHeader :headline="t('faq.headline')" :title="t('faq.title')" />
+      <UAccordion class="mx-auto mt-12 max-w-3xl" :items="items" />
+    </UContainer>
+  </section>
+</template>

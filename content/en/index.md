@@ -247,6 +247,9 @@ CartoGuide is open source software, but deploying it effectively takes time and 
 **Custom development** — New features, business integrations, tailored adaptations: Teritorio contributes back to the open source software so the whole community benefits.
 ::
 
+::landing-faq
+::
+
 ::landing-cta
 ---
 title: Open source software

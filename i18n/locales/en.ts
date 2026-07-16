@@ -40,25 +40,41 @@ export default defineI18nLocale(async () => ({
     notFound: 'Page not found',
   },
   faq: {
-    whatIsCartoGuide: {
-      q: 'What is CartoGuide?',
-      a: 'CartoGuide is an open source web mapping application based on OpenStreetMap. It aggregates your territorial data (tourism information systems, Geotrek, Open Agenda, GTFS, back-office) and showcases them on a mobile-optimized interactive map.',
-    },
-    isFree: {
-      q: 'Is CartoGuide free?',
-      a: 'CartoGuide is open source software under the AGPL-3.0 license, free to use and modify. Teritorio offers hosting, deployment, and support services for organizations that need guidance.',
-    },
-    dataSources: {
-      q: 'What data sources does CartoGuide support?',
-      a: 'CartoGuide connects to OpenStreetMap, tourism information systems (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, GTFS, open data GIS, and editorial content from the Elasa back-office. Data is synchronized every night.',
-    },
-    mobile: {
-      q: 'Does CartoGuide work on mobile?',
-      a: 'Yes, CartoGuide is designed mobile-first. The interface is responsive and optimized for smartphones, tablets and desktops. It is built for field agents, reception staff and visitors on the go.',
-    },
-    osmContribution: {
-      q: 'How can we contribute to OpenStreetMap with CartoGuide?',
-      a: 'CartoGuide includes a contributor mode that allows your agents and volunteers to enrich OpenStreetMap data directly from the map. These contributions benefit the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many others.',
-    },
+    headline: 'FAQ',
+    title: 'Frequently asked questions',
+    items: [
+      {
+        question: 'What is CartoGuide?',
+        answer: 'CartoGuide is an open source web mapping application based on OpenStreetMap. It aggregates your territorial data — tourism information systems (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, GTFS, back-office — and showcases them on a mobile-optimized interactive map, accessible to all your audiences without any installation.',
+      },
+      {
+        question: 'Is CartoGuide free and open source?',
+        answer: 'CartoGuide is open source software under the AGPL-3.0 license, free to use and modify. The source code is available on GitHub. Teritorio also offers SaaS hosting, deployment, and support services for organizations that need professional assistance.',
+      },
+      {
+        question: 'What data sources does CartoGuide support?',
+        answer: 'CartoGuide natively connects to OpenStreetMap, tourism information systems (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, GTFS and open data GIS. Your own data can be entered via the Elasa back-office. Everything is synchronized automatically every night.',
+      },
+      {
+        question: 'Does CartoGuide work on mobile?',
+        answer: 'Yes, CartoGuide is designed mobile-first. The responsive interface is optimized for smartphones, tablets and desktops. It is built for field agents, tourism reception staff and visitors on the go.',
+      },
+      {
+        question: 'Can CartoGuide be embedded in an existing website?',
+        answer: 'Yes, CartoGuide can be embedded via a widget or iframe in any website with just a few lines of code. An open API also lets you synchronize your partner digital tools and customize every aspect of the interface — colors, categories, map style — to match your visual identity.',
+      },
+      {
+        question: 'How long does it take to deploy CartoGuide?',
+        answer: 'Deploying a Teritorio-hosted CartoGuide typically takes between two and four weeks, depending on the complexity of your data sources and branding. Teritorio handles the full configuration: data connectors, interface customization and team training.',
+      },
+      {
+        question: 'What types of organizations use CartoGuide?',
+        answer: 'CartoGuide is deployed by more than 30 territorial organizations across France and overseas territories: tourist offices, municipalities and inter-municipal communities, rural pays and territories, healthcare professional communities (CPTS), and actors in local food and short supply chains.',
+      },
+      {
+        question: 'How can we contribute to OpenStreetMap with CartoGuide?',
+        answer: 'CartoGuide includes a contributor mode that allows your agents and volunteers to enrich OpenStreetMap data directly from the map, without leaving the interface. These contributions benefit the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.',
+      },
+    ],
   },
 }))

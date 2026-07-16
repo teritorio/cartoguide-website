@@ -247,6 +247,9 @@ CartoGuide est un logiciel libre, mais le déployer efficacement demande du temp
 **Développements spécifiques** — Nouvelles fonctionnalités, intégrations métier, adaptations selon vos besoins : Teritorio contribue en retour au logiciel libre pour que toute la communauté en bénéficie.
 ::
 
+::landing-faq
+::
+
 ::landing-cta
 ---
 title: Un logiciel libre

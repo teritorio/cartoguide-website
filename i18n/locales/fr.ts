@@ -40,25 +40,41 @@ export default defineI18nLocale(async () => ({
     notFound: 'Page introuvable',
   },
   faq: {
-    whatIsCartoGuide: {
-      q: 'Qu\'est-ce que CartoGuide ?',
-      a: 'CartoGuide est une application web cartographique open source basée sur OpenStreetMap. Elle agrège vos données territoriales (SIT touristiques, Geotrek, Open Agenda, GTFS, back-office) et les valorise sur une carte interactive optimisée mobile.',
-    },
-    isFree: {
-      q: 'CartoGuide est-il gratuit ?',
-      a: 'CartoGuide est un logiciel libre sous licence AGPL-3.0, librement utilisable et modifiable. Teritorio propose des services d\'hébergement, de déploiement et d\'accompagnement pour les organisations qui souhaitent être guidées.',
-    },
-    dataSources: {
-      q: 'Quelles sources de données CartoGuide supporte-t-il ?',
-      a: 'CartoGuide se connecte à OpenStreetMap, aux SIT touristiques (Sirtaqui, Apidae, Tourinsoft), à Geotrek, Open Agenda, GTFS, aux SIG open data et aux contenus éditoriaux du back-office Elasa. Les données sont synchronisées chaque soir.',
-    },
-    mobile: {
-      q: 'CartoGuide fonctionne-t-il sur mobile ?',
-      a: 'Oui, CartoGuide est conçu mobile-first. L\'interface est responsive et optimisée pour les smartphones, tablettes et ordinateurs. Elle est pensée pour les agents de terrain, les personnels d\'accueil et les visiteurs en déplacement.',
-    },
-    osmContribution: {
-      q: 'Comment contribuer à OpenStreetMap avec CartoGuide ?',
-      a: 'CartoGuide intègre un mode contributeur qui permet à vos agents et bénévoles d\'enrichir les données OpenStreetMap directement depuis la carte. Ces contributions profitent à tout l\'écosystème : Géovélo, la SNCF, Apple Maps, l\'IGN et bien d\'autres.',
-    },
+    headline: 'FAQ',
+    title: 'Questions fréquentes',
+    items: [
+      {
+        question: 'Qu\'est-ce que CartoGuide ?',
+        answer: 'CartoGuide est une application web cartographique open source basée sur OpenStreetMap. Elle agrège vos données territoriales — SIT touristiques (Sirtaqui, Apidae, Tourinsoft), Geotrek, Open Agenda, GTFS, back-office — et les valorise sur une carte interactive optimisée mobile, accessible à tous vos publics sans installation.',
+      },
+      {
+        question: 'CartoGuide est-il gratuit et open source ?',
+        answer: 'CartoGuide est un logiciel libre sous licence AGPL-3.0, librement utilisable et modifiable. Le code source est disponible sur GitHub. Teritorio propose également des services d\'hébergement SaaS, de déploiement et d\'accompagnement pour les organisations qui souhaitent un support professionnel.',
+      },
+      {
+        question: 'Quelles sources de données CartoGuide supporte-t-il ?',
+        answer: 'CartoGuide se connecte nativement à OpenStreetMap, aux SIT touristiques (Sirtaqui, Apidae, Tourinsoft), à Geotrek, Open Agenda, GTFS et aux SIG open data. Vos données propres peuvent être saisies via le back-office Elasa. L\'ensemble est synchronisé automatiquement chaque nuit.',
+      },
+      {
+        question: 'CartoGuide fonctionne-t-il sur mobile ?',
+        answer: 'Oui, CartoGuide est conçu mobile-first. L\'interface responsive est optimisée pour les smartphones, tablettes et ordinateurs de bureau. Elle est pensée pour les agents de terrain, les personnels d\'accueil touristique et les visiteurs en déplacement.',
+      },
+      {
+        question: 'CartoGuide peut-il être intégré dans mon site web existant ?',
+        answer: 'Oui, CartoGuide s\'intègre via un widget ou un iframe dans n\'importe quel site web, en quelques lignes de code. Une API ouverte permet également de relier vos outils numériques partenaires et de personnaliser chaque aspect de l\'interface — couleurs, catégories, fond de carte — pour s\'adapter à votre charte graphique.',
+      },
+      {
+        question: 'Combien de temps faut-il pour déployer CartoGuide ?',
+        answer: 'Le déploiement d\'un CartoGuide hébergé par Teritorio prend en général entre deux et quatre semaines, selon la complexité de vos sources de données et de votre identité visuelle. Teritorio prend en charge l\'intégralité de la configuration : connecteurs de données, personnalisation de l\'interface et formation de vos équipes.',
+      },
+      {
+        question: 'Quels types d\'organisations utilisent CartoGuide ?',
+        answer: 'CartoGuide est déployé par plus de 30 organisations territoriales en France et dans les territoires d\'outre-mer : offices de tourisme, communes et intercommunalités, pays et territoires ruraux, communautés professionnelles de santé (CPTS), ainsi que des acteurs de l\'alimentation locale et des circuits courts.',
+      },
+      {
+        question: 'Comment contribuer à OpenStreetMap avec CartoGuide ?',
+        answer: 'CartoGuide intègre un mode contributeur qui permet à vos agents et bénévoles d\'enrichir les données OpenStreetMap directement depuis la carte, sans quitter l\'interface. Ces contributions profitent à tout l\'écosystème : Géovélo, la SNCF, Apple Maps, l\'IGN et bien d\'autres acteurs du territoire.',
+      },
+    ],
   },
 }))

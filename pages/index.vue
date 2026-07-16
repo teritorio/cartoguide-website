@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t, locale } = useI18n()
+const { t, tm, locale } = useI18n()
 
 const collectionName = computed(() => `content_${locale.value}` as const)
 
@@ -15,16 +15,19 @@ useHead({
   ],
 })
 
+const faqItems = computed(() => {
+  const list = tm('faq.items') as unknown
+  return Array.isArray(list) ? list as { question: string, answer: string }[] : []
+})
+
 useSchemaOrg([
   defineWebPage({
     '@type': ['WebPage', 'FAQPage'],
-    'mainEntity': [
-      { '@type': 'Question', 'name': t('faq.whatIsCartoGuide.q'), 'acceptedAnswer': { '@type': 'Answer', 'text': t('faq.whatIsCartoGuide.a') } },
-      { '@type': 'Question', 'name': t('faq.isFree.q'), 'acceptedAnswer': { '@type': 'Answer', 'text': t('faq.isFree.a') } },
-      { '@type': 'Question', 'name': t('faq.dataSources.q'), 'acceptedAnswer': { '@type': 'Answer', 'text': t('faq.dataSources.a') } },
-      { '@type': 'Question', 'name': t('faq.mobile.q'), 'acceptedAnswer': { '@type': 'Answer', 'text': t('faq.mobile.a') } },
-      { '@type': 'Question', 'name': t('faq.osmContribution.q'), 'acceptedAnswer': { '@type': 'Answer', 'text': t('faq.osmContribution.a') } },
-    ],
+    'mainEntity': faqItems.value.map(item => ({
+      '@type': 'Question',
+      'name': item.question,
+      'acceptedAnswer': { '@type': 'Answer', 'text': item.answer },
+    })),
   }),
 ])
 </script>
