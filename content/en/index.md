@@ -78,6 +78,7 @@ description: "CartoGuide connects your sources, showcases them on a mobile map a
 ---
 headline: Features
 title: Everything you need to showcase your territory
+bg: bg-slate-100
 ---
 
   ::landing-feature

@@ -78,6 +78,7 @@ description: "CartoGuide conecta sus fuentes, las valoriza en un mapa móvil y p
 ---
 headline: Funcionalidades
 title: Todo lo que necesita para valorizar su territorio
+bg: bg-slate-100
 ---
 
   ::landing-feature
