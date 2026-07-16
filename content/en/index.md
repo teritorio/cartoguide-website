@@ -246,6 +246,22 @@ ctaTo: https://carte.teritorio.fr/
 
 ::
 
+::landing-services
+---
+headline: Our services
+title: CartoGuide by Teritorio
+ctaLabel: Request a demo
+ctaTo: /contact
+---
+CartoGuide is open source software, but deploying it effectively takes time and technical expertise. Teritorio provides end-to-end support — from hosting to training — so you can focus on your territory.
+
+**Hosted SaaS** — CartoGuide deployed, maintained and updated by Teritorio. No infrastructure to manage: you access your map through a browser, Teritorio handles everything else.
+
+**Deployment support** — Custom configuration of your data sources (tourism information systems, Geotrek, Open Agenda, proprietary back-office), interface branding for your territory, and team training.
+
+**Custom development** — New features, business integrations, tailored adaptations: Teritorio contributes back to the open source software so the whole community benefits.
+::
+
 ::landing-cta
 ---
 title: Open source software

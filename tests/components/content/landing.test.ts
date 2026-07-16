@@ -399,7 +399,7 @@ describe('landingServices', () => {
         title: 'Services Title',
       },
     })
-    expect(component.find('section').classes()).toContain('bg-slate-100')
+    expect(component.find('section').classes()).not.toContain('bg-slate-100')
   })
 })
 

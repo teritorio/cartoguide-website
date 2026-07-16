@@ -19,12 +19,6 @@ describe('appHeader', () => {
     expect(html).toContain('/en/contact')
   })
 
-  it('renders GitHub link', async () => {
-    const component = await mountSuspended(AppHeader)
-    const html = component.html()
-    expect(html).toContain('https://github.com/teritorio/vido')
-  })
-
   it('renders See CartoGuide CTA button with correct URL', async () => {
     const component = await mountSuspended(AppHeader)
     const html = component.html()

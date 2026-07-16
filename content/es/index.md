@@ -246,6 +246,22 @@ ctaTo: https://carte.teritorio.fr/
 
 ::
 
+::landing-services
+---
+headline: Nuestros servicios
+title: CartoGuide por Teritorio
+ctaLabel: Solicitar una demo
+ctaTo: /contact
+---
+CartoGuide es un software libre, pero desplegarlo eficazmente requiere tiempo y experiencia técnica. Teritorio ofrece un acompañamiento completo — del alojamiento a la formación — para que pueda centrarse en su territorio.
+
+**SaaS alojado** — CartoGuide desplegado, mantenido y actualizado por Teritorio. Sin infraestructura que gestionar: accede a su mapa desde un navegador, Teritorio se encarga del resto.
+
+**Acompañamiento al despliegue** — Configuración a medida de sus fuentes de datos (SIT turísticos, Geotrek, Open Agenda, back-office propio), personalización de la interfaz con la imagen de su territorio y formación de sus equipos.
+
+**Desarrollos específicos** — Nuevas funcionalidades, integraciones sectoriales, adaptaciones según sus necesidades: Teritorio contribuye al software libre para que toda la comunidad se beneficie.
+::
+
 ::landing-cta
 ---
 title: Software libre
