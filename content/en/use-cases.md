@@ -8,10 +8,6 @@ description: "CartoGuide deployed for tourist offices, local authorities, short 
 headline: Use Cases
 title: CartoGuide, tailored to your sector
 description: "30+ territorial organizations trust CartoGuide to showcase their data — from tourism to healthcare, including local food systems."
-primaryLabel: Request a demo
-primaryTo: /contact
-secondaryLabel: Discover features
-secondaryTo: /features
 ---
 ::
 

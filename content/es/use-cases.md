@@ -8,10 +8,6 @@ description: "CartoGuide desplegado para oficinas de turismo, colectividades, ci
 headline: Casos de uso
 title: CartoGuide, adaptado a su sector
 description: "Más de 30 organizaciones territoriales confían en CartoGuide para valorizar sus datos — del turismo a la salud, pasando por la alimentación local."
-primaryLabel: Solicitar una demo
-primaryTo: /contact
-secondaryLabel: Descubrir funcionalidades
-secondaryTo: /features
 ---
 ::
 
