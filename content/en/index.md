@@ -8,7 +8,7 @@ description: "Showcase your territorial data (OpenStreetMap, tourism information
 headline: Open source software
 title: Showcase your territory data on an interactive map
 description: "CartoGuide connects your territorial data sources — OpenStreetMap, tourism information systems, Geotrek, Open Agenda — and showcases them on a mobile-optimized interactive map."
-primaryLabel: Request a demo
+primaryLabel: Talk about my project
 primaryTo: /contact
 secondaryLabel: Discover features
 secondaryTo: /features
@@ -264,7 +264,7 @@ ctaTo: https://carte.teritorio.fr/
 ---
 headline: Our services
 title: CartoGuide by Teritorio
-ctaLabel: Request a demo
+ctaLabel: Talk about my project
 ctaTo: /contact
 ---
 CartoGuide is open source software, but deploying it effectively takes time and technical expertise. Teritorio provides end-to-end support — from hosting to training — so you can focus on your territory.
@@ -282,7 +282,7 @@ title: Open source software
 description: "CartoGuide is open source software under the MIT license, developed and maintained by Teritorio with its community."
 primaryLabel: See on GitHub
 primaryTo: https://github.com/teritorio/vido
-secondaryLabel: Request a demo
+secondaryLabel: Talk about my project
 secondaryTo: /contact
 ---
 ::

@@ -195,7 +195,7 @@ title: Vous souhaitez voir CartoGuide en action ?
 description: "Découvrez comment d'autres organisations territoriales utilisent CartoGuide, ou échangez directement avec notre équipe."
 primaryLabel: Voir les cas d'usage
 primaryTo: /use-cases
-secondaryLabel: Demander une démo
+secondaryLabel: Parler de mon projet
 secondaryTo: /contact
 ---
 ::

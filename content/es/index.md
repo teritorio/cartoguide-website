@@ -8,7 +8,7 @@ description: "Valorice sus datos territoriales (OpenStreetMap, SIT turísticos, 
 headline: Software libre y open source
 title: Valorice los datos de su territorio en un mapa interactivo
 description: "CartoGuide conecta sus fuentes de datos territoriales — OpenStreetMap, SIT turísticos, Geotrek, Open Agenda — y los pone en valor en un mapa interactivo optimizado para móvil."
-primaryLabel: Solicitar una demo
+primaryLabel: Hablar de mi proyecto
 primaryTo: /contact
 secondaryLabel: Descubrir funcionalidades
 secondaryTo: /features
@@ -264,7 +264,7 @@ ctaTo: https://carte.teritorio.fr/
 ---
 headline: Nuestros servicios
 title: CartoGuide por Teritorio
-ctaLabel: Solicitar una demo
+ctaLabel: Hablar de mi proyecto
 ctaTo: /contact
 ---
 CartoGuide es un software libre, pero desplegarlo eficazmente requiere tiempo y experiencia técnica. Teritorio ofrece un acompañamiento completo — del alojamiento a la formación — para que pueda centrarse en su territorio.
@@ -282,7 +282,7 @@ title: Software libre
 description: "CartoGuide es un software libre bajo licencia MIT, desarrollado y mantenido por Teritorio con su comunidad."
 primaryLabel: Ver en GitHub
 primaryTo: https://github.com/teritorio/vido
-secondaryLabel: Solicitar una demo
+secondaryLabel: Hablar de mi proyecto
 secondaryTo: /contact
 ---
 ::

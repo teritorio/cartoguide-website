@@ -192,7 +192,7 @@ ctaTo: https://carte.teritorio.fr/
 ---
 title: Votre territoire, votre carte
 description: "CartoGuide s'adapte à votre contexte, vos données et votre image de marque. Échangeons sur votre projet."
-primaryLabel: Demander une démo
+primaryLabel: Parler de mon projet
 primaryTo: /contact
 secondaryLabel: Voir les fonctionnalités
 secondaryTo: /features

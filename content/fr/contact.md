@@ -1,4 +1,4 @@
 ---
-title: "Demander une démo CartoGuide — Contact Teritorio"
-description: "Échangez avec l'équipe Teritorio sur vos besoins. Démonstration personnalisée, devis et accompagnement au déploiement de CartoGuide."
+title: "Parlons de votre projet CartoGuide — Contact Teritorio"
+description: "Échangez avec l'équipe Teritorio sur vos besoins. Accompagnement personnalisé, devis et déploiement de CartoGuide pour votre territoire."
 ---
