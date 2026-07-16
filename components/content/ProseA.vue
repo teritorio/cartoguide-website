@@ -14,7 +14,23 @@ const resolvedRel = computed(() => props.rel ?? (isExternal.value ? 'noopener no
 </script>
 
 <template>
-  <NuxtLink :to="href" :target="resolvedTarget" :rel="resolvedRel">
+  <NuxtLink :to="href" :target="resolvedTarget" :rel="resolvedRel" class="prose-link">
     <slot />
   </NuxtLink>
 </template>
+
+<style scoped>
+.prose-link {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-link:visited {
+  color: var(--color-primary-800);
+}
+
+.prose-link:hover {
+  color: var(--color-primary-500);
+}
+</style>
