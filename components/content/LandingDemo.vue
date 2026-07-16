@@ -39,6 +39,7 @@ onMounted(() => {
             width="100%"
             class="h-[350px] w-full sm:h-[500px]"
             loading="lazy"
+            scrolling="no"
           />
           <div v-else class="h-[350px] animate-pulse bg-slate-100 sm:h-[500px]" />
         </div>
