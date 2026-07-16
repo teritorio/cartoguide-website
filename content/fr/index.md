@@ -136,6 +136,8 @@ bg: bg-slate-100
 headline: Secteurs d'activité
 title: Adapté à votre secteur
 description: "CartoGuide est déployé dans quatre grands domaines : tourisme, information territoriale, alimentation locale et santé."
+ctaLabel: Voir tous les cas d'usage
+ctaTo: /use-cases
 ---
 
   ::landing-use-case

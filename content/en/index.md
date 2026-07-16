@@ -136,6 +136,8 @@ bg: bg-slate-100
 headline: Use cases
 title: Tailored to your sector
 description: "CartoGuide is deployed across four key domains: tourism, territorial information, local food, and healthcare."
+ctaLabel: See all use cases
+ctaTo: /use-cases
 ---
 
   ::landing-use-case

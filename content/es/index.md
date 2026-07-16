@@ -136,6 +136,8 @@ bg: bg-slate-100
 headline: Sectores de actividad
 title: Adaptado a su sector
 description: "CartoGuide se despliega en cuatro ámbitos principales: turismo, información territorial, alimentación local y salud."
+ctaLabel: Ver todos los casos de uso
+ctaTo: /use-cases
 ---
 
   ::landing-use-case

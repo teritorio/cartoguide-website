@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
+const localePath = useLocalePath()
 
 const collectionName = computed(() => `content_${locale.value}` as const)
 
@@ -54,6 +55,15 @@ useHead({
         <p class="mt-3 text-sm text-muted">
           {{ t('contact.externalNotice') }}
         </p>
+      </div>
+
+      <div class="mt-12 flex flex-wrap justify-center gap-4 border-t border-default pt-8">
+        <UButton :to="localePath('/features')" variant="ghost" color="neutral" trailing-icon="i-lucide-arrow-right">
+          {{ t('nav.features') }}
+        </UButton>
+        <UButton :to="localePath('/use-cases')" variant="ghost" color="neutral" trailing-icon="i-lucide-arrow-right">
+          {{ t('nav.useCases') }}
+        </UButton>
       </div>
     </div>
   </UContainer>
