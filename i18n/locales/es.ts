@@ -73,7 +73,7 @@ export default defineI18nLocale(async () => ({
       },
       {
         question: '¿Cómo contribuir a OpenStreetMap con CartoGuide?',
-        answer: 'CartoGuide incluye un modo contribuidor que permite a sus agentes y voluntarios enriquecer los datos de OpenStreetMap directamente desde el mapa, sin salir de la interfaz. Estas contribuciones benefician a todo el ecosistema: Géovélo, SNCF, Apple Maps, IGN y muchos otros actores territoriales.',
+        answer: 'CartoGuide ofrece enlaces hacia los editores de OpenStreetMap (iD, JOSM) para facilitar la contribución de sus agentes y voluntarios. Los datos enriquecidos benefician a todo el ecosistema: Géovélo, SNCF, Apple Maps, IGN y muchos otros actores territoriales.',
       },
     ],
   },

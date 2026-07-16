@@ -73,7 +73,7 @@ export default defineI18nLocale(async () => ({
       },
       {
         question: 'How can we contribute to OpenStreetMap with CartoGuide?',
-        answer: 'CartoGuide includes a contributor mode that allows your agents and volunteers to enrich OpenStreetMap data directly from the map, without leaving the interface. These contributions benefit the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.',
+        answer: 'CartoGuide provides links to OpenStreetMap editors (iD, JOSM) to make it easier for your agents and volunteers to contribute. The enriched data benefits the whole ecosystem: Géovélo, SNCF, Apple Maps, IGN and many other territorial actors.',
       },
     ],
   },
