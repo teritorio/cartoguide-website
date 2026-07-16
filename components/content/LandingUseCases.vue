@@ -7,7 +7,12 @@ defineProps<{
 </script>
 
 <template>
-  <LandingFeatures :headline="headline" :title="title" :description="description">
-    <MDCSlot :use="$slots.default" />
-  </LandingFeatures>
+  <section class="bg-slate-50 py-16 sm:py-24">
+    <UContainer>
+      <LandingSectionHeader :headline="headline" :title="title" :description="description" />
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <MDCSlot :use="$slots.default" />
+      </div>
+    </UContainer>
+  </section>
 </template>
