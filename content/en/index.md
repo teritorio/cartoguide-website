@@ -185,79 +185,50 @@ ctaTo: /use-cases
 
 ::
 
-::landing-references
+::landing-logo-marquee
 ---
 headline: References
 title: 30+ organizations deploy CartoGuide
-description: "From tourism to healthcare, from local authorities to short supply chains — territorial actors across France trust CartoGuide."
 ctaLabel: See all our references
 ctaTo: https://carte.teritorio.fr/
+logos:
+  - src: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
+    alt: Grand Dax Tourism & Thermalism
+  - src: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
+    alt: Perpignan Méditerranée Métropole
+  - src: https://elasa.teritorio.xyz/assets/9dde0e9f-8730-351d-bb3a-db670d85fefc/logo-oti-landes-atlantique-sud.png
+    alt: Landes Atlantiques Sud
+  - src: https://elasa.teritorio.xyz/assets/c9c46e01-b0b9-32cc-97e6-a72951b95a27/logo-CCLGV.jpg
+    alt: Lacs et Gorges du Verdon
+  - src: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
+    alt: CINOR — Réunion Island
+  - src: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
+    alt: Province Sud — New Caledonia
+  - src: https://elasa.teritorio.xyz/assets/a2ff9cc6-b552-4c22-a524-cf0f777ff727/Aube-logo-original.png
+    alt: Aube Champagne Tourisme
+  - src: https://elasa.teritorio.xyz/assets/16040eb2-7caa-3fe8-b1c3-48572b9639b6/logo-LIMOUSIN-nouveaux-horizons-principal.jpg
+    alt: Limousin Nouveaux Horizons
+  - src: https://elasa.teritorio.xyz/assets/3e9cfd28-0754-3521-a4fc-74dd2cf79024/LOGO-DESTINATION-SIGNATURE-TRANSPARENT.png
+    alt: Granville Terre & Mer
+  - src: https://elasa.teritorio.xyz/assets/4461b1b5-9f65-4e42-b69b-917790b74b39/logo_armagnac_dartagnan_office_couleur__2_.jpg
+    alt: Armagnac D'Artagan
+  - src: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
+    alt: City of Bègles
+  - src: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
+    alt: Aube Attractivité
+  - src: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo%20CCBG%20gris%20et%20Ouvaton.jpg
+    alt: CC Béarn des Gaves
+  - src: https://elasa.teritorio.xyz/assets/0ed5066b-4f22-3ba4-bdf7-85929128d047/Logo-acheter-a-lons-V04-1.png
+    alt: Lons-le-Saunier
+  - src: https://elasa.teritorio.xyz/assets/8cd5df84-760a-390d-9fb6-4bb5c262c596/SPLD_PICTO_CARTOUCHE_BLEU.png
+    alt: Saint-Paul-lès-Dax
+  - src: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
+    alt: Pays Adour Landes Océanes
+  - src: https://elasa.teritorio.xyz/assets/c6f605be-5f18-378d-a324-af520d97bdaf/landes.png
+    alt: Routes Landaises Gourmandes
+  - src: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
+    alt: CPTS Boost'UP — Seignanx & Bayonne
 ---
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
-  title: Grand Dax Tourism & Thermalism
-  ---
-  Map of accommodations, restaurants and spa treatments at the Landes resort.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
-  title: Perpignan Méditerranée Métropole
-  ---
-  Catalan destination — showcasing heritage and tourism offerings.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
-  title: Province Sud — New Caledonia
-  ---
-  Official tourism map of the Southern Province, on the other side of the world.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
-  title: CINOR — Réunion Island
-  ---
-  Exploring natural and cultural sites of northern Réunion Island.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
-  title: City of Bègles
-  ---
-  Map of services, facilities and businesses in this Gironde municipality.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
-  title: Aube Attractivité
-  ---
-  Map of economic and tourism resources in the Aube territory.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
-  title: Pays Adour Landes Océanes
-  ---
-  Interactive directory of local producers and short supply chains.
-  ::
-
-  ::landing-reference
-  ---
-  logo: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
-  title: CPTS Boost'UP — Seignanx & Bayonne
-  ---
-  Interactive directory of healthcare professionals in the Seignanx and Bayonne area.
-  ::
-
 ::
 
 ::landing-services
