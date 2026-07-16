@@ -253,7 +253,5 @@ title: Un logiciel libre
 description: "CartoGuide est un logiciel libre sous licence AGPL-3.0, développé et maintenu par Teritorio avec sa communauté."
 primaryLabel: Voir sur GitHub
 primaryTo: https://github.com/teritorio/vido
-secondaryLabel: Parler de mon projet
-secondaryTo: /contact
 ---
 ::
