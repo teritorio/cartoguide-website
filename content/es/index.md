@@ -171,6 +171,81 @@ description: "CartoGuide se despliega en cuatro ámbitos principales: turismo, i
 
 ::
 
+::landing-references
+---
+headline: Referencias
+title: 30+ organizaciones despliegan CartoGuide
+description: "Del turismo a la salud, de las colectividades a los circuitos cortos — actores territoriales de toda Francia confían en CartoGuide."
+ctaLabel: Ver todas nuestras referencias
+ctaTo: https://carte.teritorio.fr/
+---
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
+  title: Grand Dax Turismo y Termalismo
+  ---
+  Mapa de alojamientos, restaurantes y tratamientos termales del balneario landés.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
+  title: Perpignan Méditerranée Métropole
+  ---
+  Destino catalán — puesta en valor del patrimonio y las ofertas turísticas.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
+  title: Provincia Sur — Nueva Caledonia
+  ---
+  Mapa oficial del turismo en la provincia Sur, al otro lado del mundo.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
+  title: CINOR — Isla de La Reunión
+  ---
+  Exploración de los sitios naturales y culturales del norte de La Reunión.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
+  title: Ciudad de Bègles
+  ---
+  Mapa de servicios, equipamientos y comercios del municipio de la Gironda.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
+  title: Aube Attractivité
+  ---
+  Mapa de los recursos económicos y turísticos del territorio aubois.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
+  title: Pays Adour Landes Océanes
+  ---
+  Directorio cartográfico de productores locales y circuitos cortos del territorio.
+  ::
+
+  ::landing-reference
+  ---
+  logo: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
+  title: CPTS Boost'UP — Seignanx y Bayona
+  ---
+  Directorio interactivo de profesionales de la salud en el Seignanx y Bayona.
+  ::
+
+::
+
 ::landing-cta
 ---
 title: Software libre
