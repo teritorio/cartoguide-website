@@ -150,7 +150,7 @@ ctaTo: https://carte.teritorio.fr/
 
   ::landing-reference
   ---
-  logo: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo CCBG gris et Ouvaton.jpg
+  logo: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo%20CCBG%20gris%20et%20Ouvaton.jpg
   title: CC Béarn des Gaves
   ---
   ::
