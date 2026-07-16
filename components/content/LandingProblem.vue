@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <section class="bg-slate-100 py-16 sm:py-24">
+  <section class="bg-sky-50 py-16 sm:py-24">
     <UContainer>
       <LandingSectionHeader :headline="headline" :title="title" :description="description" />
       <div class="landing-problem mt-12 mx-auto max-w-4xl grid grid-cols-1 gap-4 lg:grid-cols-2">
