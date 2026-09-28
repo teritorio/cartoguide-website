@@ -2,9 +2,11 @@
 const { t, locale } = useI18n()
 const { typeColor, formatDate } = useNewsFormatting()
 
+const collectionName = computed(() => `news_${locale.value}` as 'news_fr' | 'news_en' | 'news_es')
+
 const { data: newsItems } = await useAsyncData(
-  'news',
-  () => queryCollection(`news_${locale.value}`).order('date', 'DESC').all(),
+  `news-all-${locale.value}`,
+  () => queryCollection(collectionName.value).order('date', 'DESC').all(),
 )
 
 useSeoMeta({
@@ -39,7 +41,7 @@ defineOgImageComponent('OgImage')
               <UBadge :color="typeColor(item.type)" variant="soft" size="sm">
                 {{ t(`news.types.${item.type}`) }}
               </UBadge>
-              <time class="text-xs text-slate-400">{{ formatDate(item.date, locale) }}</time>
+              <time class="text-xs text-slate-400">{{ formatDate(item.date) }}</time>
             </div>
           </template>
           <p class="flex-1 text-sm text-slate-600">
