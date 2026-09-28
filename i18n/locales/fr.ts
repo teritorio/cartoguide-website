@@ -3,6 +3,7 @@ export default defineI18nLocale(async () => ({
     home: 'CartoGuide',
     features: 'Fonctionnalités',
     useCases: 'Cas d\'usage',
+    news: 'Actualités',
     contact: 'Contact',
     github: 'GitHub',
     seeCartoGuide: 'Voir CartoGuide',
@@ -39,6 +40,19 @@ export default defineI18nLocale(async () => ({
     empty: 'Cette page n\'a pas encore de contenu.',
     notFound: 'Page introuvable',
     mapLoading: 'Chargement de la carte…',
+  },
+  news: {
+    headline: 'Actualités',
+    pageTitle: 'Toutes les actualités',
+    pageDescription: 'Articles, sorties de versions et événements autour de CartoGuide.',
+    readMore: 'Lire la suite',
+    empty: 'Aucune actualité pour le moment.',
+    types: {
+      article: 'Article',
+      release: 'Version',
+      feature: 'Fonctionnalité',
+      event: 'Événement',
+    },
   },
   faq: {
     headline: 'FAQ',
