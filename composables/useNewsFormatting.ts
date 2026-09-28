@@ -1,12 +1,12 @@
 export function useNewsFormatting() {
-  function typeColor(type: string): 'sky' | 'emerald' | 'violet' | 'amber' | 'slate' {
-    const map: Record<string, 'sky' | 'emerald' | 'violet' | 'amber' | 'slate'> = {
-      article: 'sky',
-      release: 'emerald',
-      feature: 'violet',
-      event: 'amber',
+  function typeColor(type: string): 'primary' | 'success' | 'secondary' | 'warning' | 'neutral' {
+    const map: Record<string, 'primary' | 'success' | 'secondary' | 'warning' | 'neutral'> = {
+      article: 'primary',
+      release: 'success',
+      feature: 'secondary',
+      event: 'warning',
     }
-    return map[type] ?? 'slate'
+    return map[type] ?? 'neutral'
   }
 
   function formatDate(date: string, locale: string): string {
