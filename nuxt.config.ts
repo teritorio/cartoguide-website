@@ -89,6 +89,12 @@ export default defineNuxtConfig({
     },
   },
 
+  content: {
+    renderer: {
+      anchorLinks: false,
+    },
+  },
+
   colorMode: {
     preference: 'light',
   },

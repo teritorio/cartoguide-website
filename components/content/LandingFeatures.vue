@@ -1,11 +1,15 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   headline?: string
   title?: string
   description?: string
   bg?: string
   screenshot?: string
+  ctaLabel?: string
+  ctaTo?: string
 }>()
+
+const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
 </script>
 
 <template>
@@ -17,6 +21,11 @@ defineProps<{
       </div>
       <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <MDCSlot :use="$slots.default" />
+      </div>
+      <div v-if="ctaLabel && resolvedCtaTo" class="mt-10 text-center">
+        <UButton :to="resolvedCtaTo" size="xl" variant="outline" trailing-icon="i-lucide-arrow-right">
+          {{ ctaLabel }}
+        </UButton>
       </div>
     </UContainer>
   </section>
