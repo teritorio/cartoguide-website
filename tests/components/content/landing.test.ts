@@ -408,19 +408,19 @@ describe('landingFaq', () => {
   it('renders headline and title from i18n', async () => {
     const component = await mountSuspended(LandingFaq)
     expect(component.text()).toContain('FAQ')
-    expect(component.text()).toContain('Frequently asked questions')
+    expect(component.text()).toContain('Do you have questions about CartoGuide?')
   })
 
   it('renders all 8 FAQ questions from i18n', async () => {
     const component = await mountSuspended(LandingFaq)
-    expect(component.text()).toContain('What is CartoGuide?')
-    expect(component.text()).toContain('Is CartoGuide free and open source?')
-    expect(component.text()).toContain('What data sources does CartoGuide support?')
-    expect(component.text()).toContain('Does CartoGuide work on mobile?')
-    expect(component.text()).toContain('Can CartoGuide be embedded in an existing website?')
-    expect(component.text()).toContain('How long does it take to deploy CartoGuide?')
-    expect(component.text()).toContain('What types of organizations use CartoGuide?')
-    expect(component.text()).toContain('How can we contribute to OpenStreetMap with CartoGuide?')
+    expect(component.text()).toContain('What data can we use with CartoGuide?')
+    expect(component.text()).toContain('Can CartoGuide integrate with our existing information system?')
+    expect(component.text()).toContain('Do we need to change or migrate our current tools?')
+    expect(component.text()).toContain('How does OpenStreetMap integrate with CartoGuide?')
+    expect(component.text()).toContain('Can CartoGuide be customised to our territory and our field?')
+    expect(component.text()).toContain('How does a CartoGuide project work?')
+    expect(component.text()).toContain('What can Teritorio bring us beyond the software?')
+    expect(component.text()).toContain('Why is CartoGuide open source software?')
   })
 
   it('has white background as last section before footer', async () => {
