@@ -12,7 +12,7 @@ primaryLabel: Descubrir CartoGuide
 primaryTo: /features
 secondaryLabel: Hablar de mi proyecto
 secondaryTo: /contact
-screenshot: /hero-screenshot.png
+screenshot: /hero-screenshot.webp
 ---
 ::
 
