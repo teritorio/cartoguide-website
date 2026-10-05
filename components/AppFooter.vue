@@ -7,6 +7,8 @@ const footerColumns = computed(() => [
     label: t('footer.product'),
     children: [
       { label: t('nav.features'), to: localePath('/features') },
+      { label: t('nav.useCases'), to: localePath('/use-cases') },
+      { label: t('nav.news'), to: localePath('/news') },
       { label: t('nav.contact'), to: localePath('/contact') },
     ],
   },

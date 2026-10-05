@@ -84,7 +84,14 @@ export default defineNuxtConfig({
         `/${locale}`,
         `/${locale}/features`,
         `/${locale}/contact`,
+        `/${locale}/news`,
       ]),
+    },
+  },
+
+  content: {
+    renderer: {
+      anchorLinks: false,
     },
   },
 
