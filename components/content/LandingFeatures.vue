@@ -11,7 +11,13 @@ const props = defineProps<{
 }>()
 
 const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
-const gridClass = computed(() => props.columns === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3')
+
+const GRID_COLS: Record<number, string> = {
+  2: 'sm:grid-cols-2',
+  3: 'sm:grid-cols-2 lg:grid-cols-3',
+  4: 'sm:grid-cols-2 lg:grid-cols-4',
+}
+const gridClass = computed(() => GRID_COLS[props.columns ?? 3] ?? 'sm:grid-cols-2 lg:grid-cols-3')
 </script>
 
 <template>
