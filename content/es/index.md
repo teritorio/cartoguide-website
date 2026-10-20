@@ -35,7 +35,7 @@ Los datos territoriales suelen estar repartidos entre varios sistemas, fuentes y
 ::landing-solution
 ---
 headline: La solución — Conectar, explorar, valorizar
-title: De sus datos a la exploración de su territorio
+title: De sus datos a la experiencia de su territorio
 description: "CartoGuide hace colaborar a los actores locales y reúne las diferentes fuentes de datos para permitir una difusión y una experiencia geográfica unificada."
 ---
 
@@ -52,7 +52,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
   icon: i-lucide-map
   title: Explorar
   ---
-  Buscar, filtrar y navegar por los datos en un mapa.
+  Dar a sus públicos los medios para orientarse, comparar y elegir en su territorio.
   ::
 
   ::landing-feature
@@ -60,24 +60,9 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
   icon: i-lucide-star
   title: Valorizar
   ---
-  Ofrecer una experiencia personalizada, pensada para el móvil, la web y el asesoramiento en pantalla táctil de gran formato. Asesore y comparta libretas de favoritos.
+  Poner en valor lo que hace singular a su territorio, en una experiencia a su imagen.
   ::
 
-::
-
-::landing-mastery
----
-title: "Con CartoGuide, usted mantiene el control de la experiencia."
-items:
-  - key: Sus datos
-    value: Usted elige las fuentes que desea movilizar.
-  - key: Su visión
-    value: Usted define lo que quiere destacar.
-  - key: Su experiencia
-    value: Usted configura cómo se explora su territorio.
-  - key: Su inversión
-    value: Un software libre que evoluciona con su comunidad.
----
 ::
 
 ::landing-demo
@@ -93,7 +78,7 @@ href: https://carte.seignanx.com
 ::landing-features
 ---
 headline: Funcionalidades — Grandes categorías
-title: Una experiencia pensada para explorar y valorizar su territorio
+title: Las herramientas para difundir y dinamizar su territorio
 ctaLabel: Ver todas las funcionalidades
 ctaTo: /features
 ---
@@ -101,9 +86,9 @@ ctaTo: /features
   ::landing-feature
   ---
   icon: i-lucide-search
-  title: Explorar
+  title: Búsqueda
   ---
-  Buscar, filtrar y consultar los datos en diferentes formatos.
+  Búsqueda de texto completo, filtros avanzados, vista lista y vista mapa.
   ::
 
   ::landing-feature
