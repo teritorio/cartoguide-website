@@ -35,7 +35,7 @@ Les données territoriales sont souvent réparties entre plusieurs systèmes, so
 ::landing-solution
 ---
 headline: La solution — Connecter, explorer, valoriser
-title: De vos données à l'exploration de votre territoire
+title: De vos données à l'expérience de votre territoire
 description: "CartoGuide fait collaborer les acteurs locaux et rassemble les différentes sources de données pour permettre une diffusion et une expérience géographique unifiée."
 ---
 
@@ -52,7 +52,7 @@ description: "CartoGuide fait collaborer les acteurs locaux et rassemble les dif
   icon: i-lucide-map
   title: Explorer
   ---
-  Rechercher, filtrer et parcourir les données sur une carte.
+  Donner à vos publics les moyens de s'orienter, comparer et choisir sur votre territoire.
   ::
 
   ::landing-feature
@@ -60,24 +60,9 @@ description: "CartoGuide fait collaborer les acteurs locaux et rassemble les dif
   icon: i-lucide-star
   title: Valoriser
   ---
-  Proposer une expérience personnalisée, pensée pour le mobile, le web et le conseil sur grand écran tactile. Conseillez et partagez des carnets de favoris.
+  Mettre en lumière ce qui fait la singularité de votre territoire, dans une expérience à votre image.
   ::
 
-::
-
-::landing-mastery
----
-title: "Avec CartoGuide, vous gardez la maîtrise de l'expérience."
-items:
-  - key: Vos données
-    value: Vous choisissez les sources à mobiliser.
-  - key: Votre vision
-    value: Vous définissez ce que vous souhaitez mettre en avant.
-  - key: Votre expérience
-    value: Vous configurez la manière dont votre territoire est exploré.
-  - key: Votre investissement
-    value: Un logiciel libre évoluant avec sa communauté.
----
 ::
 
 ::landing-demo
@@ -93,7 +78,7 @@ href: https://carte.seignanx.com
 ::landing-features
 ---
 headline: Fonctionnalités — Grandes catégories
-title: Une expérience pensée pour explorer et valoriser votre territoire
+title: Les outils pour diffuser et animer votre territoire
 ctaLabel: Voir toutes les fonctionnalités
 ctaTo: /features
 ---
@@ -101,9 +86,9 @@ ctaTo: /features
   ::landing-feature
   ---
   icon: i-lucide-search
-  title: Explorer
+  title: Recherche
   ---
-  Rechercher, filtrer et consulter les données sous différentes formes.
+  Recherche plein texte, filtres avancés, vue liste et vue carte.
   ::
 
   ::landing-feature

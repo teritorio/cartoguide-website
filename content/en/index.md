@@ -35,7 +35,7 @@ Territorial data is often spread across multiple systems, sources and stakeholde
 ::landing-solution
 ---
 headline: The solution — Connect, explore, showcase
-title: From your data to the exploration of your territory
+title: From your data to the experience of your territory
 description: "CartoGuide brings local stakeholders together and aggregates different data sources to enable unified geographic distribution and experience."
 ---
 
@@ -52,7 +52,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
   icon: i-lucide-map
   title: Explore
   ---
-  Search, filter and browse data on a map.
+  Give your audiences the means to orient themselves, compare and choose across your territory.
   ::
 
   ::landing-feature
@@ -60,24 +60,9 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
   icon: i-lucide-star
   title: Showcase
   ---
-  Offer a personalised experience designed for mobile, web and large touchscreen advisory displays. Advise visitors and share collections of favourites.
+  Highlight what makes your territory unique, in an experience that reflects your identity.
   ::
 
-::
-
-::landing-mastery
----
-title: "With CartoGuide, you stay in control of the experience."
-items:
-  - key: Your data
-    value: You choose which sources to use.
-  - key: Your vision
-    value: You define what you want to highlight.
-  - key: Your experience
-    value: You configure how your territory is explored.
-  - key: Your investment
-    value: Open source software that evolves with its community.
----
 ::
 
 ::landing-demo
@@ -93,7 +78,7 @@ href: https://carte.seignanx.com
 ::landing-features
 ---
 headline: Features — Main categories
-title: An experience designed to explore and showcase your territory
+title: The tools to publish and bring your territory to life
 ctaLabel: See all features
 ctaTo: /features
 ---
@@ -101,9 +86,9 @@ ctaTo: /features
   ::landing-feature
   ---
   icon: i-lucide-search
-  title: Explore
+  title: Search
   ---
-  Search, filter and consult data in different formats.
+  Full-text search, advanced filters, list and map views.
   ::
 
   ::landing-feature
