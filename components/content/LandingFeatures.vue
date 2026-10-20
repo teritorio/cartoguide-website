@@ -7,9 +7,17 @@ const props = defineProps<{
   screenshot?: string
   ctaLabel?: string
   ctaTo?: string
+  columns?: number
 }>()
 
 const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
+
+const GRID_COLS: Record<number, string> = {
+  2: 'sm:grid-cols-2',
+  3: 'sm:grid-cols-2 lg:grid-cols-3',
+  4: 'sm:grid-cols-2 lg:grid-cols-4',
+}
+const gridClass = computed(() => GRID_COLS[props.columns ?? 3] ?? 'sm:grid-cols-2 lg:grid-cols-3')
 </script>
 
 <template>
@@ -19,7 +27,7 @@ const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
       <div v-if="screenshot" class="mt-10 overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
         <img :src="screenshot" :alt="title" class="w-full" loading="lazy">
       </div>
-      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-12 grid gap-6" :class="gridClass">
         <MDCSlot :use="$slots.default" />
       </div>
       <div v-if="ctaLabel && resolvedCtaTo" class="mt-10 text-center">

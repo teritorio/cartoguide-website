@@ -81,6 +81,7 @@ headline: Features — Main categories
 title: The tools to publish and bring your territory to life
 ctaLabel: See all features
 ctaTo: /features
+columns: 2
 ---
 
   ::landing-feature

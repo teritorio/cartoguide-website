@@ -81,6 +81,7 @@ headline: Fonctionnalités — Grandes catégories
 title: Les outils pour diffuser et animer votre territoire
 ctaLabel: Voir toutes les fonctionnalités
 ctaTo: /features
+columns: 2
 ---
 
   ::landing-feature
