@@ -21,6 +21,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-search
   title: Geographic and isochrone search
+  image: /images/features/placeholder.svg
   ---
   Find any point of interest or address (National Address Database) with real-time autocomplete. Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point.
   ::
@@ -29,6 +30,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-filter
   title: Category filtering
+  image: /images/features/placeholder.svg
   ---
   Filter points of interest by category and sub-category: accommodation, restaurants, activities, public services, transport… Refine your selection with multi-level navigation and value-based filters (e.g. cuisine type, available facilities).
   ::
@@ -37,6 +39,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-database
   title: Connected multi-source data
+  image: /images/features/placeholder.svg
   ---
   Aggregate OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and your proprietary data (Elasa) into a single map. An ETL automatically synchronizes all sources every evening.
   ::
@@ -45,6 +48,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-list
   title: List view and export
+  image: /images/features/placeholder.svg
   ---
   Switch between map view and list view to browse or compare points of interest in a category. Export results as CSV or GeoJSON to reuse in your own tools.
   ::
@@ -53,6 +57,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-smartphone
   title: Mobile-first for the field
+  image: /images/features/placeholder.svg
   ---
   Interface designed for field agents, tourist information offices and visitors on the move. Smooth navigation on smartphones, even in low-connectivity areas.
   ::
@@ -61,6 +66,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-share-2
   title: Favorites, sharing and QR codes
+  image: /images/features/placeholder.svg
   ---
   Save your favorite points of interest, build lists and share them instantly via URL or QR code. Field agents can generate QR codes to distribute on-site to highlight specific locations.
   ::
@@ -69,6 +75,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-code
   title: Widget and open API
+  image: /images/features/placeholder.svg
   ---
   Embed CartoGuide on your website as a map, list or favorites widget in just a few lines. The open API lets you feed other applications and build custom visualizations — see the [integration guide](https://documentation.communecarte.org/fr/cartoguide/integration-cartoguide.html).
   ::
@@ -77,6 +84,7 @@ title: Powerful tools for every territorial use case
   ---
   icon: i-lucide-earth
   title: Contributor mode and OSM links
+  image: /images/features/placeholder.svg
   ---
   Enable contributor mode to display links to iD and JOSM as well as an OSM note creation link on each POI sheet. Contributions benefit the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others.
   ::
@@ -96,6 +104,7 @@ variant: secondary
   ---
   icon: i-lucide-route
   title: Cycling and hiking routes
+  image: /images/features/placeholder.svg
   ---
   Display routes with waypoints, elevation profiles and nearby facilities. GPX tracks from Geotrek or other sources are natively integrated.
   ::
@@ -104,6 +113,7 @@ variant: secondary
   ---
   icon: i-lucide-layers
   title: Map styles and 3D view
+  image: /images/features/placeholder.svg
   ---
   Choose from several MapLibre vector basemaps (tourism, city, food, cycling) or IGN orthophoto — over 500 POI types represented. Switch to 3D view for a full territorial immersion.
   ::
@@ -112,6 +122,7 @@ variant: secondary
   ---
   icon: i-lucide-mouse-pointer-click
   title: Explorer mode
+  image: /images/features/placeholder.svg
   ---
   Click directly on any POI visible on the map, without going through the navigation menu. Especially appreciated on interactive kiosks and self-service touchscreens.
   ::
@@ -120,6 +131,7 @@ variant: secondary
   ---
   icon: i-lucide-languages
   title: Multilingual interface
+  image: /images/features/placeholder.svg
   ---
   Interface available in French, English and Spanish, automatically adapting to the visitor's browser language. Ideal for cross-border territories welcoming audiences from multiple countries.
   ::
@@ -128,6 +140,7 @@ variant: secondary
   ---
   icon: i-lucide-shapes
   title: Clusters and polygons
+  image: /images/features/placeholder.svg
   ---
   Markers automatically cluster at certain zoom levels for a readable map, even with many POIs. Geographic areas (municipalities, inter-municipalities) can be displayed as polygons.
   ::
@@ -136,6 +149,7 @@ variant: secondary
   ---
   icon: i-lucide-crop
   title: Territory boundary
+  image: /images/features/placeholder.svg
   ---
   Define a geographic perimeter to focus the experience on your territory: highlight the zone, grey out the rest, or strictly filter the POIs displayed.
   ::
@@ -144,6 +158,7 @@ variant: secondary
   ---
   icon: i-lucide-refresh-cw
   title: Automatic data synchronization
+  image: /images/features/placeholder.svg
   ---
   A robust ETL updates data from all your connected sources every evening. No more double entry or stale information.
   ::
@@ -163,6 +178,7 @@ variant: accent
   ---
   icon: i-lucide-layers-2
   title: Multi-tenant themes
+  image: /images/features/placeholder.svg
   ---
   A single project can offer multiple thematic maps — tourism, food, mobility — each with its own data layer, menu and visual identity. Ideal for territories managing several mapping deployments.
   ::
@@ -171,6 +187,7 @@ variant: accent
   ---
   icon: i-lucide-palette
   title: Visual customization
+  image: /images/features/placeholder.svg
   ---
   Configure the logo, favicon and basemaps for each theme. Your map reflects the visual identity of your territory or organization.
   ::
@@ -179,6 +196,7 @@ variant: accent
   ---
   icon: i-lucide-bar-chart-2
   title: On-demand analytics
+  image: /images/features/placeholder.svg
   ---
   Enable Matomo (sovereign hosting) or Google Tag Manager according to your data policy. Google Search Console is also configurable per theme.
   ::
@@ -187,6 +205,7 @@ variant: accent
   ---
   icon: i-lucide-toggle-right
   title: Per-theme service activation
+  image: /images/features/placeholder.svg
   ---
   Independently enable or disable favorites, explorer mode, isochrones and issue reporting for each theme. Tailor available features to each use case and audience.
   ::
@@ -195,6 +214,7 @@ variant: accent
   ---
   icon: i-lucide-layout-grid
   title: Menu configuration
+  image: /images/features/placeholder.svg
   ---
   Organize categories, sub-categories and filters from the back-office. Choose between 4, 8, 12 or 16 items per block, in horizontal or vertical layout.
   ::
@@ -203,6 +223,7 @@ variant: accent
   ---
   icon: i-lucide-table
   title: Filter and field management
+  image: /images/features/placeholder.svg
   ---
   Define value-based filters, fields displayed in pop-ups and detail sheets, and columns visible in list view. Each theme has its own configuration.
   ::
@@ -220,6 +241,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-map-pin
   title: OpenStreetMap
+  image: /images/features/placeholder.svg
   ---
   Free and collaborative base with over 500 POI types. Contributor mode makes it easy to access OSM editors from each POI sheet to enrich the global database.
   ::
@@ -228,6 +250,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-building
   title: Sirtaqui and Apidae
+  image: /images/features/placeholder.svg
   ---
   France's two main regional tourism information systems — listings automatically synchronized from Nouvelle-Aquitaine and Auvergne-Rhône-Alpes.
   ::
@@ -236,6 +259,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-tent
   title: Geotrek and Open Agenda
+  image: /images/features/placeholder.svg
   ---
   Hiking routes and natural sites (Geotrek) + cultural and sports events (Open Agenda) — automatic daily synchronization.
   ::
@@ -244,6 +268,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-bus
   title: GTFS — Public transport
+  image: /images/features/placeholder.svg
   ---
   Bus, tram, metro and train stops displayed near every point of interest to support car-free visitor mobility.
   ::
@@ -252,6 +277,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-globe
   title: Tourinsoft and other TISes
+  image: /images/features/placeholder.svg
   ---
   Compatible with Tourinsoft and any tourism information system with an API or structured export.
   ::
@@ -260,6 +286,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   ---
   icon: i-lucide-pencil
   title: Elasa back-office
+  image: /images/features/placeholder.svg
   ---
   Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS. [→ Discover Elasa](https://documentation.communecarte.org/fr/cartoguide/decouvrir-cartoguide.html)
   ::
