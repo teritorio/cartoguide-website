@@ -89,6 +89,7 @@ headline: Advanced features
 title: Enrich the mapping experience
 description: "Advanced options to tailor CartoGuide to each territorial context."
 bg: bg-slate-50
+variant: secondary
 ---
 
   ::landing-feature
@@ -154,8 +155,8 @@ bg: bg-slate-50
 headline: Administration and configuration
 title: Manage and customize every aspect of your map
 description: "CartoGuide is fully administered from the Elasa back-office, with no development required."
-bg: bg-sky-50
-variant: secondary
+bg: bg-orange-50
+variant: accent
 ---
 
   ::landing-feature

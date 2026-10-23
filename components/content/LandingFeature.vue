@@ -12,17 +12,29 @@ const cardBg = computed(() =>
   sectionBg.value ? 'bg-white' : 'bg-slate-50',
 )
 
-const iconBg = computed(() =>
-  variant.value === 'secondary' ? 'bg-secondary/10' : 'bg-primary/10',
-)
+const iconBg = computed(() => {
+  if (variant.value === 'secondary')
+    return 'bg-secondary/10'
+  if (variant.value === 'accent')
+    return 'bg-orange-50'
+  return 'bg-primary/10'
+})
 
-const iconColor = computed(() =>
-  variant.value === 'secondary' ? 'text-secondary' : 'text-primary',
-)
+const iconColor = computed(() => {
+  if (variant.value === 'secondary')
+    return 'text-secondary'
+  if (variant.value === 'accent')
+    return 'text-orange-600'
+  return 'text-primary'
+})
 
-const hoverBorder = computed(() =>
-  variant.value === 'secondary' ? 'hover:border-secondary/40' : 'hover:border-primary/40',
-)
+const hoverBorder = computed(() => {
+  if (variant.value === 'secondary')
+    return 'hover:border-secondary/40'
+  if (variant.value === 'accent')
+    return 'hover:border-orange-300'
+  return 'hover:border-primary/40'
+})
 </script>
 
 <template>

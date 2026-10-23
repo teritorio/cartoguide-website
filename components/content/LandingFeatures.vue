@@ -8,7 +8,7 @@ const props = defineProps<{
   ctaLabel?: string
   ctaTo?: string
   columns?: number
-  variant?: 'default' | 'secondary'
+  variant?: 'default' | 'secondary' | 'accent'
 }>()
 
 const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
