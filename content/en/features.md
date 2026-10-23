@@ -1,5 +1,5 @@
 ---
-title: "CartoGuide Features — Isochrone Search, Multi-source Data, Multi-tenant Administration"
+title: "CartoGuide Features — Isochrone Search, Multi-source Data, Multi-theme Configuration"
 description: "Geographic search engine, filters, list and map view, QR code favorites, embeddable widget, multi-tenant themes, on-demand analytics. Showcase your territorial data."
 ---
 
@@ -31,6 +31,14 @@ title: Powerful tools for every territorial use case
   title: Category filtering
   ---
   Filter points of interest by category and sub-category: accommodation, restaurants, activities, public services, transport… Refine your selection with multi-level navigation and value-based filters (e.g. cuisine type, available facilities).
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-database
+  title: Connected multi-source data
+  ---
+  Aggregate OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and your proprietary data (Elasa) into a single map. An ETL automatically synchronizes all sources every evening.
   ::
 
   ::landing-feature
@@ -70,7 +78,7 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-earth
   title: Contributor mode and OSM links
   ---
-  Enable contributor mode to display links to iD and JOSM as well as an OSM note creation link on each POI sheet. Contributions benefit the entire ecosystem: Organic Maps, Géovélo, SNCF, Apple Maps, IGN and many others.
+  Enable contributor mode to display links to iD and JOSM as well as an OSM note creation link on each POI sheet. Contributions benefit the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others.
   ::
 
 ::
@@ -116,7 +124,7 @@ description: "Advanced options to tailor CartoGuide to each territorial context.
 
   ::landing-feature
   ---
-  icon: i-lucide-circle-dot
+  icon: i-lucide-shapes
   title: Clusters and polygons
   ---
   Markers automatically cluster at certain zoom levels for a readable map, even with many POIs. Geographic areas (municipalities, inter-municipalities) can be displayed as polygons.

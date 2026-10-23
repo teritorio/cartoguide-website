@@ -35,6 +35,14 @@ title: Herramientas potentes para cada uso territorial
 
   ::landing-feature
   ---
+  icon: i-lucide-database
+  title: Datos multifuente conectados
+  ---
+  Agregue OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS y sus datos propietarios (Elasa) en un único mapa. Un ETL sincroniza automáticamente todas las fuentes cada noche.
+  ::
+
+  ::landing-feature
+  ---
   icon: i-lucide-list
   title: Vista lista y exportación
   ---
@@ -70,7 +78,7 @@ title: Herramientas potentes para cada uso territorial
   icon: i-lucide-earth
   title: Modo contribuidor y enlaces OSM
   ---
-  Active el modo contribuidor para mostrar, en cada ficha POI, enlaces hacia iD y JOSM, así como un enlace para añadir una nota OSM. Las contribuciones benefician a todo el ecosistema: Organic Maps, Géovélo, SNCF, Apple Maps, IGN y muchos más.
+  Active el modo contribuidor para mostrar, en cada ficha POI, enlaces hacia iD y JOSM, así como un enlace para añadir una nota OSM. Las contribuciones benefician a todo el ecosistema: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN y muchos más.
   ::
 
 ::
@@ -116,7 +124,7 @@ description: "Opciones avanzadas para adaptar CartoGuide a cada contexto territo
 
   ::landing-feature
   ---
-  icon: i-lucide-circle-dot
+  icon: i-lucide-shapes
   title: Clústeres y polígonos
   ---
   Los marcadores se agrupan automáticamente en clústeres a ciertos niveles de zoom para un mapa legible, incluso con muchos POI. Las zonas geográficas (municipios, mancomunidades) pueden mostrarse como polígonos.
