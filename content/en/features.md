@@ -1,6 +1,6 @@
 ---
-title: "CartoGuide Features — Geographic Search, Multi-source Data, Widget"
-description: "Isochrone search, multi-source data (OSM + tourism information systems), QR code favorites, OSM editor links (iD, JOSM), embeddable widget. Deployed by 30+ territorial organizations."
+title: "CartoGuide Features — Isochrone Search, Multi-source Data, Multi-tenant Administration"
+description: "Geographic search engine, filters, list and map view, QR code favorites, embeddable widget, multi-tenant themes, on-demand analytics. Showcase your territorial data."
 ---
 
 ::landing-page-header
@@ -22,7 +22,7 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-search
   title: Geographic and isochrone search
   ---
-  Local search engine optimized for points of interest, facilities and services across your territory. Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point. Perfect for tourism offices, mobility plans and territorial guides.
+  Find any point of interest or address (National Address Database) with real-time autocomplete. Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point.
   ::
 
   ::landing-feature
@@ -30,15 +30,15 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-filter
   title: Category filtering
   ---
-  Browse the territory at your own pace by filtering points of interest by category: accommodation, restaurants, activities, public services, transport… One click shows or hides a content type. Sub-categories and multi-level navigation let you narrow your selection down to the exact point of interest you need.
+  Filter points of interest by category and sub-category: accommodation, restaurants, activities, public services, transport… Refine your selection with multi-level navigation and value-based filters (e.g. cuisine type, available facilities).
   ::
 
   ::landing-feature
   ---
-  icon: i-lucide-database
-  title: Connected multi-source data
+  icon: i-lucide-list
+  title: List view and export
   ---
-  Aggregate your OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and other data in a single place. An automatic ETL synchronizes sources every evening, keeping information always up to date. You can also feed CartoGuide via the Elasa back-office for your proprietary data.
+  Switch between map view and list view to browse or compare points of interest in a category. Export results as CSV or GeoJSON to reuse in your own tools.
   ::
 
   ::landing-feature
@@ -46,7 +46,7 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-smartphone
   title: Mobile-first for the field
   ---
-  Interface designed for field agents, tourist information offices and visitors on the move. The mobile-first ergonomics ensure smooth navigation on smartphones, even in low-connectivity areas. Both guides and autonomous users find information in just a few gestures.
+  Interface designed for field agents, tourist information offices and visitors on the move. Smooth navigation on smartphones, even in low-connectivity areas.
   ::
 
   ::landing-feature
@@ -54,7 +54,7 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-share-2
   title: Favorites, sharing and QR codes
   ---
-  Users can save their favorite points of interest, build lists and share them instantly via URL or QR code. Perfect for planning a tourist itinerary or recommending local resources. Field agents can also generate QR codes to distribute on-site to highlight specific locations.
+  Save your favorite points of interest, build lists and share them instantly via URL or QR code. Field agents can generate QR codes to distribute on-site to highlight specific locations.
   ::
 
   ::landing-feature
@@ -62,7 +62,7 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-code
   title: Widget and open API
   ---
-  Embed CartoGuide directly on your website as a widget or iframe in just a few lines. The open API goes further: feeding other applications, syncing your data with third-party tools or building custom visualizations. The solution adapts to your existing digital ecosystem.
+  Embed CartoGuide on your website as a map, list or favorites widget in just a few lines. The open API lets you feed other applications and build custom visualizations — see the [integration guide](https://documentation.communecarte.org/fr/cartoguide/integration-cartoguide.html).
   ::
 
   ::landing-feature
@@ -70,16 +70,16 @@ title: Powerful tools for every territorial use case
   icon: i-lucide-earth
   title: Contributor mode and OSM links
   ---
-  Enable contributor mode to display links to iD (web OSM editor) and JOSM (desktop editor), as well as an OSM note creation link, on each POI detail sheet. Editing happens in OpenStreetMap tools — contributions benefit the entire ecosystem: Organic Maps, Géovélo, Komoot, France Bleu, SNCF, Apple Maps, IGN and many others.
+  Enable contributor mode to display links to iD and JOSM as well as an OSM note creation link on each POI sheet. Contributions benefit the entire ecosystem: Organic Maps, Géovélo, SNCF, Apple Maps, IGN and many others.
   ::
 
 ::
 
 ::landing-features
 ---
-headline: Going further
-title: Advanced features and customization
-description: "CartoGuide also offers advanced options to enrich the mapping experience and tailor the solution to each territorial context."
+headline: Advanced features
+title: Enrich the mapping experience
+description: "Advanced options to tailor CartoGuide to each territorial context."
 ---
 
   ::landing-feature
@@ -87,7 +87,7 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
   icon: i-lucide-route
   title: Cycling and hiking routes
   ---
-  Display cycling and hiking routes with their waypoints, elevation profiles and nearby facilities. GPX tracks from Geotrek or other sources are natively integrated. Ideal for green tourism destinations and territories committed to soft mobility.
+  Display routes with waypoints, elevation profiles and nearby facilities. GPX tracks from Geotrek or other sources are natively integrated.
   ::
 
   ::landing-feature
@@ -95,7 +95,7 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
   icon: i-lucide-layers
   title: Map styles and 3D view
   ---
-  Choose from several MapLibre vector map styles suited to each use case: tourism, city, food, cycling, or IGN orthophoto. Over 500 types of points of interest are represented on Teritorio vector basemaps. Switch to 3D view for a full territorial immersion or stay in classic 2D depending on the context.
+  Choose from several MapLibre vector basemaps (tourism, city, food, cycling) or IGN orthophoto. Switch to 3D view for a full territorial immersion.
   ::
 
   ::landing-feature
@@ -103,7 +103,7 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
   icon: i-lucide-mouse-pointer-click
   title: Explorer mode
   ---
-  In explorer mode, visitors can click directly on any point of interest visible on the map, without going through the navigation menu. Contextual information appears immediately, enabling intuitive discovery of the territory. This mode is especially appreciated on interactive kiosks and self-service touchscreens.
+  Click directly on any POI visible on the map, without going through the navigation menu. Especially appreciated on interactive kiosks and self-service touchscreens.
   ::
 
   ::landing-feature
@@ -111,15 +111,23 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
   icon: i-lucide-languages
   title: Multilingual interface
   ---
-  Interface available in French, English and Spanish, automatically adapting to the visitor's browser language. Ideal for cross-border territories (Basque Country, Switzerland, Occitania) welcoming audiences from multiple countries.
+  Interface available in French, English and Spanish, automatically adapting to the visitor's browser language. Ideal for cross-border territories welcoming audiences from multiple countries.
   ::
 
   ::landing-feature
   ---
-  icon: i-lucide-layout-grid
-  title: Configurable menu
+  icon: i-lucide-circle-dot
+  title: Clusters and polygons
   ---
-  Set up the navigation menu with 4, 8, 12 or 16 categories per block, in horizontal or vertical layout to match your visual identity and offering density. Each menu entry maps to a data filter, a theme or a route. The category hierarchy adapts to the complexity of your POI catalogue.
+  Markers automatically cluster at certain zoom levels for a readable map, even with many POIs. Geographic areas (municipalities, inter-municipalities) can be displayed as polygons.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-crop
+  title: Territory boundary
+  ---
+  Define a geographic perimeter to focus the experience on your territory: highlight the zone, grey out the rest, or strictly filter the POIs displayed.
   ::
 
   ::landing-feature
@@ -127,7 +135,64 @@ description: "CartoGuide also offers advanced options to enrich the mapping expe
   icon: i-lucide-refresh-cw
   title: Automatic data synchronization
   ---
-  A robust ETL automatically synchronizes data from all your connected sources every evening. Your providers update their listings in Sirtaqui or Apidae, and the changes appear automatically on CartoGuide the next morning. No more double entry, stale information or tedious manual updates.
+  A robust ETL updates data from all your connected sources every evening. No more double entry or stale information.
+  ::
+
+::
+
+::landing-features
+---
+headline: Administration and configuration
+title: Manage and customize every aspect of your map
+description: "CartoGuide is fully administered from the Elasa back-office, with no development required."
+---
+
+  ::landing-feature
+  ---
+  icon: i-lucide-layers-2
+  title: Multi-tenant themes
+  ---
+  A single project can offer multiple thematic maps — tourism, food, mobility — each with its own data layer, menu and visual identity. Ideal for territories managing several mapping deployments.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-palette
+  title: Visual customization
+  ---
+  Configure the logo, favicon and basemaps for each theme. Your map reflects the visual identity of your territory or organization.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-bar-chart-2
+  title: On-demand analytics
+  ---
+  Enable Matomo (sovereign hosting) or Google Tag Manager according to your data policy. Google Search Console is also configurable per theme.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-toggle-right
+  title: Per-theme service activation
+  ---
+  Independently enable or disable favorites, explorer mode, isochrones and issue reporting for each theme. Tailor available features to each use case and audience.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-layout-grid
+  title: Menu configuration
+  ---
+  Organize categories, sub-categories and filters from the back-office. Choose between 4, 8, 12 or 16 items per block, in horizontal or vertical layout.
+  ::
+
+  ::landing-feature
+  ---
+  icon: i-lucide-table
+  title: Filter and field management
+  ---
+  Define value-based filters, fields displayed in pop-ups and detail sheets, and columns visible in list view. Each theme has its own configuration.
   ::
 
 ::
@@ -144,7 +209,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-map-pin
   title: OpenStreetMap
   ---
-  Free and collaborative base with over 500 POI types. CartoGuide's contributor mode makes it easy to access OSM editors (iD, JOSM) from each POI detail sheet to enrich the global database.
+  Free and collaborative base with over 500 POI types. Contributor mode makes it easy to access OSM editors from each POI sheet to enrich the global database.
   ::
 
   ::landing-feature
@@ -184,7 +249,18 @@ description: "CartoGuide integrates natively with the main tourism information a
   icon: i-lucide-pencil
   title: Elasa back-office
   ---
-  Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS.
+  Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS. [→ Discover Elasa](https://documentation.communecarte.org/fr/cartoguide/decouvrir-cartoguide.html)
   ::
 
+::
+
+::landing-cta
+---
+title: Want to see CartoGuide in action?
+description: "Discover how other territorial organizations use CartoGuide, or speak directly with our team."
+primaryLabel: See use cases
+primaryTo: /use-cases
+secondaryLabel: Talk about my project
+secondaryTo: /contact
+---
 ::
