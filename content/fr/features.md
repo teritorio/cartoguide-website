@@ -103,7 +103,7 @@ description: "Des options avancées pour adapter CartoGuide à chaque contexte t
   icon: i-lucide-layers
   title: Styles de carte et vue 3D
   ---
-  Choisissez parmi plusieurs fonds vectoriels MapLibre (tourisme, ville, alimentation, vélo) ou l'orthophoto IGN. Basculez en vue 3D pour une immersion territoriale complète.
+  Choisissez parmi plusieurs fonds vectoriels MapLibre (tourisme, ville, alimentation, vélo) ou l'orthophoto IGN — plus de 500 types de POI représentés. Basculez en vue 3D pour une immersion territoriale complète.
   ::
 
   ::landing-feature

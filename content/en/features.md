@@ -103,7 +103,7 @@ description: "Advanced options to tailor CartoGuide to each territorial context.
   icon: i-lucide-layers
   title: Map styles and 3D view
   ---
-  Choose from several MapLibre vector basemaps (tourism, city, food, cycling) or IGN orthophoto. Switch to 3D view for a full territorial immersion.
+  Choose from several MapLibre vector basemaps (tourism, city, food, cycling) or IGN orthophoto — over 500 POI types represented. Switch to 3D view for a full territorial immersion.
   ::
 
   ::landing-feature
