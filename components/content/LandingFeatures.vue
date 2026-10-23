@@ -8,6 +8,7 @@ const props = defineProps<{
   ctaLabel?: string
   ctaTo?: string
   columns?: number
+  variant?: 'default' | 'secondary'
 }>()
 
 const resolvedCtaTo = useLocaleTo(computed(() => props.ctaTo))
@@ -18,6 +19,9 @@ const GRID_COLS: Record<number, string> = {
   4: 'sm:grid-cols-2 lg:grid-cols-4',
 }
 const gridClass = computed(() => GRID_COLS[props.columns ?? 3] ?? 'sm:grid-cols-2 lg:grid-cols-3')
+
+provide('featureVariant', computed(() => props.variant ?? 'default'))
+provide('featureSectionBg', computed(() => props.bg ?? ''))
 </script>
 
 <template>

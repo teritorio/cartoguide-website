@@ -88,6 +88,7 @@ title: Herramientas potentes para cada uso territorial
 headline: Funcionalidades avanzadas
 title: Enriquezca la experiencia cartográfica
 description: "Opciones avanzadas para adaptar CartoGuide a cada contexto territorial."
+bg: bg-slate-50
 ---
 
   ::landing-feature
@@ -153,6 +154,8 @@ description: "Opciones avanzadas para adaptar CartoGuide a cada contexto territo
 headline: Administración y configuración
 title: Administre y personalice cada aspecto de su mapa
 description: "CartoGuide se administra íntegramente desde el back-office Elasa, sin necesidad de desarrollo."
+bg: bg-sky-50
+variant: secondary
 ---
 
   ::landing-feature
