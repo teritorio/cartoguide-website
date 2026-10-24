@@ -3,7 +3,7 @@ title: "CartoGuide — Gather your data. Share your vision of the territory."
 description: "Let your audience search, explore, filter and discover your territory with CartoGuide, open source territorial mapping software."
 ---
 
-::landing-hero
+::hero-section
 ---
 headline: Open source software
 title: "Gather your data. Share your vision of the territory."
@@ -39,7 +39,7 @@ title: From your data to the experience of your territory
 description: "CartoGuide brings local stakeholders together and aggregates different data sources to enable unified geographic distribution and experience."
 ---
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-plug
   title: Connect
@@ -47,7 +47,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
   Tourism information systems, OpenStreetMap, transport data and other territorial sources.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-map
   title: Explore
@@ -55,7 +55,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
   Give your audiences the means to orient themselves, compare and choose across your territory.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-star
   title: Showcase
@@ -65,7 +65,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
 
 ::
 
-::landing-demo
+::demo-section
 ---
 headline: Video — Watch CartoGuide in action
 title: Explore your territory with CartoGuide
@@ -75,7 +75,7 @@ href: https://carte.seignanx.com
 ---
 ::
 
-::landing-features
+::features-grid
 ---
 headline: Features — Main categories
 title: The tools to publish and bring your territory to life
@@ -84,7 +84,7 @@ ctaTo: /features
 columns: 2
 ---
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-search
   title: Search
@@ -92,7 +92,7 @@ columns: 2
   Full-text search, advanced filters, list and map views.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-share-2
   title: Share
@@ -100,7 +100,7 @@ columns: 2
   Favourites, QR codes, itineraries and information distribution.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-settings
   title: Administer
@@ -108,7 +108,7 @@ columns: 2
   Manage content, organise categories and menus, configure filters and customise the experience from the back-office.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-code-2
   title: Integrate
@@ -118,7 +118,7 @@ columns: 2
 
 ::
 
-::landing-clients
+::clients-section
 ---
 headline: Use cases + users + community + open source software
 title: "18 references, a community and open source software at the service of territories."
@@ -253,10 +253,10 @@ items:
 
 
 
-::landing-faq
+::faq-section
 ::
 
-::landing-cta
+::cta-section
 ---
 title: Showcase your territory's data
 description: "Let's talk about your territory, your uses and your project."

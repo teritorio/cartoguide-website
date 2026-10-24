@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <section class="bg-slate-100 py-16 sm:py-24">
     <UContainer>
-      <LandingSectionHeader :headline="headline" :title="title" />
+      <SectionHeader :headline="headline" :title="title" />
       <div v-if="items?.length" class="mt-12 grid gap-4 sm:grid-cols-2">
         <div
           v-for="item in items"

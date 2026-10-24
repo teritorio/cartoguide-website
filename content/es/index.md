@@ -3,7 +3,7 @@ title: "CartoGuide — Reúna sus datos. Difunda su visión del territorio."
 description: "Permita a su público buscar, explorar, filtrar y descubrir su territorio con CartoGuide, software libre de cartografía territorial."
 ---
 
-::landing-hero
+::hero-section
 ---
 headline: Software libre y open source
 title: "Reúna sus datos. Difunda su visión del territorio."
@@ -39,7 +39,7 @@ title: De sus datos a la experiencia de su territorio
 description: "CartoGuide hace colaborar a los actores locales y reúne las diferentes fuentes de datos para permitir una difusión y una experiencia geográfica unificada."
 ---
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-plug
   title: Conectar
@@ -47,7 +47,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
   Sistemas de información turística, OpenStreetMap, datos de transporte y otras fuentes territoriales.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-map
   title: Explorar
@@ -55,7 +55,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
   Dar a sus públicos los medios para orientarse, comparar y elegir en su territorio.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-star
   title: Valorizar
@@ -65,7 +65,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
 
 ::
 
-::landing-demo
+::demo-section
 ---
 headline: Vídeo — Ver CartoGuide en acción
 title: Explore su territorio con CartoGuide
@@ -75,7 +75,7 @@ href: https://carte.seignanx.com
 ---
 ::
 
-::landing-features
+::features-grid
 ---
 headline: Funcionalidades — Grandes categorías
 title: Las herramientas para difundir y dinamizar su territorio
@@ -84,7 +84,7 @@ ctaTo: /features
 columns: 2
 ---
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-search
   title: Búsqueda
@@ -92,7 +92,7 @@ columns: 2
   Búsqueda de texto completo, filtros avanzados, vista lista y vista mapa.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-share-2
   title: Compartir
@@ -100,7 +100,7 @@ columns: 2
   Favoritos, códigos QR, recorridos y difusión de la información.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-settings
   title: Administrar
@@ -108,7 +108,7 @@ columns: 2
   Gestionar los contenidos, organizar las categorías y los menús, configurar los filtros y personalizar la experiencia desde el back-office.
   ::
 
-  ::landing-feature
+  ::feature-card
   ---
   icon: i-lucide-code-2
   title: Integrar
@@ -118,7 +118,7 @@ columns: 2
 
 ::
 
-::landing-clients
+::clients-section
 ---
 headline: Casos de uso + usuarios + comunidad + software libre
 title: "18 referencias, una comunidad y un software libre al servicio de los territorios."
@@ -253,10 +253,10 @@ items:
 
 
 
-::landing-faq
+::faq-section
 ::
 
-::landing-cta
+::cta-section
 ---
 title: Valorice los datos de su territorio
 description: "Hablemos de su territorio, de sus usos y de su proyecto."

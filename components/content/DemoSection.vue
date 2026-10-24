@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <section class="py-16 sm:py-24" :class="[bg]">
     <UContainer>
-      <LandingSectionHeader :headline="headline" :title="title" />
+      <SectionHeader :headline="headline" :title="title" />
       <div class="mt-12">
         <div class="flex h-[350px] w-full items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 sm:h-[500px]">
           <div class="flex flex-col items-center gap-4 text-slate-400">

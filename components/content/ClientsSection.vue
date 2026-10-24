@@ -15,7 +15,7 @@ defineProps<{
 <template>
   <section class="bg-slate-100 py-16 sm:py-24">
     <UContainer>
-      <LandingSectionHeader :headline="headline" :title="title" />
+      <SectionHeader :headline="headline" :title="title" />
       <div v-if="useCases?.length" class="mt-12 space-y-10">
         <div v-for="uc in useCases" :key="uc.title">
           <h3 class="text-base font-semibold text-slate-900">

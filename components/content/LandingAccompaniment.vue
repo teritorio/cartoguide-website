@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <section class="py-16 sm:py-24">
     <UContainer>
-      <LandingSectionHeader :headline="headline" :title="title" />
+      <SectionHeader :headline="headline" :title="title" />
       <p v-if="description" class="mx-auto mt-4 max-w-2xl text-center text-lg text-muted">
         {{ description }}
       </p>

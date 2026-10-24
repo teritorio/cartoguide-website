@@ -19,7 +19,7 @@ defineOgImageComponent('OgImage')
 
 <template>
   <div>
-    <LandingPageHeader
+    <PageHeader
       :headline="t('news.headline')"
       :title="t('news.pageTitle')"
       :description="t('news.pageDescription')"
