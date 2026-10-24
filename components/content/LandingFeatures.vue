@@ -22,16 +22,37 @@ const gridClass = computed(() => GRID_COLS[props.columns ?? 3] ?? 'sm:grid-cols-
 
 provide('featureVariant', computed(() => props.variant ?? 'default'))
 provide('featureSectionBg', computed(() => props.bg ?? ''))
+
+const inTabsContext = inject<boolean>('inTabsContext', false)
+const tabs = inject<string[]>('tabs', [])
+const activeTabIndex = inject<Ref<number> | null>('activeTabIndex', null)
+
+const sectionIndex = computed(() => props.headline ? tabs.indexOf(props.headline) : -1)
+
+const isVisible = computed(() => {
+  if (!activeTabIndex || sectionIndex.value === -1)
+    return true
+  return sectionIndex.value === activeTabIndex.value
+})
+
+const featureCount = ref(0)
+provide('registerFeature', () => featureCount.value++)
 </script>
 
 <template>
-  <section class="py-16 sm:py-24" :class="[bg]">
+  <section v-show="isVisible" :class="[bg, inTabsContext ? 'py-8 sm:py-12' : 'py-16 sm:py-24']">
     <UContainer>
       <LandingSectionHeader :headline="headline" :title="title" :description="description" />
       <div v-if="screenshot" class="mt-10 overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
         <img :src="screenshot" :alt="title" class="w-full" loading="lazy">
       </div>
-      <div class="mt-12 grid gap-6" :class="gridClass">
+      <div
+        v-if="inTabsContext"
+        class="mt-6 divide-y divide-slate-200 border-t border-slate-200"
+      >
+        <MDCSlot :use="$slots.default" />
+      </div>
+      <div v-else class="mt-12 grid gap-6" :class="gridClass">
         <MDCSlot :use="$slots.default" />
       </div>
       <div v-if="ctaLabel && resolvedCtaTo" class="mt-10 text-center">

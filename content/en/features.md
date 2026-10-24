@@ -11,6 +11,15 @@ description: "More than an interactive map, CartoGuide is a local geographic sea
 ---
 ::
 
+:::landing-features-tabs
+---
+tabs:
+  - Core features
+  - Advanced features
+  - Administration and configuration
+  - Supported data sources
+---
+
 ::landing-features
 ---
 headline: Core features
@@ -292,6 +301,8 @@ description: "CartoGuide integrates natively with the main tourism information a
   ::
 
 ::
+
+:::
 
 ::landing-cta
 ---

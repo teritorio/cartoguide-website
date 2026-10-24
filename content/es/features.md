@@ -11,6 +11,15 @@ description: "Más que un mapa interactivo, CartoGuide es un motor de búsqueda 
 ---
 ::
 
+:::landing-features-tabs
+---
+tabs:
+  - Funcionalidades principales
+  - Funcionalidades avanzadas
+  - Administración y configuración
+  - Fuentes de datos compatibles
+---
+
 ::landing-features
 ---
 headline: Funcionalidades principales
@@ -292,6 +301,8 @@ description: "CartoGuide se integra de forma nativa con los principales sistemas
   ::
 
 ::
+
+:::
 
 ::landing-cta
 ---
