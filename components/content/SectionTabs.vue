@@ -7,7 +7,6 @@ const activeIndex = ref(0)
 
 provide('tabs', props.tabs ?? [])
 provide('activeTabIndex', activeIndex)
-provide('inTabsContext', true)
 </script>
 
 <template>

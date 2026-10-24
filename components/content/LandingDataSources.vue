@@ -8,7 +8,7 @@ defineProps<{
 <template>
   <section class="bg-slate-100 py-16 sm:py-24">
     <UContainer>
-      <LandingSectionHeader :headline="headline" :title="title" />
+      <SectionHeader :headline="headline" :title="title" />
       <div class="data-sources-body mx-auto mt-12 max-w-2xl text-slate-600">
         <MDCSlot :use="$slots.default" />
       </div>
