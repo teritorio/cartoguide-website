@@ -20,8 +20,8 @@ const isVisible = computed(() => {
   return sectionIndex.value === activeTabIndex.value
 })
 
-const featureCount = ref(0)
-provide('registerFeature', () => featureCount.value++)
+let featureCount = 0
+provide('registerFeature', () => featureCount++)
 </script>
 
 <template>

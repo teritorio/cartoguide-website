@@ -6,27 +6,24 @@ defineProps<{
   video?: string
 }>()
 
-const variant = inject<Ref<string>>('featureVariant', ref('default'))
-
-const iconBg = computed(() => {
-  if (variant.value === 'secondary')
-    return 'bg-secondary/10'
-  if (variant.value === 'accent')
-    return 'bg-orange-50'
-  return 'bg-primary/10'
-})
-
-const iconColor = computed(() => {
-  if (variant.value === 'secondary')
-    return 'text-secondary'
-  if (variant.value === 'accent')
-    return 'text-orange-600'
-  return 'text-primary'
-})
+const { iconBg, iconColor } = useFeatureVariant()
 
 const registerFeature = inject<(() => number) | null>('registerFeature', null)
 const featureIndex = registerFeature ? registerFeature() : -1
 const isOpen = ref(featureIndex === 0)
+
+const videoEl = ref<HTMLVideoElement | null>(null)
+const isPlaying = ref(true)
+
+function togglePlay() {
+  if (!videoEl.value)
+    return
+  if (isPlaying.value)
+    videoEl.value.pause()
+  else
+    videoEl.value.play()
+  isPlaying.value = !isPlaying.value
+}
 </script>
 
 <template>
@@ -51,8 +48,17 @@ const isOpen = ref(featureIndex === 0)
       <div class="text-sm leading-relaxed text-slate-600">
         <MDCSlot :use="$slots.default" />
       </div>
-      <div v-if="video || image" class="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
-        <video v-if="video" :src="video" autoplay loop muted playsinline class="w-full" />
+      <div v-if="video || image" class="relative overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+        <template v-if="video">
+          <video ref="videoEl" :src="video" autoplay loop muted playsinline class="w-full" />
+          <button
+            class="absolute bottom-2 right-2 flex size-8 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
+            :aria-label="isPlaying ? 'Pause' : 'Play'"
+            @click="togglePlay"
+          >
+            <UIcon :name="isPlaying ? 'i-lucide-pause' : 'i-lucide-play'" class="size-4" />
+          </button>
+        </template>
         <img v-else-if="image" :src="image" :alt="title" class="h-full w-full object-cover" loading="lazy">
       </div>
     </div>
