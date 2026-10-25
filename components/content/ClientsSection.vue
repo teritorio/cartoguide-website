@@ -32,7 +32,7 @@ defineProps<{
               :href="logo.href"
               :target="logo.href ? '_blank' : undefined"
               :rel="logo.href ? 'noopener noreferrer' : undefined"
-              class="flex h-14 w-32 items-center justify-center rounded-lg border border-slate-200 bg-white p-2 transition-opacity hover:opacity-80"
+              class="flex h-14 w-32 items-center justify-center rounded-lg border border-slate-200 bg-white p-2 transition-all duration-200 hover:border-primary/40 hover:shadow-md"
             >
               <img
                 :src="logo.src"
