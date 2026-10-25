@@ -15,7 +15,7 @@ const items = computed(() => {
   <section class="py-16 sm:py-24">
     <UContainer>
       <SectionHeader :headline="t('faq.headline')" :title="t('faq.title')" />
-      <UAccordion class="mx-auto mt-12 max-w-3xl" :items="items" />
+      <UAccordion class="mx-auto mt-12 max-w-3xl" :items="items" :ui="{ trigger: 'cursor-pointer' }" />
     </UContainer>
   </section>
 </template>
