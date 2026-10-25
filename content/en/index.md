@@ -52,7 +52,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
   icon: i-lucide-map
   title: Explore
   ---
-  Give your audiences the means to orient themselves, compare and choose across your territory.
+  Give your field agents the means to guide and inform your visitors.
   ::
 
   ::feature-card

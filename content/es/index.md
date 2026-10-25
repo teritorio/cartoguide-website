@@ -52,7 +52,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
   icon: i-lucide-map
   title: Explorar
   ---
-  Dar a sus públicos los medios para orientarse, comparar y elegir en su territorio.
+  Dar a sus agentes territoriales los medios para guiar e informar a sus visitantes.
   ::
 
   ::feature-card
