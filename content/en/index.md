@@ -65,16 +65,6 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
 
 ::
 
-::demo-section
----
-headline: Video — Watch CartoGuide in action
-title: Explore your territory with CartoGuide
-bg: bg-slate-100
-label: Watch CartoGuide in action
-href: https://carte.seignanx.com
----
-::
-
 ::features-grid
 ---
 headline: Features — Main categories

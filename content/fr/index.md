@@ -65,16 +65,6 @@ description: "CartoGuide fait collaborer les acteurs locaux et rassemble les dif
 
 ::
 
-::demo-section
----
-headline: Vidéo — Voir CartoGuide en action
-title: Explorez votre territoire avec CartoGuide
-bg: bg-slate-100
-label: Voir CartoGuide en action
-href: https://carte.seignanx.com
----
-::
-
 ::features-grid
 ---
 headline: Fonctionnalités — Grandes catégories
