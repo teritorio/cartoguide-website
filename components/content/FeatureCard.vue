@@ -3,6 +3,7 @@ defineProps<{
   icon?: string
   title: string
   image?: string
+  href?: string
 }>()
 
 const sectionBg = inject<Ref<string>>('featureSectionBg', ref(''))
@@ -15,9 +16,11 @@ const { iconBg, iconColor, hoverBorder } = useFeatureVariant()
 </script>
 
 <template>
-  <div
-    class="rounded-xl border border-slate-200 p-4 transition-all duration-200 hover:shadow-md sm:p-6"
-    :class="[cardBg, hoverBorder, image ? 'flex items-start gap-4' : '']"
+  <component
+    :is="href ? 'a' : 'div'"
+    :href="href"
+    class="rounded-xl border border-slate-200 p-4 transition-all duration-200 sm:p-6"
+    :class="[cardBg, href ? ['hover:shadow-md', hoverBorder] : '', image ? 'flex items-start gap-4' : '']"
   >
     <div :class="image ? 'min-w-0 flex-1' : ''">
       <div v-if="icon" class="mb-4 flex size-10 items-center justify-center rounded-lg" :class="iconBg">
@@ -33,5 +36,5 @@ const { iconBg, iconColor, hoverBorder } = useFeatureVariant()
     <div v-if="image" class="w-36 shrink-0 overflow-hidden rounded-lg border border-slate-100 sm:w-44">
       <img :src="image" :alt="title" class="h-full w-full object-cover" loading="lazy">
     </div>
-  </div>
+  </component>
 </template>
