@@ -12,9 +12,9 @@ defineProps<{
       <SectionHeader :headline="headline" :title="title" />
       <div v-if="items?.length" class="mt-12 grid gap-4 sm:grid-cols-2">
         <div
-          v-for="item in items"
+          v-for="(item, index) in items"
           :key="item.title"
-          class="rounded-xl border border-slate-200 bg-white p-6"
+          class="rounded-xl border border-slate-200 bg-white p-6" :class="[index === items.length - 1 ? 'sm:col-span-2' : '']"
         >
           <p class="font-semibold text-slate-900">
             {{ item.title }}
