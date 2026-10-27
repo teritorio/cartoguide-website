@@ -3,7 +3,10 @@ defineProps<{
   logo?: string
   title: string
   link?: string
+  linkLabel?: string
 }>()
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -26,7 +29,7 @@ defineProps<{
         trailing-icon="i-lucide-external-link"
         class="text-primary"
       >
-        Ouvrir la carte
+        {{ linkLabel || t('references.openMap') }}
       </UButton>
     </div>
   </div>

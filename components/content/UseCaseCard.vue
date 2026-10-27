@@ -33,7 +33,7 @@ defineProps<{
           variant="outline"
           trailing-icon="i-lucide-external-link"
         >
-          {{ linkLabel || 'Voir la carte' }}
+          {{ linkLabel }}
         </UButton>
       </div>
     </div>
