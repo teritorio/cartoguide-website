@@ -21,8 +21,8 @@ const { iconBg, iconColor, hoverBorder } = useFeatureVariant()
     :to="href"
     :target="href ? '_blank' : undefined"
     :rel="href ? 'noopener noreferrer' : undefined"
-    class="rounded-xl border border-slate-200 p-4 transition-all duration-200 sm:p-6"
-    :class="[cardBg, href ? ['hover:shadow-md', hoverBorder] : '', image ? 'flex items-start gap-4' : '']"
+    class="rounded-xl border border-slate-200 p-4 sm:p-6"
+    :class="[cardBg, href ? ['transition-all duration-200 hover:shadow-md', hoverBorder] : '', image ? 'flex items-start gap-4' : '']"
   >
     <div :class="image ? 'min-w-0 flex-1' : ''">
       <div v-if="icon" class="mb-4 flex size-10 items-center justify-center rounded-lg" :class="iconBg">
