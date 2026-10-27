@@ -2,19 +2,36 @@
 const props = defineProps<{
   tabs?: string[]
 }>()
-const WHITESPACE_RE = /\s+/g
-const NON_SLUG_RE = /[^a-z0-9-]/g
 
-provide('tabs', props.tabs ?? [])
-provide('activeTabIndex', null)
+const activeIndex = ref(-1)
 
-function toAnchorId(label: string) {
-  return label.toLowerCase().replace(WHITESPACE_RE, '-').replace(NON_SLUG_RE, '')
-}
+onMounted(() => {
+  if (!props.tabs?.length)
+    return
+
+  const sections = props.tabs
+    .map(tab => document.getElementById(toAnchorId(tab)))
+    .filter((el): el is HTMLElement => el !== null)
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const idx = props.tabs!.findIndex(tab => toAnchorId(tab) === entry.target.id)
+          if (idx !== -1)
+            activeIndex.value = idx
+        }
+      })
+    },
+    { rootMargin: '-120px 0px -50% 0px', threshold: 0 },
+  )
+
+  sections.forEach(el => observer.observe(el))
+  onUnmounted(() => observer.disconnect())
+})
 
 function scrollToSection(label: string) {
-  const id = toAnchorId(label)
-  const el = document.getElementById(id)
+  const el = document.getElementById(toAnchorId(label))
   if (el)
     el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
@@ -29,7 +46,10 @@ function scrollToSection(label: string) {
             v-for="(tab, i) in tabs"
             :key="i"
             type="button"
-            class="shrink-0 whitespace-nowrap border-b-2 border-transparent px-5 py-4 text-sm font-semibold text-slate-500 transition-colors duration-150 hover:border-slate-300 hover:text-slate-700 focus-visible:outline-none"
+            class="shrink-0 whitespace-nowrap border-b-2 px-5 py-4 text-sm font-semibold transition-colors duration-150 focus-visible:outline-none"
+            :class="i === activeIndex
+              ? 'border-primary text-primary'
+              : 'border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700'"
             @click="scrollToSection(tab)"
           >
             {{ tab }}
