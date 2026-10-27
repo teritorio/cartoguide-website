@@ -17,8 +17,10 @@ const { iconBg, iconColor, hoverBorder } = useFeatureVariant()
 
 <template>
   <component
-    :is="href ? 'a' : 'div'"
-    :href="href"
+    :is="href ? resolveComponent('NuxtLink') : 'div'"
+    :to="href"
+    :target="href ? '_blank' : undefined"
+    :rel="href ? 'noopener noreferrer' : undefined"
     class="rounded-xl border border-slate-200 p-4 transition-all duration-200 sm:p-6"
     :class="[cardBg, href ? ['hover:shadow-md', hoverBorder] : '', image ? 'flex items-start gap-4' : '']"
   >
