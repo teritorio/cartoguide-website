@@ -21,7 +21,7 @@ defineProps<{
           <h3 class="text-base font-semibold text-slate-900">
             {{ uc.title }}
           </h3>
-          <p class="mt-1 text-sm text-slate-600">
+          <p class="mt-1 text-base leading-[1.6] text-slate-600">
             {{ uc.description }}
           </p>
           <div v-if="uc.logos?.length" class="mt-4 flex flex-wrap gap-3">

@@ -31,7 +31,7 @@ const { iconBg, iconColor, hoverBorder } = useFeatureVariant()
       <h3 class="text-base font-semibold text-slate-900">
         {{ title }}
       </h3>
-      <div class="mt-2 text-sm text-slate-600">
+      <div class="mt-2 text-base leading-[1.6] text-slate-600">
         <MDCSlot :use="$slots.default" />
       </div>
     </div>

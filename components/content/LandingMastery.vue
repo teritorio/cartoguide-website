@@ -21,7 +21,7 @@ defineProps<{
             <p class="font-semibold text-slate-900">
               {{ item.key }}
             </p>
-            <p class="mt-1 text-sm text-slate-600">
+            <p class="mt-1 text-base leading-[1.6] text-slate-600">
               {{ item.value }}
             </p>
           </div>
