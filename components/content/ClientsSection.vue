@@ -49,7 +49,7 @@ defineProps<{
           {{ ctaLabel }}
         </UButton>
       </div>
-      <div v-if="$slots.default" class="open-source-block mt-12 rounded-2xl border border-slate-200 bg-white px-8 py-10 text-center">
+      <div v-if="$slots.default" class="open-source-block mx-auto mt-12 max-w-2xl rounded-2xl border border-slate-200 bg-white px-8 py-10 text-center">
         <MDCSlot :use="$slots.default" />
       </div>
     </UContainer>
@@ -68,6 +68,7 @@ defineProps<{
   color: var(--color-slate-600);
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .open-source-block :deep(a) {
