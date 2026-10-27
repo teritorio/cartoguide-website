@@ -22,32 +22,44 @@ description: "CartoGuide se adapta a las necesidades específicas de cada sector
   ---
   icon: i-lucide-compass
   title: Turismo y atractivo territorial
+  screenshot: /use-cases/screenshot-tourisme.webp
+  link: https://infoalacarte.fr
+  linkLabel: Ver el mapa Grand Dax
   ---
-  Oficinas de turismo, destinos y estaciones termales — ponga en valor alojamientos, restaurantes, actividades y rutas en un mapa enriquecido desde sus SIT turísticos (Sirtaqui, Apidae, Tourinsoft). Favoritos, compartición por QR y widget para sitios asociados.
+  Dé a sus visitantes razones para quedarse más tiempo. Oficinas de turismo, destinos y estaciones termales centralizan alojamientos, restaurantes, actividades y rutas en un mapa enriquecido desde sus SIT turísticos (Sirtaqui, Apidae, Tourinsoft). Favoritos, compartición por QR y widget integrable para socios — todo lo necesario para prolongar la estancia.
   ::
 
   ::use-case-card
   ---
   icon: i-lucide-building-2
   title: Colectividades territoriales
+  screenshot: /use-cases/screenshot-collectivites.webp
+  link: https://carte.mairie-begles.fr
+  linkLabel: Ver el mapa de Bègles
   ---
-  Municipios, mancomunidades y departamentos — informe a sus habitantes sobre los servicios públicos, comercios, equipamientos, movilidad y recursos locales. Datos INSEE, OSM y back-office propio en un único mapa.
+  Acerque a sus habitantes los servicios que les conciernen. Municipios, mancomunidades y departamentos publican en un clic sus equipamientos, servicios públicos, comercios y recursos locales. Conexión nativa a datos INSEE, OSM y su back-office — un único mapa, siempre actualizado.
   ::
 
   ::use-case-card
   ---
   icon: i-lucide-leaf
   title: Alimentación y circuitos cortos
+  screenshot: /use-cases/screenshot-alimentation.webp
+  link: https://alimentation.pays-alo.fr/
+  linkLabel: Ver el mapa Pays ALO
   ---
-  Territorios y comarcas — ponga en valor sus productores locales, mercados y rutas gastronómicas para dinamizar el consumo de proximidad y apoyar la agricultura local.
+  Conecte productores y consumidores locales. Los territorios cartografían sus productores, mercados, grupos de consumo y rutas gastronómicas para impulsar el consumo de proximidad y reforzar la resiliencia alimentaria del territorio.
   ::
 
   ::use-case-card
   ---
   icon: i-lucide-heart-pulse
   title: Salud
+  screenshot: /use-cases/screenshot-sante.webp
+  link: https://carte.boostupsante.fr
+  linkLabel: Ver el mapa CPTS Boost'UP
   ---
-  Comunidades de profesionales sanitarios — facilite el acceso de los habitantes a los profesionales de salud de su territorio con un directorio cartográfico interactivo, filtrable por especialidad, accesibilidad y modalidad de atención.
+  Facilite el acceso a la atención sanitaria en su área. Las comunidades de profesionales sanitarios publican un directorio cartográfico interactivo de los profesionales de salud del territorio, filtrable por especialidad, accesibilidad y modalidad de atención — para que cada habitante encuentre el profesional adecuado, en el lugar correcto.
   ::
 
 ::
@@ -64,6 +76,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
   title: Grand Dax Turismo y Termalismo
+  link: https://infoalacarte.fr
   ---
   Mapa de alojamientos, restaurantes y tratamientos termales del balneario landés.
   ::
@@ -72,6 +85,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
   title: Perpignan Méditerranée Métropole
+  link: https://carte.perpignanmediterranee-tourisme.com/
   ---
   Destino catalán — puesta en valor del patrimonio y las ofertas turísticas.
   ::
@@ -80,6 +94,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/9dde0e9f-8730-351d-bb3a-db670d85fefc/logo-oti-landes-atlantique-sud.png
   title: Landes Atlantiques Sud
+  link: https://carte.landesatlantiquesud.com
   ---
   Mapa turístico del litoral landés entre Bayona y Mimizan.
   ::
@@ -88,6 +103,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/c9c46e01-b0b9-32cc-97e6-a72951b95a27/logo-CCLGV.jpg
   title: Lacs et Gorges du Verdon
+  link: https://carte.lacs-gorges-verdon.fr
   ---
   Exploración de los sitios naturales, deportes y ocio del Verdon y el lago de Sainte-Croix.
   ::
@@ -96,6 +112,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
   title: CINOR — La Reunión
+  link: https://explorer.cinor.re/
   ---
   Exploración de los sitios naturales y culturales del norte de La Reunión.
   ::
@@ -104,6 +121,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
   title: Provincia Sur — Nueva Caledonia
+  link: https://map.sudtourisme.nc/
   ---
   Mapa oficial del turismo en la provincia Sur, al otro lado del mundo.
   ::
@@ -112,6 +130,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/a2ff9cc6-b552-4c22-a524-cf0f777ff727/Aube-logo-original.png
   title: Aube Champagne Tourisme
+  link: https://carte.aube-champagne.com
   ---
   Descubrimiento de los viñedos champenois, Troyes y los lagos del bosque de Orient.
   ::
@@ -120,6 +139,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/16040eb2-7caa-3fe8-b1c3-48572b9639b6/logo-LIMOUSIN-nouveaux-horizons-principal.jpg
   title: Limousin Nouveaux Horizons
+  link: https://carte.visitlimousin.com
   ---
   Mapa turístico del Lemosín: naturaleza, patrimonio y gastronomía.
   ::
@@ -128,6 +148,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/3e9cfd28-0754-3521-a4fc-74dd2cf79024/LOGO-DESTINATION-SIGNATURE-TRANSPARENT.png
   title: Granville Terre & Mer
+  link: https://carte.tourisme-granville-terre-mer.com
   ---
   Descubrimiento del litoral normando, el Mont-Saint-Michel y las islas Chausey.
   ::
@@ -136,6 +157,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/4461b1b5-9f65-4e42-b69b-917790b74b39/logo_armagnac_dartagnan_office_couleur__2_.jpg
   title: Armagnac D'Artagan
+  link: https://carte.armagnac-dartagnan.com/
   ---
   Mapa del Gers: viñedos de Armagnac, bastidas y gastronomía gascona.
   ::
@@ -144,6 +166,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
   title: Ciudad de Bègles
+  link: https://carte.mairie-begles.fr
   ---
   Mapa de servicios, equipamientos y comercios del municipio de la Gironda.
   ::
@@ -152,6 +175,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
   title: Aube Attractivité
+  link: https://datas.osezlaube.fr
   ---
   Mapa de los recursos económicos y turísticos del territorio aubois.
   ::
@@ -160,6 +184,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo%20CCBG%20gris%20et%20Ouvaton.jpg
   title: CC Béarn des Gaves
+  link: https://carte.bearndesgaves.com
   ---
   Servicios públicos, turismo y recursos del piedemonte pirenaico bearnés.
   ::
@@ -168,6 +193,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/0ed5066b-4f22-3ba4-bdf7-85929128d047/Logo-acheter-a-lons-V04-1.png
   title: Lons-le-Saunier
+  link: https://acheteralons.fr
   ---
   Directorio cartográfico de comercios y productores locales de la capital del Jura.
   ::
@@ -176,6 +202,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/8cd5df84-760a-390d-9fb6-4bb5c262c596/SPLD_PICTO_CARTOUCHE_BLEU.png
   title: Saint-Paul-lès-Dax
+  link: https://carte.st-paul-les-dax.fr
   ---
   Servicios municipales, equipamientos y comercios de la ciudad termal landesa.
   ::
@@ -184,6 +211,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
   title: Pays Adour Landes Océanes
+  link: https://alimentation.pays-alo.fr/
   ---
   Directorio cartográfico de productores locales y circuitos cortos del territorio.
   ::
@@ -192,6 +220,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/c6f605be-5f18-378d-a324-af520d97bdaf/landes.png
   title: Routes Landaises Gourmandes
+  link: https://routeslandaisesgourmandes.fr
   ---
   Mapa de productores locales, restaurantes y mercados de las rutas gastronómicas de las Landas.
   ::
@@ -200,6 +229,7 @@ ctaTo: https://carte.teritorio.fr/
   ---
   logo: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
   title: CPTS Boost'UP — Seignanx y Bayona
+  link: https://carte.boostupsante.fr
   ---
   Directorio interactivo de profesionales de la salud en el Seignanx y Bayona.
   ::

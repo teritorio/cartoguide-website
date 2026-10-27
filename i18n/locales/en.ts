@@ -41,6 +41,9 @@ export default defineI18nLocale(async () => ({
     notFound: 'Page not found',
     mapLoading: 'Loading map…',
   },
+  references: {
+    openMap: 'Open the map',
+  },
   news: {
     headline: 'News',
     pageTitle: 'All news',

@@ -2,7 +2,11 @@
 defineProps<{
   logo?: string
   title: string
+  link?: string
+  linkLabel?: string
 }>()
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -15,6 +19,18 @@ defineProps<{
     </div>
     <div class="text-sm text-muted">
       <MDCSlot :use="$slots.default" />
+    </div>
+    <div v-if="link" class="mt-4">
+      <UButton
+        :to="link"
+        target="_blank"
+        size="xs"
+        variant="ghost"
+        trailing-icon="i-lucide-external-link"
+        class="text-primary"
+      >
+        {{ linkLabel || t('references.openMap') }}
+      </UButton>
     </div>
   </div>
 </template>

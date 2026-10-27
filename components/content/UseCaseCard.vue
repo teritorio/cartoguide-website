@@ -3,6 +3,8 @@ defineProps<{
   icon?: string
   title: string
   screenshot?: string
+  link?: string
+  linkLabel?: string
 }>()
 </script>
 
@@ -22,6 +24,17 @@ defineProps<{
       </div>
       <div class="text-base leading-[1.6] text-slate-600">
         <MDCSlot :use="$slots.default" />
+      </div>
+      <div v-if="link" class="mt-4">
+        <UButton
+          :to="link"
+          target="_blank"
+          size="sm"
+          variant="outline"
+          trailing-icon="i-lucide-external-link"
+        >
+          {{ linkLabel }}
+        </UButton>
       </div>
     </div>
   </div>
