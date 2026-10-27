@@ -13,7 +13,7 @@ defineProps<{
     <h3 v-if="title" class="mb-2 text-base font-semibold text-slate-900">
       {{ title }}
     </h3>
-    <div class="text-sm text-slate-600 leading-relaxed">
+    <div class="text-base leading-[1.6] text-slate-600">
       <MDCSlot :use="$slots.default" />
     </div>
   </div>

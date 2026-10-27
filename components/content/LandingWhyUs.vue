@@ -19,7 +19,7 @@ defineProps<{
           <p class="font-semibold text-slate-900">
             {{ item.title }}
           </p>
-          <p class="mt-2 text-sm text-slate-600">
+          <p class="mt-2 text-base leading-[1.6] text-slate-600">
             {{ item.description }}
           </p>
         </div>

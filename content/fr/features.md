@@ -17,7 +17,7 @@ tabs:
   - Fonctionnalités principales
   - Fonctionnalités avancées
   - Administration et configuration
-  - Sources de données supportées
+  - Sources de données prises en charge
 ---
 
 ::feature-section
@@ -241,7 +241,7 @@ variant: accent
 
 ::feature-section
 ---
-headline: Sources de données supportées
+headline: Sources de données prises en charge
 title: Connectez vos données, quelle que soit leur origine
 description: "CartoGuide s'intègre nativement avec les principaux systèmes d'information touristiques et de données territoriales utilisés en France et en Europe."
 ---

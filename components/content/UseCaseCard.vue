@@ -20,7 +20,7 @@ defineProps<{
           {{ title }}
         </h3>
       </div>
-      <div class="text-sm text-slate-600">
+      <div class="text-base leading-[1.6] text-slate-600">
         <MDCSlot :use="$slots.default" />
       </div>
     </div>

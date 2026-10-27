@@ -20,7 +20,7 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
         <p v-if="headline" class="text-sm font-semibold text-primary">
           {{ headline }}
         </p>
-        <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+        <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
           {{ title }}
         </h1>
         <p v-if="description" class="mt-6 text-lg text-slate-600">
