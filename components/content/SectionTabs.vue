@@ -2,11 +2,22 @@
 const props = defineProps<{
   tabs?: string[]
 }>()
-
-const activeIndex = ref(0)
+const WHITESPACE_RE = /\s+/g
+const NON_SLUG_RE = /[^a-z0-9-]/g
 
 provide('tabs', props.tabs ?? [])
-provide('activeTabIndex', activeIndex)
+provide('activeTabIndex', null)
+
+function toAnchorId(label: string) {
+  return label.toLowerCase().replace(WHITESPACE_RE, '-').replace(NON_SLUG_RE, '')
+}
+
+function scrollToSection(label: string) {
+  const id = toAnchorId(label)
+  const el = document.getElementById(id)
+  if (el)
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 </script>
 
 <template>
@@ -18,11 +29,8 @@ provide('activeTabIndex', activeIndex)
             v-for="(tab, i) in tabs"
             :key="i"
             type="button"
-            class="shrink-0 whitespace-nowrap border-b-2 px-5 py-4 text-sm font-semibold transition-colors duration-150 focus-visible:outline-none"
-            :class="i === activeIndex
-              ? 'border-primary text-primary'
-              : 'border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700'"
-            @click="activeIndex = i"
+            class="shrink-0 whitespace-nowrap border-b-2 border-transparent px-5 py-4 text-sm font-semibold text-slate-500 transition-colors duration-150 hover:border-slate-300 hover:text-slate-700 focus-visible:outline-none"
+            @click="scrollToSection(tab)"
           >
             {{ tab }}
           </button>
