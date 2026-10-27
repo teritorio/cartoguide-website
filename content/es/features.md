@@ -20,7 +20,7 @@ tabs:
   - Fuentes de datos compatibles
 ---
 
-::accordion-section
+::feature-section
 ---
 headline: Funcionalidades principales
 title: Herramientas potentes para cada uso territorial
@@ -100,7 +100,7 @@ title: Herramientas potentes para cada uso territorial
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Funcionalidades avanzadas
 title: Enriquezca la experiencia cartográfica
@@ -174,7 +174,7 @@ variant: secondary
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Administración y configuración
 title: Administre y personalice cada aspecto de su mapa
@@ -239,7 +239,7 @@ variant: accent
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Fuentes de datos compatibles
 title: Conecte sus datos, sea cual sea su origen

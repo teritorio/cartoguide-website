@@ -20,7 +20,7 @@ tabs:
   - Supported data sources
 ---
 
-::accordion-section
+::feature-section
 ---
 headline: Core features
 title: Powerful tools for every territorial use case
@@ -100,7 +100,7 @@ title: Powerful tools for every territorial use case
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Advanced features
 title: Enrich the mapping experience
@@ -174,7 +174,7 @@ variant: secondary
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Administration and configuration
 title: Manage and customize every aspect of your map
@@ -239,7 +239,7 @@ variant: accent
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Supported data sources
 title: Connect your data, whatever its origin

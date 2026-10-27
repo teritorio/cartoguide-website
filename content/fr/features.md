@@ -20,7 +20,7 @@ tabs:
   - Sources de données supportées
 ---
 
-::accordion-section
+::feature-section
 ---
 headline: Fonctionnalités principales
 title: Des outils puissants pour chaque usage territorial
@@ -100,7 +100,7 @@ title: Des outils puissants pour chaque usage territorial
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Fonctionnalités avancées
 title: Enrichissez l'expérience cartographique
@@ -174,7 +174,7 @@ variant: secondary
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Administration et configuration
 title: Administrez et personnalisez chaque aspect de votre carte
@@ -239,7 +239,7 @@ variant: accent
 
 ::
 
-::accordion-section
+::feature-section
 ---
 headline: Sources de données supportées
 title: Connectez vos données, quelle que soit leur origine
