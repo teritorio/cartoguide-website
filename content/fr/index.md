@@ -197,30 +197,18 @@ headline: Accompagnement Teritorio
 title: Un accompagnement pour révéler le potentiel de vos données
 ctaLabel: En savoir plus sur notre démarche
 ctaTo: https://www.teritorio.fr/fr/solution/accompagnement-projet/
+steps:
+  - title: Découvrir et explorer les données territoriales
+    description: "Séminaires pour comprendre les enjeux, identifier les possibilités et faire émerger les besoins de votre territoire. Identifiez les données déjà disponibles et découvrez les opportunités souvent méconnues, comme celles apportées par OpenStreetMap."
+  - title: Concevoir
+    description: "Conseil sur l'architecture, les sources, les flux et l'organisation des données en fonction de votre métier et de vos usages."
+  - title: Construire
+    description: "Accompagnement du projet, de la conception à la mise en œuvre de votre solution CartoGuide."
+  - title: Former
+    description: "Formation des équipes pour leur permettre de comprendre, administrer et faire évoluer leur dispositif."
+  - title: Diffuser
+    description: "Définir avec vous la meilleure manière d'organiser, enrichir et diffuser vos données auprès de vos différents publics."
 ---
-CartoGuide s'inscrit dans une démarche d'accompagnement qui commence bien avant la mise en ligne de la carte.
-
-### Découvrir et explorer les données territoriales
-
-Des séminaires pour comprendre les enjeux, identifier les possibilités et faire émerger les besoins de votre territoire. Identifiez les données déjà disponibles dans votre environnement et découvrez toutes les opportunités souvent méconnues, comme celles apportées par [OpenStreetMap](https://www.teritorio.fr/fr/solution/accompagnement-projet/).
-
-### Concevoir
-
-Conseil sur l'architecture, les sources, les flux et l'organisation des données en fonction de votre métier et de vos usages.
-
-### Construire
-
-Accompagnement du projet, de la conception à la mise en œuvre de votre solution CartoGuide.
-
-### Former
-
-Formation des équipes pour leur permettre de comprendre, administrer et faire évoluer leur dispositif.
-
-### Diffuser
-
-Définir avec vous la meilleure manière d'organiser, enrichir et diffuser vos données auprès de vos différents publics.
-
-> Teritorio vous accompagne pour passer de la connaissance de vos données à leur valorisation, en fonction de votre métier, de vos enjeux et de vos publics.
 ::
 
 ::landing-why-us

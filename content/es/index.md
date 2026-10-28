@@ -197,30 +197,18 @@ headline: Acompañamiento Teritorio
 title: Un acompañamiento para revelar el potencial de sus datos
 ctaLabel: Más información sobre nuestro enfoque
 ctaTo: https://www.teritorio.fr/fr/solution/accompagnement-projet/
+steps:
+  - title: Descubrir y explorar los datos territoriales
+    description: "Seminarios para comprender los retos, identificar las posibilidades y hacer emerger las necesidades de su territorio. Identifique los datos disponibles en su entorno y descubra oportunidades a menudo desconocidas, como las que ofrece OpenStreetMap."
+  - title: Concebir
+    description: "Asesoramiento sobre la arquitectura, las fuentes, los flujos y la organización de los datos en función de su sector y sus usos."
+  - title: Construir
+    description: "Acompañamiento del proyecto, desde la concepción hasta la implementación de su solución CartoGuide."
+  - title: Formar
+    description: "Formación de los equipos para que puedan comprender, administrar y hacer evolucionar su dispositivo."
+  - title: Difundir
+    description: "Definir con usted la mejor manera de organizar, enriquecer y difundir sus datos entre sus diferentes públicos."
 ---
-CartoGuide se inscribe en un enfoque de acompañamiento que comienza mucho antes de la puesta en línea del mapa.
-
-### Descubrir y explorar los datos territoriales
-
-Seminarios para comprender los retos, identificar las posibilidades y hacer emerger las necesidades de su territorio. Identifique los datos ya disponibles en su entorno y descubra todas las oportunidades a menudo desconocidas, como las que ofrece [OpenStreetMap](https://www.teritorio.fr/fr/solution/accompagnement-projet/).
-
-### Concebir
-
-Asesoramiento sobre la arquitectura, las fuentes, los flujos y la organización de los datos en función de su sector y sus usos.
-
-### Construir
-
-Acompañamiento del proyecto, desde la concepción hasta la implementación de su solución CartoGuide.
-
-### Formar
-
-Formación de los equipos para que puedan comprender, administrar y hacer evolucionar su dispositivo.
-
-### Difundir
-
-Definir con usted la mejor manera de organizar, enriquecer y difundir sus datos entre sus diferentes públicos.
-
-> Teritorio le acompaña para pasar del conocimiento de sus datos a su valorización, en función de su sector, sus retos y sus públicos.
 ::
 
 ::landing-why-us

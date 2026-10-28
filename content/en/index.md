@@ -197,30 +197,18 @@ headline: Teritorio support
 title: Support to unlock the potential of your data
 ctaLabel: Learn more about our approach
 ctaTo: https://www.teritorio.fr/fr/solution/accompagnement-projet/
+steps:
+  - title: Discover and explore territorial data
+    description: "Workshops to understand the issues, identify the possibilities and surface the needs of your territory. Identify data already available in your environment and discover often-overlooked opportunities, such as those offered by OpenStreetMap."
+  - title: Design
+    description: "Advice on architecture, sources, flows and data organisation based on your field and your uses."
+  - title: Build
+    description: "Project support from design through to the deployment of your CartoGuide solution."
+  - title: Train
+    description: "Training for your teams to help them understand, administer and develop their setup."
+  - title: Share
+    description: "Define with you the best way to organise, enrich and distribute your data to your different audiences."
 ---
-CartoGuide is part of a support approach that begins well before the map goes live.
-
-### Discover and explore territorial data
-
-Workshops to understand the issues, identify the possibilities and surface the needs of your territory. Identify the data already available in your environment and discover all the often-overlooked opportunities, such as those offered by [OpenStreetMap](https://www.teritorio.fr/fr/solution/accompagnement-projet/).
-
-### Design
-
-Advice on architecture, sources, flows and data organisation based on your field and your uses.
-
-### Build
-
-Project support from design through to the deployment of your CartoGuide solution.
-
-### Train
-
-Training for your teams to help them understand, administer and develop their setup.
-
-### Share
-
-Define with you the best way to organise, enrich and distribute your data to your different audiences.
-
-> Teritorio supports you in moving from knowing your data to making it valuable — based on your field, your challenges and your audiences.
 ::
 
 ::landing-why-us
