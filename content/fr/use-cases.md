@@ -93,7 +93,7 @@ ctaTo: https://carte.teritorio.fr/
   ::reference-card
   ---
   logo: /logos/armagnac-dartagnan.jpg
-  title: Armagnac D'Artagan
+  title: Armagnac D'Artagnan
   link: https://carte.armagnac-dartagnan.com/
   ---
   Carte du Gers : vignobles d'Armagnac, bastides médiévales et gastronomie gasconne.

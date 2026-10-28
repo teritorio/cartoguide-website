@@ -22,25 +22,25 @@ screenshotAlt: "CartoGuide interface — filter panel, geographic search and poi
 tagline: Already adopted by territories across France
 logos:
   - src: /logos/granddax.png
-    alt: Grand Dax Tourisme & Thermalisme
+    alt: Grand Dax Tourism & Thermalism
     href: https://infoalacarte.fr
   - src: /logos/anglet-tourism.jpg
-    alt: Anglet Tourisme
+    alt: Anglet Tourism
     href: https://carte.anglet-tourisme.com
   - src: /logos/armagnac-dartagnan.jpg
-    alt: Armagnac D'Artagan
+    alt: Armagnac D'Artagnan
     href: https://carte.armagnac-dartagnan.com/
   - src: /logos/aube-tourisme.png
-    alt: Aube Champagne Tourisme
+    alt: Aube Champagne Tourism
     href: https://carte.aube-champagne.com
   - src: /logos/bidarttourisme.png
-    alt: Bidart Tourisme
+    alt: Bidart Tourism
     href: https://carte.bidarttourisme.com
   - src: /logos/biscagrandslacs.jpeg
     alt: Bisca Grands Lacs
     href: https://carte.biscagrandslacs.com
   - src: /logos/cinor.png
-    alt: CINOR — La Réunion
+    alt: CINOR — Réunion Island
     href: https://explorer.tourismenordreunion.re/
   - src: /logos/cocm.png
     alt: COCM — Martinique
@@ -67,10 +67,10 @@ logos:
     alt: Pays Tarusate — Tartas
     href: https://carte.lecoeurdeslandes.com
   - src: /logos/mimizan.png
-    alt: Mimizan Tourisme
+    alt: Mimizan Tourism
     href: https://carte.mimizan-tourisme.com
   - src: /logos/nc-sud-tourisme.jpg
-    alt: Province Sud — Nouvelle-Calédonie
+    alt: Province Sud — New Caledonia
     href: https://map.sudtourisme.nc/
   - src: /logos/perpignan-mm.png
     alt: Perpignan Méditerranée Métropole
@@ -79,28 +79,28 @@ logos:
     alt: Points de Vue — Pays basque
     href: https://carte.pointsdevue.eus
   - src: /logos/seignanx.png
-    alt: Communauté du Seignanx
+    alt: Seignanx Community
     href: https://carte.seignanx.com
   - src: /logos/anglet-ville.jpg
-    alt: Anglet — L'info à la carte
+    alt: Anglet — Info on the Map
     href: https://carte.anglet.fr
   - src: /logos/aube-attractivite.png
-    alt: Aube Attractivité
+    alt: Aube Attractiveness
     href: https://datas.osezlaube.fr
   - src: /logos/bearn-des-gaves.jpg
     alt: CC Béarn des Gaves
     href: https://carte.bearndesgaves.com
   - src: /logos/begles.png
-    alt: Ville de Bègles
+    alt: City of Bègles
     href: https://carte.mairie-begles.fr
   - src: /logos/caf40.png
-    alt: Parentalité Landes — CAF40
+    alt: Parenting Landes — CAF40
     href: https://www.parentalite40.fr/
   - src: /logos/cd40.png
-    alt: Landes — Conseil Départemental
+    alt: Landes — Departmental Council
     href: https://city-cd40.elasa.teritorio.xyz
   - src: /logos/gpv-rive-droite.gif
-    alt: GPV Rive Droite — Bordeaux
+    alt: GPV Right Bank — Bordeaux
     href: https://carte.gpvrivedroite.fr
   - src: /logos/hossegor.jpg
     alt: Soorts-Hossegor
@@ -112,10 +112,10 @@ logos:
     alt: Saint-Paul-lès-Dax
     href: https://carte.st-paul-les-dax.fr
   - src: /logos/tousego.png
-    alt: TousEGO — Université de Brest
+    alt: TousEGO — University of Brest
     href: https://plan.univ-brest.fr
   - src: /logos/landes-attractivite-2.png
-    alt: Routes Landaises Gourmandes
+    alt: Landes Gourmet Routes
     href: https://routeslandaisesgourmandes.fr
   - src: /logos/pays-alo.jpg
     alt: Pays Adour Landes Océanes
@@ -256,7 +256,7 @@ useCases:
         alt: Granville Terre & Mer
         href: https://carte.tourisme-granville-terre-mer.com
       - src: /logos/armagnac-dartagnan.jpg
-        alt: Armagnac D'Artagan
+        alt: Armagnac D'Artagnan
         href: https://carte.armagnac-dartagnan.com/
       - src: /logos/anglet-tourism.jpg
         alt: Anglet Tourism

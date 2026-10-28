@@ -28,7 +28,7 @@ logos:
     alt: Anglet Tourisme
     href: https://carte.anglet-tourisme.com
   - src: /logos/armagnac-dartagnan.jpg
-    alt: Armagnac D'Artagan
+    alt: Armagnac D'Artagnan
     href: https://carte.armagnac-dartagnan.com/
   - src: /logos/aube-tourisme.png
     alt: Aube Champagne Tourisme
@@ -256,7 +256,7 @@ useCases:
         alt: Granville Terre & Mer
         href: https://carte.tourisme-granville-terre-mer.com
       - src: /logos/armagnac-dartagnan.jpg
-        alt: Armagnac D'Artagan
+        alt: Armagnac D'Artagnan
         href: https://carte.armagnac-dartagnan.com/
       - src: /logos/anglet-tourism.jpg
         alt: Anglet Tourisme

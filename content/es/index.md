@@ -22,25 +22,25 @@ screenshotAlt: "Interfaz CartoGuide — panel de filtros, búsqueda geográfica 
 tagline: Ya adoptado por territorios de toda Francia
 logos:
   - src: /logos/granddax.png
-    alt: Grand Dax Tourisme & Thermalisme
+    alt: Grand Dax Turismo y Termalismo
     href: https://infoalacarte.fr
   - src: /logos/anglet-tourism.jpg
-    alt: Anglet Tourisme
+    alt: Anglet Turismo
     href: https://carte.anglet-tourisme.com
   - src: /logos/armagnac-dartagnan.jpg
-    alt: Armagnac D'Artagan
+    alt: Armagnac D'Artagnan
     href: https://carte.armagnac-dartagnan.com/
   - src: /logos/aube-tourisme.png
-    alt: Aube Champagne Tourisme
+    alt: Aube Champagne Turismo
     href: https://carte.aube-champagne.com
   - src: /logos/bidarttourisme.png
-    alt: Bidart Tourisme
+    alt: Bidart Turismo
     href: https://carte.bidarttourisme.com
   - src: /logos/biscagrandslacs.jpeg
     alt: Bisca Grands Lacs
     href: https://carte.biscagrandslacs.com
   - src: /logos/cinor.png
-    alt: CINOR — La Réunion
+    alt: CINOR — Isla Reunión
     href: https://explorer.tourismenordreunion.re/
   - src: /logos/cocm.png
     alt: COCM — Martinique
@@ -49,13 +49,13 @@ logos:
     alt: Granville Terre & Mer
     href: https://carte.tourisme-granville-terre-mer.com
   - src: /logos/haute-vienne.jpg
-    alt: Limousin Nouveaux Horizons
+    alt: Lemosín Nuevos Horizontes
     href: https://carte.visitlimousin.com
   - src: /logos/interco-abl.png
     alt: L'ABEL — Label Destination
     href: https://carte.label-destination.com
   - src: /logos/lacsgorgesverdon.jpg
-    alt: Lacs et Gorges du Verdon
+    alt: Lagos y Gargantas del Verdon
     href: https://carte.lacs-gorges-verdon.fr
   - src: /logos/landesatlantiquesud.png
     alt: Landes Atlantiques Sud
@@ -67,10 +67,10 @@ logos:
     alt: Pays Tarusate — Tartas
     href: https://carte.lecoeurdeslandes.com
   - src: /logos/mimizan.png
-    alt: Mimizan Tourisme
+    alt: Mimizan Turismo
     href: https://carte.mimizan-tourisme.com
   - src: /logos/nc-sud-tourisme.jpg
-    alt: Province Sud — Nouvelle-Calédonie
+    alt: Provincia Sur — Nueva Caledonia
     href: https://map.sudtourisme.nc/
   - src: /logos/perpignan-mm.png
     alt: Perpignan Méditerranée Métropole
@@ -79,28 +79,28 @@ logos:
     alt: Points de Vue — Pays basque
     href: https://carte.pointsdevue.eus
   - src: /logos/seignanx.png
-    alt: Communauté du Seignanx
+    alt: Comunidad del Seignanx
     href: https://carte.seignanx.com
   - src: /logos/anglet-ville.jpg
-    alt: Anglet — L'info à la carte
+    alt: Anglet — Info en el mapa
     href: https://carte.anglet.fr
   - src: /logos/aube-attractivite.png
-    alt: Aube Attractivité
+    alt: Aube Atractivo
     href: https://datas.osezlaube.fr
   - src: /logos/bearn-des-gaves.jpg
     alt: CC Béarn des Gaves
     href: https://carte.bearndesgaves.com
   - src: /logos/begles.png
-    alt: Ville de Bègles
+    alt: Ciudad de Bègles
     href: https://carte.mairie-begles.fr
   - src: /logos/caf40.png
-    alt: Parentalité Landes — CAF40
+    alt: Parentalidad Landas — CAF40
     href: https://www.parentalite40.fr/
   - src: /logos/cd40.png
-    alt: Landes — Conseil Départemental
+    alt: Landas — Consejo Departamental
     href: https://city-cd40.elasa.teritorio.xyz
   - src: /logos/gpv-rive-droite.gif
-    alt: GPV Rive Droite — Bordeaux
+    alt: GPV Orilla Derecha — Burdeos
     href: https://carte.gpvrivedroite.fr
   - src: /logos/hossegor.jpg
     alt: Soorts-Hossegor
@@ -112,16 +112,16 @@ logos:
     alt: Saint-Paul-lès-Dax
     href: https://carte.st-paul-les-dax.fr
   - src: /logos/tousego.png
-    alt: TousEGO — Université de Brest
+    alt: TousEGO — Universidad de Brest
     href: https://plan.univ-brest.fr
   - src: /logos/landes-attractivite-2.png
-    alt: Routes Landaises Gourmandes
+    alt: Rutas Gastronómicas Landesas
     href: https://routeslandaisesgourmandes.fr
   - src: /logos/pays-alo.jpg
     alt: Pays Adour Landes Océanes
     href: https://alimentation.pays-alo.fr/
   - src: /logos/cpts-sb.png
-    alt: CPTS Boost'UP — Seignanx & Bayonne
+    alt: CPTS Boost'UP — Seignanx & Bayona
     href: https://carte.boostupsante.fr
 ---
 ::
@@ -256,7 +256,7 @@ useCases:
         alt: Granville Terre & Mer
         href: https://carte.tourisme-granville-terre-mer.com
       - src: /logos/armagnac-dartagnan.jpg
-        alt: Armagnac D'Artagan
+        alt: Armagnac D'Artagnan
         href: https://carte.armagnac-dartagnan.com/
       - src: /logos/anglet-tourism.jpg
         alt: Anglet Turismo
