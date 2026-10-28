@@ -31,6 +31,7 @@ const isActive = computed(() => {
     v-show="isActive"
     :id="panelId"
     role="tabpanel"
+    tabindex="0"
     :aria-labelledby="labelledBy"
     class="py-12 sm:py-16"
     :class="[bg]"
