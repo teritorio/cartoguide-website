@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   headline?: string
   title?: string
   description?: string
@@ -7,6 +7,10 @@ defineProps<{
   ctaTo?: string
   steps?: Array<{ title: string, description: string }>
 }>()
+
+const numberedSteps = computed(() =>
+  props.steps?.map((step, i) => ({ ...step, avatar: { text: String(i + 1) } })),
+)
 </script>
 
 <template>
@@ -16,8 +20,11 @@ defineProps<{
       <p v-if="description" class="mx-auto mt-4 max-w-2xl text-center text-lg text-muted">
         {{ description }}
       </p>
-      <div v-if="steps?.length" class="mx-auto mt-12 max-w-2xl">
-        <UTimeline :items="steps" />
+      <div v-if="numberedSteps?.length" class="mx-auto mt-12 max-w-2xl">
+        <UTimeline
+          :items="numberedSteps"
+          :ui="{ indicator: 'border-2 border-primary bg-white text-primary font-semibold', wrapper: 'pb-8' }"
+        />
       </div>
       <div v-if="ctaLabel && ctaTo" class="mt-10 text-center">
         <UButton :to="ctaTo" target="_blank" rel="noopener noreferrer" size="lg" variant="outline" trailing-icon="i-lucide-external-link">
