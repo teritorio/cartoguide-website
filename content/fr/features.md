@@ -5,7 +5,6 @@ description: "Moteur de recherche géographique, filtres, vue liste et carte, fa
 
 ::page-header
 ---
-headline: Fonctionnalités
 title: Une carte interactive pensée pour valoriser votre territoire
 description: "Plus qu'une carte interactive, CartoGuide est un moteur de recherche géographique local qui connecte vos données territoriales à vos usagers, sur tous leurs appareils."
 ---
@@ -22,8 +21,7 @@ tabs:
 
 ::feature-section
 ---
-headline: Fonctionnalités principales
-title: Des outils puissants pour chaque usage territorial
+title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
 ---
 
   ::feature-item
@@ -102,7 +100,6 @@ title: Des outils puissants pour chaque usage territorial
 
 ::feature-section
 ---
-headline: Fonctionnalités avancées
 title: Enrichissez l'expérience cartographique
 description: "Des options avancées pour adapter CartoGuide à chaque contexte territorial."
 bg: bg-slate-50
@@ -176,7 +173,6 @@ variant: secondary
 
 ::feature-section
 ---
-headline: Administration et configuration
 title: Administrez et personnalisez chaque aspect de votre carte
 description: "CartoGuide s'administre entièrement depuis le back-office Elasa, sans développement."
 bg: bg-orange-50
@@ -241,7 +237,6 @@ variant: accent
 
 ::feature-section
 ---
-headline: Sources de données prises en charge
 title: Connectez vos données, quelle que soit leur origine
 description: "CartoGuide s'intègre nativement avec les principaux systèmes d'information touristiques et de données territoriales utilisés en France et en Europe."
 ---
