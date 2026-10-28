@@ -5,7 +5,6 @@ description: "Geographic search engine, filters, list and map view, QR code favo
 
 ::page-header
 ---
-headline: Features
 title: An interactive map designed to showcase your territory
 description: "More than an interactive map, CartoGuide is a local geographic search engine that connects your territorial data to your users, on all their devices."
 ---
@@ -22,8 +21,8 @@ tabs:
 
 ::feature-section
 ---
-headline: Core features
-title: Powerful tools for every territorial use case
+anchor: Core features
+title: Everything your users need to find, filter and get around
 ---
 
   ::feature-item
@@ -102,7 +101,7 @@ title: Powerful tools for every territorial use case
 
 ::feature-section
 ---
-headline: Advanced features
+anchor: Advanced features
 title: Enrich the mapping experience
 description: "Advanced options to tailor CartoGuide to each territorial context."
 bg: bg-slate-50
@@ -176,7 +175,7 @@ variant: secondary
 
 ::feature-section
 ---
-headline: Administration and configuration
+anchor: Administration and configuration
 title: Manage and customize every aspect of your map
 description: "CartoGuide is fully administered from the Elasa back-office, with no development required."
 bg: bg-orange-50
@@ -241,7 +240,7 @@ variant: accent
 
 ::feature-section
 ---
-headline: Supported data sources
+anchor: Supported data sources
 title: Connect your data, whatever its origin
 description: "CartoGuide integrates natively with the main tourism information and territorial data systems used in France and Europe."
 ---
