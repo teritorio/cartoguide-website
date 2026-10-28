@@ -296,7 +296,7 @@ description: "CartoGuide s'intègre nativement avec les principaux systèmes d'i
   title: Back-office Elasa
   image: /images/features/placeholder.svg
   ---
-  Saisissez et gérez vos données propriétaires directement dans CartoGuide, sans dépendre d'un SIT régional. [→ Découvrir Elasa](https://documentation.communecarte.org/fr/cartoguide/decouvrir-cartoguide.html)
+  Saisissez et gérez vos données propriétaires directement dans CartoGuide, sans dépendre d'un SIT régional. [→ Découvrir Elasa](https://documentation.communecarte.org/fr/cartoguide/backoffice.html)
   ::
 
 ::

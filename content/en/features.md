@@ -296,7 +296,7 @@ description: "CartoGuide integrates natively with the main tourism information a
   title: Elasa back-office
   image: /images/features/placeholder.svg
   ---
-  Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS. [→ Discover Elasa](https://documentation.communecarte.org/fr/cartoguide/decouvrir-cartoguide.html)
+  Enter and manage your proprietary data directly in CartoGuide, without depending on a regional TIS. [→ Discover Elasa](https://documentation.communecarte.org/fr/cartoguide/backoffice.html)
   ::
 
 ::
