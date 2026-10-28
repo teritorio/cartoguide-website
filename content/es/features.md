@@ -21,6 +21,7 @@ tabs:
 
 ::feature-section
 ---
+anchor: Funcionalidades principales
 title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
 ---
 
@@ -100,6 +101,7 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
 
 ::feature-section
 ---
+anchor: Funcionalidades avanzadas
 title: Enriquezca la experiencia cartográfica
 description: "Opciones avanzadas para adaptar CartoGuide a cada contexto territorial."
 bg: bg-slate-50
@@ -173,6 +175,7 @@ variant: secondary
 
 ::feature-section
 ---
+anchor: Administración y configuración
 title: Administre y personalice cada aspecto de su mapa
 description: "CartoGuide se administra íntegramente desde el back-office Elasa, sin necesidad de desarrollo."
 bg: bg-orange-50
@@ -237,6 +240,7 @@ variant: accent
 
 ::feature-section
 ---
+anchor: Fuentes de datos compatibles
 title: Conecte sus datos, sea cual sea su origen
 description: "CartoGuide se integra de forma nativa con los principales sistemas de información turística y de datos territoriales utilizados en Francia y Europa."
 ---

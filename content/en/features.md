@@ -21,6 +21,7 @@ tabs:
 
 ::feature-section
 ---
+anchor: Core features
 title: Everything your users need to find, filter and get around
 ---
 
@@ -100,6 +101,7 @@ title: Everything your users need to find, filter and get around
 
 ::feature-section
 ---
+anchor: Advanced features
 title: Enrich the mapping experience
 description: "Advanced options to tailor CartoGuide to each territorial context."
 bg: bg-slate-50
@@ -173,6 +175,7 @@ variant: secondary
 
 ::feature-section
 ---
+anchor: Administration and configuration
 title: Manage and customize every aspect of your map
 description: "CartoGuide is fully administered from the Elasa back-office, with no development required."
 bg: bg-orange-50
@@ -237,6 +240,7 @@ variant: accent
 
 ::feature-section
 ---
+anchor: Supported data sources
 title: Connect your data, whatever its origin
 description: "CartoGuide integrates natively with the main tourism information and territorial data systems used in France and Europe."
 ---

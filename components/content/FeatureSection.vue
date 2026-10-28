@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
+  anchor?: string
   headline?: string
   title?: string
   description?: string
@@ -12,9 +13,10 @@ provide('featureVariant', computed(() => props.variant ?? 'default'))
 let featureIndex = 0
 provide('registerFeatureIndex', () => featureIndex++)
 
-const anchorId = computed(() =>
-  props.headline ? toAnchorId(props.headline) : undefined,
-)
+const anchorId = computed(() => {
+  const key = props.anchor ?? props.headline
+  return key ? toAnchorId(key) : undefined
+})
 </script>
 
 <template>
