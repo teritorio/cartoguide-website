@@ -82,10 +82,6 @@ export default defineI18nLocale(async () => ({
         answer: 'Interface, menus, catégories, filtres, contenus, données et expérience peuvent être adaptés depuis le back-office.',
       },
       {
-        question: 'Comment se déroule un projet CartoGuide ?',
-        answer: 'De la découverte des enjeux et des données à la conception, l\'accompagnement, la formation et la mise en œuvre.',
-      },
-      {
         question: 'Que peut nous apporter Teritorio au-delà du logiciel ?',
         answer: 'Séminaire de découverte, recherche de données existantes ou méconnues, conseil en architecture et en diffusion des données, accompagnement de projet et formation.',
       },

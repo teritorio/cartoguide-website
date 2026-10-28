@@ -8,7 +8,7 @@ description: "Let your audience search, explore, filter and discover your territ
 headline: Open source software
 title: "Gather your data. Share your vision of the territory."
 description: "Let your audience search, explore, filter and discover your territory."
-primaryLabel: Discover CartoGuide
+primaryLabel: Discover features
 primaryTo: /features
 secondaryLabel: Talk about my project
 secondaryTo: /contact
@@ -78,7 +78,7 @@ Territorial data is often spread across multiple systems, sources and stakeholde
 
 ::landing-solution
 ---
-headline: The solution — Connect, explore, showcase
+headline: The solution
 title: From your data to the experience of your territory
 description: "CartoGuide brings local stakeholders together and aggregates different data sources to enable unified geographic distribution and experience."
 ---
@@ -111,7 +111,7 @@ description: "CartoGuide brings local stakeholders together and aggregates diffe
 
 ::features-grid
 ---
-headline: Features — Main categories
+headline: Features
 title: The tools to publish and bring your territory to life
 ctaLabel: See all features
 ctaTo: /features
@@ -154,8 +154,8 @@ columns: 2
 
 ::clients-section
 ---
-headline: Use cases + users + community + open source software
-title: "18 references, a community and open source software at the service of territories."
+headline: Use cases
+title: "18 references, a community and open source software at the service of territories"
 ctaLabel: Map of references
 ctaTo: https://carte.teritorio.fr/
 useCases:
