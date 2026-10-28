@@ -1,13 +1,13 @@
 ---
 title: "Cas d'usage CartoGuide — Tourisme, Collectivités, Alimentation, Santé"
-description: "CartoGuide déployé pour les offices de tourisme, collectivités, circuits courts et CPTS. 30+ références en France et outre-mer."
+description: "CartoGuide déployé pour les offices de tourisme, collectivités, circuits courts et CPTS. 34 références en France et outre-mer."
 ---
 
 ::page-header
 ---
 headline: Cas d'usage
 title: CartoGuide, adapté à votre secteur
-description: "30+ organisations territoriales font confiance à CartoGuide pour valoriser leurs données — du tourisme à la santé, en passant par l'alimentation locale."
+description: "34 organisations territoriales font confiance à CartoGuide pour valoriser leurs données — du tourisme à la santé, en passant par l'alimentation locale."
 ---
 ::
 
@@ -67,113 +67,41 @@ description: "CartoGuide s'adapte aux besoins spécifiques de chaque secteur ter
 ::references-grid
 ---
 headline: Ils nous font confiance
-title: 30+ organisations territoriales
+title: 34 organisations territoriales
 ctaLabel: Voir toutes nos références
 ctaTo: https://carte.teritorio.fr/
 ---
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
-  title: Grand Dax Tourisme & Thermalisme
-  link: https://infoalacarte.fr
+  logo: /logos/anglet-tourism.jpg
+  title: Anglet Tourisme
+  link: https://carte.anglet-tourisme.com
   ---
-  Carte des hébergements, restaurants et soins thermaux de la station landaise.
+  Carte touristique de la station balnéaire basque, entre plages de surf et aménités culturelles.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
-  title: Perpignan Méditerranée Métropole
-  link: https://carte.perpignanmediterranee-tourisme.com/
+  logo: /logos/anglet-ville.jpg
+  title: Anglet — L'info à la carte
+  link: https://carte.anglet.fr
   ---
-  Destination catalane — mise en valeur du patrimoine et des offres touristiques.
+  Carte interactive des services, équipements et commerces de la commune basque d'Anglet.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/9dde0e9f-8730-351d-bb3a-db670d85fefc/logo-oti-landes-atlantique-sud.png
-  title: Landes Atlantiques Sud
-  link: https://carte.landesatlantiquesud.com
-  ---
-  Carte touristique du littoral landais entre Bayonne et Mimizan.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/c9c46e01-b0b9-32cc-97e6-a72951b95a27/logo-CCLGV.jpg
-  title: Lacs et Gorges du Verdon
-  link: https://carte.lacs-gorges-verdon.fr
-  ---
-  Exploration des sites naturels, sports et loisirs du Verdon et du lac de Sainte-Croix.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
-  title: CINOR — La Réunion
-  link: https://explorer.cinor.re/
-  ---
-  Exploration des sites naturels et culturels du nord de l'île de La Réunion.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
-  title: Province Sud — Nouvelle-Calédonie
-  link: https://map.sudtourisme.nc/
-  ---
-  Carte officielle du tourisme en province Sud, à l'autre bout du monde.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/a2ff9cc6-b552-4c22-a524-cf0f777ff727/Aube-logo-original.png
-  title: Aube Champagne Tourisme
-  link: https://carte.aube-champagne.com
-  ---
-  Découverte des vignobles champenois, de Troyes et des lacs de la forêt d'Orient.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/16040eb2-7caa-3fe8-b1c3-48572b9639b6/logo-LIMOUSIN-nouveaux-horizons-principal.jpg
-  title: Limousin Nouveaux Horizons
-  link: https://carte.visitlimousin.com
-  ---
-  Carte touristique du Limousin : nature, patrimoine et gastronomie.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/3e9cfd28-0754-3521-a4fc-74dd2cf79024/LOGO-DESTINATION-SIGNATURE-TRANSPARENT.png
-  title: Granville Terre & Mer
-  link: https://carte.tourisme-granville-terre-mer.com
-  ---
-  Découverte du littoral normand, du Mont-Saint-Michel et des îles Chausey.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/4461b1b5-9f65-4e42-b69b-917790b74b39/logo_armagnac_dartagnan_office_couleur__2_.jpg
-  title: Armagnac D'Artagan
+  logo: /logos/armagnac-dartagnan.jpg
+  title: Armagnac D'Artagnan
   link: https://carte.armagnac-dartagnan.com/
   ---
-  Carte du Gers : vignobles d'Armagnac, bastides et gastronomie gasconne.
+  Carte du Gers : vignobles d'Armagnac, bastides médiévales et gastronomie gasconne.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
-  title: Ville de Bègles
-  link: https://carte.mairie-begles.fr
-  ---
-  Carte des services, équipements et commerces de la commune girondine.
-  ::
-
-  ::reference-card
-  ---
-  logo: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
+  logo: /logos/aube-attractivite.png
   title: Aube Attractivité
   link: https://datas.osezlaube.fr
   ---
@@ -182,7 +110,16 @@ ctaTo: https://carte.teritorio.fr/
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo%20CCBG%20gris%20et%20Ouvaton.jpg
+  logo: /logos/aube-tourisme.png
+  title: Aube Champagne Tourisme
+  link: https://carte.aube-champagne.com
+  ---
+  Découverte des vignobles champenois, de Troyes et des lacs de la forêt d'Orient.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/bearn-des-gaves.jpg
   title: CC Béarn des Gaves
   link: https://carte.bearndesgaves.com
   ---
@@ -191,34 +128,142 @@ ctaTo: https://carte.teritorio.fr/
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/0ed5066b-4f22-3ba4-bdf7-85929128d047/Logo-acheter-a-lons-V04-1.png
-  title: Lons-le-Saunier
-  link: https://acheteralons.fr
+  logo: /logos/begles.png
+  title: Ville de Bègles
+  link: https://carte.mairie-begles.fr
   ---
-  Annuaire cartographique des commerces et producteurs locaux de la capitale jurassienne.
+  Carte des services, équipements et commerces de la commune girondine.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/8cd5df84-760a-390d-9fb6-4bb5c262c596/SPLD_PICTO_CARTOUCHE_BLEU.png
-  title: Saint-Paul-lès-Dax
-  link: https://carte.st-paul-les-dax.fr
+  logo: /logos/bidarttourisme.png
+  title: Bidart Tourisme
+  link: https://carte.bidarttourisme.com
   ---
-  Services municipaux, équipements et commerces de la ville thermale landaise.
+  Carte des offices de tourisme et offres de la station balnéaire basque de Bidart.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
-  title: Pays Adour Landes Océanes
-  link: https://alimentation.pays-alo.fr/
+  logo: /logos/biscagrandslacs.jpeg
+  title: Bisca Grands Lacs
+  link: https://carte.biscagrandslacs.com
   ---
-  Annuaire cartographique des producteurs locaux et circuits courts du territoire.
+  Carte touristique des Grands Lacs landais : nature, activités nautiques et plages.
   ::
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/c6f605be-5f18-378d-a324-af520d97bdaf/landes.png
+  logo: /logos/caf40.png
+  title: Parentalité Landes — CAF40
+  link: https://www.parentalite40.fr/
+  ---
+  Carte des ressources et services de parentalité dans le département des Landes.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/cd40.png
+  title: Landes — Conseil Départemental
+  link: https://city-cd40.elasa.teritorio.xyz
+  ---
+  Carte départementale des équipements et services publics des Landes.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/cinor.png
+  title: CINOR — La Réunion
+  link: https://explorer.tourismenordreunion.re/
+  ---
+  Exploration des sites naturels et culturels du nord de l'île de La Réunion.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/cocm.png
+  title: COCM — Martinique
+  link: https://cartinfo.cocm.fr
+  ---
+  Carte d'information touristique de la Communauté d'Agglomération du Nord de la Martinique.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/cpts-sb.png
+  title: CPTS Boost'UP — Seignanx & Bayonne
+  link: https://carte.boostupsante.fr
+  ---
+  Annuaire interactif des professionnels de santé du Seignanx et de Bayonne.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/gpv-rive-droite.gif
+  title: GPV Rive Droite — Bordeaux
+  link: https://carte.gpvrivedroite.fr
+  ---
+  Carte des projets de renouvellement urbain de la Rive Droite de Bordeaux Métropole.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/granddax.png
+  title: Grand Dax Tourisme & Thermalisme
+  link: https://infoalacarte.fr
+  ---
+  Carte des hébergements, restaurants et soins thermaux de la station landaise.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/granville.png
+  title: Granville Terre & Mer
+  link: https://carte.tourisme-granville-terre-mer.com
+  ---
+  Découverte du littoral normand, du Mont-Saint-Michel et des îles Chausey.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/haute-vienne.jpg
+  title: Limousin Nouveaux Horizons
+  link: https://carte.visitlimousin.com
+  ---
+  Carte touristique du Limousin : nature, patrimoine et gastronomie.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/hossegor.jpg
+  title: Soorts-Hossegor
+  link: https://carte-soorts.hossegor.fr
+  ---
+  Carte interactive des services, commerces et loisirs de Soorts-Hossegor.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/interco-abl.png
+  title: L'ABEL — Label Destination
+  link: https://carte.label-destination.com
+  ---
+  Carte touristique et patrimoniale du territoire Label Destination (Allier).
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/lacsgorgesverdon.jpg
+  title: Lacs et Gorges du Verdon
+  link: https://carte.lacs-gorges-verdon.fr
+  ---
+  Exploration des sites naturels, sports et loisirs du Verdon et du lac de Sainte-Croix.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/landes-attractivite-2.png
   title: Routes Landaises Gourmandes
   link: https://routeslandaisesgourmandes.fr
   ---
@@ -227,11 +272,110 @@ ctaTo: https://carte.teritorio.fr/
 
   ::reference-card
   ---
-  logo: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
-  title: CPTS Boost'UP — Seignanx & Bayonne
-  link: https://carte.boostupsante.fr
+  logo: /logos/landesatlantiquesud.png
+  title: Landes Atlantiques Sud
+  link: https://carte.landesatlantiquesud.com
   ---
-  Annuaire interactif des professionnels de santé du Seignanx et de Bayonne.
+  Carte touristique du littoral landais entre Bayonne et Mimizan.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/lavalleedukiwi.jpg
+  title: La Vallée du Kiwi
+  link: https://carte.lavalleedukiwi.com
+  ---
+  Tourisme et produits locaux du Pays d'Orthe et Arrigans, vallée du kiwi landais.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/lecoeurdeslandes.png
+  title: Pays Tarusate — Tartas
+  link: https://carte.lecoeurdeslandes.com
+  ---
+  Carte touristique du Pays Tarusate : nature, patrimoine et activités autour de Tartas.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/lons-carto-guide.png
+  title: Lons-le-Saunier
+  link: https://acheteralons.fr
+  ---
+  Annuaire cartographique des commerces et producteurs locaux de la capitale jurassienne.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/mimizan.png
+  title: Mimizan Tourisme
+  link: https://carte.mimizan-tourisme.com
+  ---
+  Carte touristique de Mimizan et du littoral landais : plages, forêt et nature.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/nc-sud-tourisme.jpg
+  title: Province Sud — Nouvelle-Calédonie
+  link: https://map.sudtourisme.nc/
+  ---
+  Carte officielle du tourisme en province Sud, à l'autre bout du monde.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/pays-alo.jpg
+  title: Pays Adour Landes Océanes
+  link: https://alimentation.pays-alo.fr/
+  ---
+  Annuaire cartographique des producteurs locaux et circuits courts du territoire.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/perpignan-mm.png
+  title: Perpignan Méditerranée Métropole
+  link: https://carte.perpignanmediterranee-tourisme.com/
+  ---
+  Destination catalane — mise en valeur du patrimoine et des offres touristiques.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/pointsdevue-eus.png
+  title: Points de Vue — Pays basque
+  link: https://carte.pointsdevue.eus
+  ---
+  Carte interactive des œuvres d'art public et points de vue culturels au Pays basque.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/seignanx.png
+  title: Communauté du Seignanx
+  link: https://carte.seignanx.com
+  ---
+  Carte des points d'intérêt et services du Seignanx, aux portes du Pays basque.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/st-paul-les-dax-fr.png
+  title: Saint-Paul-lès-Dax
+  link: https://carte.st-paul-les-dax.fr
+  ---
+  Services municipaux, équipements et commerces de la ville thermale landaise.
+  ::
+
+  ::reference-card
+  ---
+  logo: /logos/tousego.png
+  title: TousEGO — Université de Brest
+  link: https://plan.univ-brest.fr
+  ---
+  Carte interactive du campus et de la ville de Brest pour les étudiants et personnels de l'UBO.
   ::
 
 ::
