@@ -24,36 +24,102 @@ logos:
   - src: /logos/granddax.png
     alt: Grand Dax Tourisme & Thermalisme
     href: https://infoalacarte.fr
-  - src: /logos/landesatlantiquesud.png
-    alt: Landes Atlantiques Sud
-    href: https://carte.landesatlantiquesud.com
-  - src: /logos/lacsgorgesverdon.jpg
-    alt: Lacs et Gorges du Verdon
-    href: https://carte.lacs-gorges-verdon.fr
-  - src: /logos/cinor.png
-    alt: CINOR — La Réunion
-    href: https://explorer.cinor.re/
+  - src: /logos/anglet-tourism.jpg
+    alt: Anglet Tourisme
+    href: https://carte.anglet-tourisme.com
+  - src: /logos/armagnac-dartagnan.jpg
+    alt: Armagnac D'Artagan
+    href: https://carte.armagnac-dartagnan.com/
   - src: /logos/aube-tourisme.png
     alt: Aube Champagne Tourisme
     href: https://carte.aube-champagne.com
+  - src: /logos/bidarttourisme.png
+    alt: Bidart Tourisme
+    href: https://carte.bidarttourisme.com
+  - src: /logos/biscagrandslacs.jpeg
+    alt: Bisca Grands Lacs
+    href: https://carte.biscagrandslacs.com
+  - src: /logos/cinor.png
+    alt: CINOR — La Réunion
+    href: https://explorer.tourismenordreunion.re/
+  - src: /logos/cocm.png
+    alt: COCM — Martinique
+    href: https://cartinfo.cocm.fr
   - src: /logos/granville.png
     alt: Granville Terre & Mer
     href: https://carte.tourisme-granville-terre-mer.com
-  - src: /logos/begles.png
-    alt: Ville de Bègles
-    href: https://carte.mairie-begles.fr
+  - src: /logos/haute-vienne.jpg
+    alt: Limousin Nouveaux Horizons
+    href: https://carte.visitlimousin.com
+  - src: /logos/interco-abl.png
+    alt: L'ABEL — Label Destination
+    href: https://carte.label-destination.com
+  - src: /logos/lacsgorgesverdon.jpg
+    alt: Lacs et Gorges du Verdon
+    href: https://carte.lacs-gorges-verdon.fr
+  - src: /logos/landesatlantiquesud.png
+    alt: Landes Atlantiques Sud
+    href: https://carte.landesatlantiquesud.com
+  - src: /logos/lavalleedukiwi.jpg
+    alt: La Vallée du Kiwi
+    href: https://carte.lavalleedukiwi.com
+  - src: /logos/lecoeurdeslandes.png
+    alt: Pays Tarusate — Tartas
+    href: https://carte.lecoeurdeslandes.com
+  - src: /logos/mimizan.png
+    alt: Mimizan Tourisme
+    href: https://carte.mimizan-tourisme.com
+  - src: /logos/nc-sud-tourisme.jpg
+    alt: Province Sud — Nouvelle-Calédonie
+    href: https://map.sudtourisme.nc/
+  - src: /logos/perpignan-mm.png
+    alt: Perpignan Méditerranée Métropole
+    href: https://carte.perpignanmediterranee-tourisme.com/
+  - src: /logos/pointsdevue-eus.png
+    alt: Points de Vue — Pays basque
+    href: https://carte.pointsdevue.eus
+  - src: /logos/seignanx.png
+    alt: Communauté du Seignanx
+    href: https://carte.seignanx.com
+  - src: /logos/anglet-ville.jpg
+    alt: Anglet — L'info à la carte
+    href: https://carte.anglet.fr
   - src: /logos/aube-attractivite.png
     alt: Aube Attractivité
     href: https://datas.osezlaube.fr
+  - src: /logos/bearn-des-gaves.jpg
+    alt: CC Béarn des Gaves
+    href: https://carte.bearndesgaves.com
+  - src: /logos/begles.png
+    alt: Ville de Bègles
+    href: https://carte.mairie-begles.fr
+  - src: /logos/caf40.png
+    alt: Parentalité Landes — CAF40
+    href: https://www.parentalite40.fr/
+  - src: /logos/cd40.png
+    alt: Landes — Conseil Départemental
+    href: https://city-cd40.elasa.teritorio.xyz
+  - src: /logos/gpv-rive-droite.gif
+    alt: GPV Rive Droite — Bordeaux
+    href: https://carte.gpvrivedroite.fr
+  - src: /logos/hossegor.jpg
+    alt: Soorts-Hossegor
+    href: https://carte-soorts.hossegor.fr
+  - src: /logos/lons-carto-guide.png
+    alt: Lons-le-Saunier
+    href: https://acheteralons.fr
   - src: /logos/st-paul-les-dax-fr.png
     alt: Saint-Paul-lès-Dax
     href: https://carte.st-paul-les-dax.fr
-  - src: /logos/pays-alo.jpg
-    alt: Pays Adour Landes Océanes
-    href: https://alimentation.pays-alo.fr/
+  - src: /logos/tousego.png
+    alt: TousEGO — Université de Brest
+    href: https://plan.univ-brest.fr
   - src: /logos/landes-attractivite-2.png
     alt: Routes Landaises Gourmandes
     href: https://routeslandaisesgourmandes.fr
+  - src: /logos/pays-alo.jpg
+    alt: Pays Adour Landes Océanes
+    href: https://alimentation.pays-alo.fr/
   - src: /logos/cpts-sb.png
     alt: CPTS Boost'UP — Seignanx & Bayonne
     href: https://carte.boostupsante.fr
@@ -155,75 +221,124 @@ columns: 2
 ::clients-section
 ---
 headline: Use cases
-title: "18 references, a community and open source software at the service of territories"
+title: "34 references, a community and open source software at the service of territories"
 ctaLabel: Map of references
 ctaTo: https://carte.teritorio.fr/
 useCases:
   - title: Tourism
     description: Showcase the offer and facilitate the exploration of a destination.
     logos:
-      - src: https://elasa.teritorio.xyz/assets/20d167c1-474f-3546-a5dc-ba55558c418e/logo-gdax-1-e1675764841698-1.png
+      - src: /logos/granddax.png
         alt: Grand Dax Tourisme & Thermalisme
         href: https://infoalacarte.fr
-      - src: https://elasa.teritorio.xyz/assets/db1c0c9a-b192-4ea8-a3de-58775c759506/logo-capsud66.png
+      - src: /logos/perpignan-mm.png
         alt: Perpignan Méditerranée Métropole
-      - src: https://elasa.teritorio.xyz/assets/9dde0e9f-8730-351d-bb3a-db670d85fefc/logo-oti-landes-atlantique-sud.png
+        href: https://carte.perpignanmediterranee-tourisme.com/
+      - src: /logos/landesatlantiquesud.png
         alt: Landes Atlantiques Sud
         href: https://carte.landesatlantiquesud.com
-      - src: https://elasa.teritorio.xyz/assets/c9c46e01-b0b9-32cc-97e6-a72951b95a27/logo-CCLGV.jpg
+      - src: /logos/lacsgorgesverdon.jpg
         alt: Lacs et Gorges du Verdon
         href: https://carte.lacs-gorges-verdon.fr
-      - src: https://elasa.teritorio.xyz/assets/d142126a-402c-4092-a5a2-38143d77f158/logo_oti.png
-        alt: CINOR — La Réunion
-        href: https://explorer.cinor.re/
-      - src: https://elasa.teritorio.xyz/assets/6aec32f1-28cb-4d28-9914-d213ac3d4ec2/Logo_Sud_Tourisme_2022_final.jpg
-        alt: Province Sud — Nouvelle-Calédonie
+      - src: /logos/cinor.png
+        alt: CINOR — Réunion Island
+        href: https://explorer.tourismenordreunion.re/
+      - src: /logos/nc-sud-tourisme.jpg
+        alt: Province Sud — New Caledonia
         href: https://map.sudtourisme.nc/
-      - src: https://elasa.teritorio.xyz/assets/a2ff9cc6-b552-4c22-a524-cf0f777ff727/Aube-logo-original.png
-        alt: Aube Champagne Tourisme
+      - src: /logos/aube-tourisme.png
+        alt: Aube Champagne Tourism
         href: https://carte.aube-champagne.com
-      - src: https://elasa.teritorio.xyz/assets/16040eb2-7caa-3fe8-b1c3-48572b9639b6/logo-LIMOUSIN-nouveaux-horizons-principal.jpg
+      - src: /logos/haute-vienne.jpg
         alt: Limousin Nouveaux Horizons
         href: https://carte.visitlimousin.com
-      - src: https://elasa.teritorio.xyz/assets/3e9cfd28-0754-3521-a4fc-74dd2cf79024/LOGO-DESTINATION-SIGNATURE-TRANSPARENT.png
+      - src: /logos/granville.png
         alt: Granville Terre & Mer
         href: https://carte.tourisme-granville-terre-mer.com
-      - src: https://elasa.teritorio.xyz/assets/4461b1b5-9f65-4e42-b69b-917790b74b39/logo_armagnac_dartagnan_office_couleur__2_.jpg
+      - src: /logos/armagnac-dartagnan.jpg
         alt: Armagnac D'Artagan
-        href: https://tourism-armagnac_dartagnan.elasa.teritorio.xyz/
+        href: https://carte.armagnac-dartagnan.com/
+      - src: /logos/anglet-tourism.jpg
+        alt: Anglet Tourism
+        href: https://carte.anglet-tourisme.com
+      - src: /logos/bidarttourisme.png
+        alt: Bidart Tourism
+        href: https://carte.bidarttourisme.com
+      - src: /logos/biscagrandslacs.jpeg
+        alt: Bisca Grands Lacs
+        href: https://carte.biscagrandslacs.com
+      - src: /logos/cocm.png
+        alt: COCM — Martinique
+        href: https://cartinfo.cocm.fr
+      - src: /logos/interco-abl.png
+        alt: L'ABEL — Label Destination
+        href: https://carte.label-destination.com
+      - src: /logos/lavalleedukiwi.jpg
+        alt: La Vallée du Kiwi
+        href: https://carte.lavalleedukiwi.com
+      - src: /logos/lecoeurdeslandes.png
+        alt: Pays Tarusate — Tartas
+        href: https://carte.lecoeurdeslandes.com
+      - src: /logos/mimizan.png
+        alt: Mimizan Tourism
+        href: https://carte.mimizan-tourisme.com
+      - src: /logos/pointsdevue-eus.png
+        alt: Points de Vue — Basque Country
+        href: https://carte.pointsdevue.eus
+      - src: /logos/seignanx.png
+        alt: Seignanx Community
+        href: https://carte.seignanx.com
   - title: Local authorities
     description: Make local services and facilities accessible.
     logos:
-      - src: https://elasa.teritorio.xyz/assets/cf4e44bb-e585-3395-87b7-ff07dc0220dd/pastille-1.png
-        alt: Ville de Bègles
+      - src: /logos/begles.png
+        alt: City of Bègles
         href: https://carte.mairie-begles.fr
-      - src: https://elasa.teritorio.xyz/assets/0d36e516-4e07-3d99-abf2-5cdc75060340/osezaube1.png
-        alt: Aube Attractivité
+      - src: /logos/aube-attractivite.png
+        alt: Aube Attractiveness
         href: https://datas.osezlaube.fr
-      - src: https://elasa.teritorio.xyz/assets/e7f51f9e-6293-4703-a31b-8ecb41ce132f/Logo%20CCBG%20gris%20et%20Ouvaton.jpg
+      - src: /logos/bearn-des-gaves.jpg
         alt: CC Béarn des Gaves
         href: https://carte.bearndesgaves.com
-      - src: https://elasa.teritorio.xyz/assets/0ed5066b-4f22-3ba4-bdf7-85929128d047/Logo-acheter-a-lons-V04-1.png
+      - src: /logos/lons-carto-guide.png
         alt: Lons-le-Saunier
         href: https://acheteralons.fr
-      - src: https://elasa.teritorio.xyz/assets/8cd5df84-760a-390d-9fb6-4bb5c262c596/SPLD_PICTO_CARTOUCHE_BLEU.png
+      - src: /logos/st-paul-les-dax-fr.png
         alt: Saint-Paul-lès-Dax
         href: https://carte.st-paul-les-dax.fr
+      - src: /logos/anglet-ville.jpg
+        alt: Anglet — Info on the Map
+        href: https://carte.anglet.fr
+      - src: /logos/caf40.png
+        alt: Parenting Landes — CAF40
+        href: https://www.parentalite40.fr/
+      - src: /logos/cd40.png
+        alt: Landes — Departmental Council
+        href: https://city-cd40.elasa.teritorio.xyz
+      - src: /logos/gpv-rive-droite.gif
+        alt: GPV Right Bank — Bordeaux
+        href: https://carte.gpvrivedroite.fr
+      - src: /logos/hossegor.jpg
+        alt: Soorts-Hossegor
+        href: https://carte-soorts.hossegor.fr
+      - src: /logos/tousego.png
+        alt: TousEGO — University of Brest
+        href: https://plan.univ-brest.fr
   - title: Food
     description: Map producers, shops and local initiatives.
     logos:
-      - src: https://elasa.teritorio.xyz/assets/21f57202-faec-43a1-ad34-b7042e362de6/Logo-Pays-ALO-e1583742919533.jpg
+      - src: /logos/pays-alo.jpg
         alt: Pays Adour Landes Océanes
         href: https://alimentation.pays-alo.fr/
-      - src: https://elasa.teritorio.xyz/assets/c6f605be-5f18-378d-a324-af520d97bdaf/landes.png
-        alt: Routes Landaises Gourmandes
-        href: https://cartelandes.com
+      - src: /logos/landes-attractivite-2.png
+        alt: Landes Gourmet Routes
+        href: https://routeslandaisesgourmandes.fr
   - title: Health
     description: Facilitate access to professionals and services.
     logos:
-      - src: https://elasa.teritorio.xyz/assets/15049a6d-55c9-4b68-8e38-1c8dd01d7b7c/logo_Boost_up_multicolore__2_.png
+      - src: /logos/cpts-sb.png
         alt: CPTS Boost'UP — Seignanx & Bayonne
-        href: https://care-cpts_sb.elasa.teritorio.xyz/
+        href: https://carte.boostupsante.fr
 ---
 
 ### Software that evolves with its ecosystem
