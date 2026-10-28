@@ -23,7 +23,7 @@ const numberedSteps = computed(() =>
       <div v-if="numberedSteps?.length" class="mx-auto mt-12 max-w-2xl">
         <UTimeline
           :items="numberedSteps"
-          :ui="{ indicator: 'border-2 border-primary bg-white text-primary font-semibold' }"
+          :ui="{ indicator: 'border-2 border-primary bg-white text-primary font-semibold', wrapper: 'pb-8' }"
         />
       </div>
       <div v-if="ctaLabel && ctaTo" class="mt-10 text-center">
