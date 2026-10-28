@@ -24,16 +24,16 @@ logos:
   - src: /logos/granddax.png
     alt: Grand Dax Tourisme & Thermalisme
     href: https://infoalacarte.fr
-  - src: /logos/landes-atlantiques-sud.png
+  - src: /logos/landesatlantiquesud.png
     alt: Landes Atlantiques Sud
     href: https://carte.landesatlantiquesud.com
-  - src: /logos/lacs-gorges-verdon.jpg
+  - src: /logos/lacsgorgesverdon.jpg
     alt: Lacs et Gorges du Verdon
     href: https://carte.lacs-gorges-verdon.fr
   - src: /logos/cinor.png
     alt: CINOR — La Réunion
     href: https://explorer.cinor.re/
-  - src: /logos/aube-champagne.png
+  - src: /logos/aube-tourisme.png
     alt: Aube Champagne Tourisme
     href: https://carte.aube-champagne.com
   - src: /logos/granville.png
@@ -45,16 +45,16 @@ logos:
   - src: /logos/aube-attractivite.png
     alt: Aube Attractivité
     href: https://datas.osezlaube.fr
-  - src: /logos/saint-paul-les-dax.png
+  - src: /logos/st-paul-les-dax-fr.png
     alt: Saint-Paul-lès-Dax
     href: https://carte.st-paul-les-dax.fr
   - src: /logos/pays-alo.jpg
     alt: Pays Adour Landes Océanes
     href: https://alimentation.pays-alo.fr/
-  - src: /logos/routes-landaises.png
+  - src: /logos/landes-attractivite-2.png
     alt: Routes Landaises Gourmandes
     href: https://routeslandaisesgourmandes.fr
-  - src: /logos/boostup-sante.png
+  - src: /logos/cpts-sb.png
     alt: CPTS Boost'UP — Seignanx & Bayonne
     href: https://carte.boostupsante.fr
 ---
