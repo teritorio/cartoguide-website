@@ -13,6 +13,7 @@ primaryTo: /features
 secondaryLabel: Talk about my project
 secondaryTo: /contact
 screenshot: /hero-screenshot.webp
+screenshotAlt: "CartoGuide interface — filter panel, geographic search and point of interest detail card"
 ---
 ::
 
@@ -252,5 +253,7 @@ title: Showcase your territory's data
 description: "Let's talk about your territory, your uses and your project."
 primaryLabel: Talk about my project
 primaryTo: /contact
+secondaryLabel: See use cases
+secondaryTo: /use-cases
 ---
 ::

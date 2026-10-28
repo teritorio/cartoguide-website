@@ -137,6 +137,60 @@ describe('heroSection', () => {
     const link = component.find('a[href="https://github.com/teritorio/vido"]')
     expect(link.exists()).toBe(true)
   })
+
+  it('uses screenshotAlt as img alt when provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+        screenshotAlt: 'Custom alt text',
+      },
+    })
+    const img = component.find('img')
+    expect(img.exists()).toBe(true)
+    expect(img.attributes('alt')).toBe('Custom alt text')
+  })
+
+  it('falls back to title as img alt when screenshotAlt is not provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+      },
+    })
+    const img = component.find('img')
+    expect(img.exists()).toBe(true)
+    expect(img.attributes('alt')).toBe('Hero Title')
+  })
+
+  it('renders an iframe when widgetUrl is provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        widgetUrl: 'https://widget.example.com',
+        screenshotAlt: 'Widget alt',
+      },
+    })
+    const iframe = component.find('iframe')
+    expect(iframe.exists()).toBe(true)
+    expect(iframe.attributes('src')).toBe('https://widget.example.com')
+    expect(iframe.attributes('title')).toBe('Widget alt')
+  })
+
+  it('renders screenshot (not iframe) when only screenshot is provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+      },
+    })
+    expect(component.find('iframe').exists()).toBe(false)
+    expect(component.find('img').exists()).toBe(true)
+  })
 })
 
 describe('ctaSection', () => {
