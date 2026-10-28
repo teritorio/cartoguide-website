@@ -276,6 +276,23 @@ items:
 
 
 ::faq-section
+---
+items:
+  - question: "Quelles données pouvons-nous utiliser avec CartoGuide ?"
+    answer: "CartoGuide peut rassembler vos données issues de différentes sources : SIT, Tourinsoft, Apidae, DATAtourisme, OpenStreetMap, données de transport, bases métier et autres sources territoriales."
+  - question: "CartoGuide peut-il s'intégrer à notre système d'information existant ?"
+    answer: "Oui, CartoGuide s'intègre à votre écosystème existant, notamment grâce aux connecteurs, API et widgets."
+  - question: "Devons-nous changer ou migrer nos outils actuels ?"
+    answer: "CartoGuide peut s'inscrire dans votre environnement existant et valoriser les données déjà produites par vos outils."
+  - question: "Comment OpenStreetMap s'intègre-t-il dans CartoGuide ?"
+    answer: "OpenStreetMap constitue un socle de données géographiques ouvert, mondial et enrichi par une communauté de contributeurs, que CartoGuide permet de mobiliser aux côtés de vos données métier. Teritorio accompagne les territoires pour mieux exploiter ces données, contribuer à leur qualité et construire une information géographique plus riche, ouverte et partagée."
+  - question: "Peut-on personnaliser CartoGuide selon notre territoire et notre métier ?"
+    answer: "Interface, menus, catégories, filtres, contenus, données et expérience peuvent être adaptés depuis le back-office."
+  - question: "Que peut nous apporter Teritorio au-delà du logiciel ?"
+    answer: "Séminaire de découverte, recherche de données existantes ou méconnues, conseil en architecture et en diffusion des données, accompagnement de projet et formation."
+  - question: "Pourquoi CartoGuide est-il un logiciel libre ?"
+    answer: "CartoGuide est publié sous licence AGPL-3.0. L'ouverture du logiciel permet de s'inscrire dans un écosystème de données et de technologies ouvertes, notamment autour d'OpenStreetMap."
+---
 ::
 
 ::cta-section

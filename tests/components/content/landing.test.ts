@@ -465,16 +465,22 @@ describe('faqSection', () => {
     expect(component.text()).toContain('Do you have questions about CartoGuide?')
   })
 
-  it('renders all 8 FAQ questions from i18n', async () => {
-    const component = await mountSuspended(FaqSection)
+  it('renders questions passed via items prop', async () => {
+    const component = await mountSuspended(FaqSection, {
+      props: {
+        items: [
+          { question: 'What data can we use with CartoGuide?', answer: 'Various sources.' },
+          { question: 'Can CartoGuide be customised?', answer: 'Yes, from the back-office.' },
+        ],
+      },
+    })
     expect(component.text()).toContain('What data can we use with CartoGuide?')
-    expect(component.text()).toContain('Can CartoGuide integrate with our existing information system?')
-    expect(component.text()).toContain('Do we need to change or migrate our current tools?')
-    expect(component.text()).toContain('How does OpenStreetMap integrate with CartoGuide?')
-    expect(component.text()).toContain('Can CartoGuide be customised to our territory and our field?')
-    expect(component.text()).toContain('How does a CartoGuide project work?')
-    expect(component.text()).toContain('What can Teritorio bring us beyond the software?')
-    expect(component.text()).toContain('Why is CartoGuide open source software?')
+    expect(component.text()).toContain('Can CartoGuide be customised?')
+  })
+
+  it('renders empty accordion when no items provided', async () => {
+    const component = await mountSuspended(FaqSection)
+    expect(component.find('section').exists()).toBe(true)
   })
 
   it('has white background as last section before footer', async () => {
