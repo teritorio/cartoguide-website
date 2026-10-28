@@ -17,6 +17,49 @@ screenshotAlt: "Interfaz CartoGuide — panel de filtros, búsqueda geográfica 
 ---
 ::
 
+::logos-banner
+---
+tagline: Ya adoptado por territorios de toda Francia
+logos:
+  - src: /logos/granddax.png
+    alt: Grand Dax Tourisme & Thermalisme
+    href: https://infoalacarte.fr
+  - src: /logos/landes-atlantiques-sud.png
+    alt: Landes Atlantiques Sud
+    href: https://carte.landesatlantiquesud.com
+  - src: /logos/lacs-gorges-verdon.jpg
+    alt: Lacs et Gorges du Verdon
+    href: https://carte.lacs-gorges-verdon.fr
+  - src: /logos/cinor.png
+    alt: CINOR — La Réunion
+    href: https://explorer.cinor.re/
+  - src: /logos/aube-champagne.png
+    alt: Aube Champagne Tourisme
+    href: https://carte.aube-champagne.com
+  - src: /logos/granville.png
+    alt: Granville Terre & Mer
+    href: https://carte.tourisme-granville-terre-mer.com
+  - src: /logos/begles.png
+    alt: Ville de Bègles
+    href: https://carte.mairie-begles.fr
+  - src: /logos/aube-attractivite.png
+    alt: Aube Attractivité
+    href: https://datas.osezlaube.fr
+  - src: /logos/saint-paul-les-dax.png
+    alt: Saint-Paul-lès-Dax
+    href: https://carte.st-paul-les-dax.fr
+  - src: /logos/pays-alo.jpg
+    alt: Pays Adour Landes Océanes
+    href: https://alimentation.pays-alo.fr/
+  - src: /logos/routes-landaises.png
+    alt: Routes Landaises Gourmandes
+    href: https://routeslandaisesgourmandes.fr
+  - src: /logos/boostup-sante.png
+    alt: CPTS Boost'UP — Seignanx & Bayonne
+    href: https://carte.boostupsante.fr
+---
+::
+
 ::landing-data-sources
 ---
 headline: Datos y visión del territorio
