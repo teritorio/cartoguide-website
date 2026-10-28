@@ -13,6 +13,7 @@ primaryTo: /features
 secondaryLabel: Parler de mon projet
 secondaryTo: /contact
 screenshot: /hero-screenshot.webp
+screenshotAlt: "Interface CartoGuide — panneau de filtres, recherche géographique et fiche détail d'un point d'intérêt"
 ---
 ::
 
@@ -252,5 +253,7 @@ title: Valorisez les données de votre territoire
 description: "Parlons de votre territoire, de vos usages et de votre projet."
 primaryLabel: Parler de mon projet
 primaryTo: /contact
+secondaryLabel: Voir les cas d'usage
+secondaryTo: /use-cases
 ---
 ::

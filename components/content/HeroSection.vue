@@ -8,10 +8,14 @@ const props = defineProps<{
   secondaryLabel?: string
   secondaryTo?: string
   screenshot?: string
+  screenshotAlt?: string
+  widgetUrl?: string
 }>()
 
 const resolvedPrimaryTo = useLocaleTo(computed(() => props.primaryTo))
 const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
+
+const hasVisual = computed(() => !!(props.screenshot || props.widgetUrl))
 </script>
 
 <template>
@@ -19,18 +23,18 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
     <div class="hero-gradient absolute inset-0" />
     <div class="hero-map absolute inset-0" />
     <UContainer class="relative">
-      <div :class="screenshot ? 'flex flex-col items-center gap-12 lg:flex-row lg:gap-16' : 'mx-auto max-w-3xl text-center'">
-        <div :class="screenshot ? 'flex-1' : ''">
+      <div :class="hasVisual ? 'flex flex-col items-center gap-12 lg:flex-row lg:gap-16' : 'mx-auto max-w-3xl text-center'">
+        <div :class="hasVisual ? 'flex-1' : ''">
           <p v-if="headline" class="text-sm font-semibold text-primary">
             {{ headline }}
           </p>
-          <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-6xl" :class="[!screenshot && 'text-center']">
+          <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-6xl" :class="[!hasVisual && 'text-center']">
             {{ title }}
           </h1>
-          <p class="mt-6 text-lg text-muted" :class="[!screenshot && 'text-center']">
+          <p class="mt-6 text-lg text-muted" :class="[!hasVisual && 'text-center']">
             {{ description }}
           </p>
-          <div class="mt-10 flex flex-wrap items-center gap-4" :class="[!screenshot && 'justify-center']">
+          <div class="mt-10 flex flex-wrap items-center gap-4" :class="[!hasVisual && 'justify-center']">
             <UButton
               v-if="primaryLabel && resolvedPrimaryTo"
               :to="resolvedPrimaryTo"
@@ -48,10 +52,19 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
             </UButton>
           </div>
         </div>
-        <div v-if="screenshot" class="flex-1">
+        <div v-if="widgetUrl" class="flex-1 overflow-hidden rounded-2xl border border-slate-200 shadow-2xl">
+          <iframe
+            :src="widgetUrl"
+            :title="screenshotAlt || title"
+            class="h-[480px] w-full"
+            loading="lazy"
+            allowfullscreen
+          />
+        </div>
+        <div v-else-if="screenshot" class="flex-1">
           <img
             :src="screenshot"
-            :alt="title"
+            :alt="screenshotAlt || title"
             class="w-full rounded-2xl border border-slate-200 shadow-2xl"
             loading="eager"
           >
