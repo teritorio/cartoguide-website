@@ -78,6 +78,7 @@ function handleKeydown(event: KeyboardEvent, index: number) {
             type="button"
             role="tab"
             :aria-selected="i === activeIndex"
+            :tabindex="(activeIndex < 0 ? i === 0 : i === activeIndex) ? 0 : -1"
             class="shrink-0 whitespace-nowrap border-b-2 px-5 py-4 text-sm font-semibold transition-colors duration-150 focus-visible:outline-none"
             :class="i === activeIndex
               ? 'border-primary text-primary'
