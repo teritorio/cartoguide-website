@@ -8,7 +8,7 @@ description: "Permita a su público buscar, explorar, filtrar y descubrir su ter
 headline: Software libre y open source
 title: "Reúna sus datos. Difunda su visión del territorio."
 description: "Permita a su público buscar, explorar, filtrar y descubrir su territorio."
-primaryLabel: Descubrir CartoGuide
+primaryLabel: Descubrir las funcionalidades
 primaryTo: /features
 secondaryLabel: Hablar de mi proyecto
 secondaryTo: /contact
@@ -78,7 +78,7 @@ Los datos territoriales suelen estar repartidos entre varios sistemas, fuentes y
 
 ::landing-solution
 ---
-headline: La solución — Conectar, explorar, valorizar
+headline: La solución
 title: De sus datos a la experiencia de su territorio
 description: "CartoGuide hace colaborar a los actores locales y reúne las diferentes fuentes de datos para permitir una difusión y una experiencia geográfica unificada."
 ---
@@ -111,7 +111,7 @@ description: "CartoGuide hace colaborar a los actores locales y reúne las difer
 
 ::features-grid
 ---
-headline: Funcionalidades — Grandes categorías
+headline: Funcionalidades
 title: Las herramientas para difundir y dinamizar su territorio
 ctaLabel: Ver todas las funcionalidades
 ctaTo: /features
@@ -154,8 +154,8 @@ columns: 2
 
 ::clients-section
 ---
-headline: Casos de uso + usuarios + comunidad + software libre
-title: "18 referencias, una comunidad y un software libre al servicio de los territorios."
+headline: Casos de uso
+title: "18 referencias, una comunidad y un software libre al servicio de los territorios"
 ctaLabel: Mapa de referencias
 ctaTo: https://carte.teritorio.fr/
 useCases:
