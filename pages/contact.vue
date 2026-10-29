@@ -8,15 +8,22 @@ const { data: page } = await useAsyncData(
   () => queryCollection(collectionName.value).path(`/${locale.value}/contact`).first(),
 )
 
-const data = computed(() => page.value as {
-  title?: string
-  description?: string
-  heading?: string
-  intro?: string
-  demoTitle?: string
-  demoDescription?: string
-  demoItems?: string[]
-} | null)
+const data = computed(() => {
+  if (!page.value)
+    return null
+  const meta = (page.value.meta ?? {}) as {
+    heading?: string
+    intro?: string
+    demoTitle?: string
+    demoDescription?: string
+    demoItems?: string[]
+  }
+  return {
+    title: page.value.title,
+    description: page.value.description,
+    ...meta,
+  }
+})
 
 useHead({
   title: () => page.value?.title,
