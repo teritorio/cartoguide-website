@@ -7,7 +7,7 @@ defineProps<{
 
 <template>
   <section class="border-y border-slate-200 bg-slate-50 py-8">
-    <p v-if="tagline" class="mb-6 text-center text-sm font-semibold uppercase tracking-widest text-slate-400">
+    <p v-if="tagline" class="mb-6 px-4 text-center text-sm font-semibold uppercase tracking-widest text-slate-400">
       {{ tagline }}
     </p>
     <div class="marquee-wrapper overflow-hidden">

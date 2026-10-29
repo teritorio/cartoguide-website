@@ -23,7 +23,7 @@ const hasVisual = computed(() => !!(props.screenshot || props.widgetUrl))
     <div class="hero-gradient absolute inset-0" />
     <div class="hero-map absolute inset-0" />
     <UContainer class="relative">
-      <div :class="hasVisual ? 'flex flex-col items-center gap-12 lg:flex-row lg:gap-16' : 'mx-auto max-w-3xl text-center'">
+      <div :class="hasVisual ? 'flex flex-col items-center gap-12 lg:flex-row lg:items-stretch lg:gap-16' : 'mx-auto max-w-3xl text-center'">
         <div :class="hasVisual ? 'flex-1' : ''">
           <p v-if="headline" class="text-sm font-semibold text-primary">
             {{ headline }}
@@ -65,7 +65,7 @@ const hasVisual = computed(() => !!(props.screenshot || props.widgetUrl))
           <img
             :src="screenshot"
             :alt="screenshotAlt || title"
-            class="w-full rounded-2xl border border-slate-200 shadow-2xl"
+            class="h-full w-full rounded-2xl border border-slate-200 object-cover shadow-2xl"
             loading="eager"
           >
         </div>
