@@ -13,8 +13,6 @@ useSeoMeta({
   title: t('news.pageTitle'),
   description: t('news.pageDescription'),
 })
-
-defineOgImage({ component: 'OgImage' })
 </script>
 
 <template>
