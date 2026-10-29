@@ -46,6 +46,20 @@ html {
   --color-emerald-950: #091d12;
 }
 
+/* Hero background layers — shared by HeroSection and PageHeader */
+.hero-gradient {
+  background: linear-gradient(to bottom, var(--color-primary-100), transparent);
+}
+
+.hero-map {
+  background-image: url('/hero-map.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  mask-image: radial-gradient(circle at center, transparent, black);
+}
+
 /* Unified heading styles — h1/h2 always use the same color token and balanced wrapping */
 h1,
 h2 {

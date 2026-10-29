@@ -73,18 +73,3 @@ const hasVisual = computed(() => !!(props.screenshot || props.widgetUrl))
     </UContainer>
   </section>
 </template>
-
-<style scoped>
-.hero-gradient {
-  background: linear-gradient(to bottom, var(--color-primary-100), transparent);
-}
-
-.hero-map {
-  background-image: url('/hero-map.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.3;
-  mask-image: radial-gradient(circle at center, transparent, black);
-}
-</style>
