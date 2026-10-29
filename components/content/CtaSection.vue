@@ -14,8 +14,16 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 </script>
 
 <template>
-  <section class="py-16 sm:py-24" :class="bg ?? 'bg-slate-100'">
-    <UContainer>
+  <section class="relative py-16 sm:py-24 overflow-hidden" :class="bg ?? 'bg-slate-100'">
+    <div
+      class="absolute inset-0 pointer-events-none opacity-[0.15]"
+      style="background-image: url('/topography.svg'); background-size: 600px 600px;"
+    />
+    <div
+      class="absolute inset-0 pointer-events-none"
+      style="background: radial-gradient(ellipse 55% 90% at 50% 50%, rgba(241,245,249,0.85) 0%, transparent 100%);"
+    />
+    <UContainer class="relative">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
           {{ title }}

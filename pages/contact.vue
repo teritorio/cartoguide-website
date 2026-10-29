@@ -34,7 +34,7 @@ useHead({
 </script>
 
 <template>
-  <UContainer class="py-16">
+  <UContainer class="flex flex-1 items-center py-16">
     <div class="mx-auto max-w-xl">
       <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">
         {{ data?.heading }}

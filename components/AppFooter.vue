@@ -26,7 +26,7 @@ const footerColumns = computed(() => [
 </script>
 
 <template>
-  <UFooter :ui="{ top: 'border-b border-t border-default' }">
+  <UFooter :ui="{ root: 'bg-gray-100 dark:bg-zinc-800', top: 'border-t border-default bg-white dark:bg-gray-900' }">
     <template #top>
       <UContainer>
         <UFooterColumns :columns="footerColumns" :ui="{ root: 'block!', left: 'hidden!', center: 'grid! grid-cols-1! sm:grid-cols-2! gap-8' }" />
@@ -54,6 +54,7 @@ const footerColumns = computed(() => [
         variant="ghost"
         color="neutral"
         aria-label="GitHub"
+        class="hover:bg-white!"
       />
     </template>
   </UFooter>

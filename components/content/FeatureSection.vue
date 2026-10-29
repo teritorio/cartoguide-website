@@ -33,14 +33,12 @@ const isActive = computed(() => {
     role="tabpanel"
     tabindex="0"
     :aria-labelledby="labelledBy"
-    class="py-12 sm:py-16"
-    :class="[bg]"
   >
-    <UContainer>
+    <UContainer v-if="headline || title || description" class="pb-10 pt-12 sm:pb-14 sm:pt-16">
       <SectionHeader :headline="headline" :title="title" :description="description" />
-      <div class="mt-10 space-y-16 sm:mt-14 sm:space-y-20">
-        <MDCSlot :use="$slots.default" />
-      </div>
     </UContainer>
+    <div>
+      <MDCSlot :use="$slots.default" />
+    </div>
   </section>
 </template>

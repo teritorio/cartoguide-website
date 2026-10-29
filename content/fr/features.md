@@ -113,7 +113,6 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
 anchor: Fonctionnalités avancées
 title: Enrichissez l'expérience cartographique
 description: "Des options avancées pour adapter CartoGuide à chaque contexte territorial."
-bg: bg-slate-50
 variant: secondary
 ---
 
@@ -187,7 +186,6 @@ variant: secondary
 anchor: Administration et configuration
 title: Administrez et personnalisez chaque aspect de votre carte
 description: "CartoGuide s'administre entièrement depuis le back-office Elasa, sans développement."
-bg: bg-orange-50
 variant: accent
 ---
 
