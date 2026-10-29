@@ -73,3 +73,7 @@ const hasVisual = computed(() => !!(props.screenshot || props.widgetUrl))
     </UContainer>
   </section>
 </template>
+
+<style>
+@import '../../assets/css/hero-bg.css';
+</style>

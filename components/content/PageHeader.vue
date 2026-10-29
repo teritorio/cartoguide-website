@@ -49,3 +49,7 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
     </UContainer>
   </section>
 </template>
+
+<style>
+@import '../../assets/css/hero-bg.css';
+</style>
