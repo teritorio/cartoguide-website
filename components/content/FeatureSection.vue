@@ -13,16 +13,27 @@ provide('featureVariant', computed(() => props.variant ?? 'default'))
 let featureIndex = 0
 provide('registerFeatureIndex', () => featureIndex++)
 
-const anchorId = computed(() => {
-  const key = props.anchor ?? props.headline
-  return key ? toAnchorId(key) : undefined
+const panelKey = computed(() => props.anchor ?? props.headline ?? '')
+const panelId = computed(() => panelKey.value ? `panel-${toAnchorId(panelKey.value)}` : undefined)
+const labelledBy = computed(() => panelKey.value ? `tab-${toAnchorId(panelKey.value)}` : undefined)
+
+const activeSectionTab = inject<ComputedRef<string>>('activeSectionTab', computed(() => ''))
+const isActive = computed(() => {
+  const active = activeSectionTab.value
+  if (!active)
+    return true
+  return panelKey.value === active
 })
 </script>
 
 <template>
   <section
-    :id="anchorId"
-    class="scroll-mt-28 py-12 sm:py-16"
+    v-show="isActive"
+    :id="panelId"
+    role="tabpanel"
+    tabindex="0"
+    :aria-labelledby="labelledBy"
+    class="py-12 sm:py-16"
     :class="[bg]"
   >
     <UContainer>
