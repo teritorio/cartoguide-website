@@ -14,8 +14,10 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 </script>
 
 <template>
-  <section class="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
-    <UContainer>
+  <section class="relative overflow-hidden border-b border-slate-200 py-16 sm:py-20">
+    <div class="hero-gradient absolute inset-0" />
+    <div class="hero-map absolute inset-0" />
+    <UContainer class="relative">
       <div class="mx-auto max-w-3xl text-center">
         <p v-if="headline" class="text-sm font-semibold text-primary">
           {{ headline }}
@@ -47,3 +49,7 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
     </UContainer>
   </section>
 </template>
+
+<style>
+@import '../../assets/css/hero-bg.css';
+</style>
