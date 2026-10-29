@@ -196,5 +196,6 @@ primaryLabel: Hablar de mi proyecto
 primaryTo: /contact
 secondaryLabel: Descubrir funcionalidades
 secondaryTo: /features
+bg: bg-white
 ---
 ::

@@ -6,6 +6,7 @@ const props = defineProps<{
   primaryTo?: string
   secondaryLabel?: string
   secondaryTo?: string
+  bg?: string
 }>()
 
 const resolvedPrimaryTo = useLocaleTo(computed(() => props.primaryTo))
@@ -13,7 +14,7 @@ const resolvedSecondaryTo = useLocaleTo(computed(() => props.secondaryTo))
 </script>
 
 <template>
-  <section class="bg-slate-100 py-16 sm:py-24">
+  <section class="py-16 sm:py-24" :class="bg ?? 'bg-slate-100'">
     <UContainer>
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
