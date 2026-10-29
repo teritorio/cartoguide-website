@@ -14,7 +14,7 @@ useSeoMeta({
   description: t('news.pageDescription'),
 })
 
-defineOgImageComponent('OgImage')
+defineOgImage({ component: 'OgImage' })
 </script>
 
 <template>
