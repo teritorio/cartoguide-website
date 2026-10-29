@@ -6,7 +6,6 @@ import FaqSection from '~/components/content/FaqSection.vue'
 import FeatureCard from '~/components/content/FeatureCard.vue'
 import FeaturesGrid from '~/components/content/FeaturesGrid.vue'
 import HeroSection from '~/components/content/HeroSection.vue'
-import ReferencesGrid from '~/components/content/ReferencesGrid.vue'
 import SectionHeader from '~/components/content/SectionHeader.vue'
 import ServicesSection from '~/components/content/ServicesSection.vue'
 import StepItem from '~/components/content/StepItem.vue'
@@ -486,32 +485,5 @@ describe('faqSection', () => {
   it('has white background as last section before footer', async () => {
     const component = await mountSuspended(FaqSection)
     expect(component.find('section').classes()).not.toContain('bg-slate-100')
-  })
-})
-
-describe('referencesGrid', () => {
-  it('renders section header props', async () => {
-    const component = await mountSuspended(ReferencesGrid, {
-      props: {
-        headline: 'References Headline',
-        title: 'References Title',
-        description: 'References Description',
-      },
-    })
-    expect(component.text()).toContain('References Headline')
-    expect(component.text()).toContain('References Title')
-    expect(component.text()).toContain('References Description')
-  })
-
-  it('renders slot content', async () => {
-    const component = await mountSuspended(ReferencesGrid, {
-      props: {
-        title: 'References Title',
-      },
-      slots: {
-        default: () => h('span', 'Reference content'),
-      },
-    })
-    expect(component.text()).toContain('Reference content')
   })
 })
