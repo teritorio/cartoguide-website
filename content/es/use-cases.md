@@ -64,320 +64,128 @@ description: "CartoGuide se adapta a las necesidades específicas de cada sector
 
 ::
 
-::references-grid
+::clients-section
 ---
 headline: Confían en nosotros
 title: 34 organizaciones territoriales
 ctaLabel: Ver todas nuestras referencias
 ctaTo: https://carte.teritorio.fr/
+useCases:
+  - title: Turismo
+    description: Valorizar la oferta y facilitar la exploración de un destino.
+    logos:
+      - src: /logos/granddax.png
+        alt: Grand Dax Turismo y Termalismo
+        href: https://infoalacarte.fr
+      - src: /logos/perpignan-mm.png
+        alt: Perpignan Méditerranée Métropole
+        href: https://carte.perpignanmediterranee-tourisme.com/
+      - src: /logos/landesatlantiquesud.png
+        alt: Landes Atlántico Sur
+        href: https://carte.landesatlantiquesud.com
+      - src: /logos/lacsgorgesverdon.jpg
+        alt: Lagos y Gargantas del Verdon
+        href: https://carte.lacs-gorges-verdon.fr
+      - src: /logos/cinor.png
+        alt: CINOR — Isla Reunión
+        href: https://explorer.tourismenordreunion.re/
+      - src: /logos/nc-sud-tourisme.jpg
+        alt: Provincia Sur — Nueva Caledonia
+        href: https://map.sudtourisme.nc/
+      - src: /logos/aube-tourisme.png
+        alt: Aube Champagne Turismo
+        href: https://carte.aube-champagne.com
+      - src: /logos/haute-vienne.jpg
+        alt: Lemosín Nuevos Horizontes
+        href: https://carte.visitlimousin.com
+      - src: /logos/granville.png
+        alt: Granville Terre & Mer
+        href: https://carte.tourisme-granville-terre-mer.com
+      - src: /logos/armagnac-dartagnan.jpg
+        alt: Armagnac D'Artagnan
+        href: https://carte.armagnac-dartagnan.com/
+      - src: /logos/anglet-tourism.jpg
+        alt: Anglet Turismo
+        href: https://carte.anglet-tourisme.com
+      - src: /logos/bidarttourisme.png
+        alt: Bidart Turismo
+        href: https://carte.bidarttourisme.com
+      - src: /logos/biscagrandslacs.jpeg
+        alt: Bisca Grands Lacs
+        href: https://carte.biscagrandslacs.com
+      - src: /logos/cocm.png
+        alt: COCM — Martinica
+        href: https://cartinfo.cocm.fr
+      - src: /logos/interco-abl.png
+        alt: L'ABEL — Label Destination
+        href: https://carte.label-destination.com
+      - src: /logos/lavalleedukiwi.jpg
+        alt: La Vallée du Kiwi
+        href: https://carte.lavalleedukiwi.com
+      - src: /logos/lecoeurdeslandes.png
+        alt: Pays Tarusate — Tartas
+        href: https://carte.lecoeurdeslandes.com
+      - src: /logos/mimizan.png
+        alt: Mimizan Turismo
+        href: https://carte.mimizan-tourisme.com
+      - src: /logos/pointsdevue-eus.png
+        alt: Points de Vue — País Vasco
+        href: https://carte.pointsdevue.eus
+      - src: /logos/seignanx.png
+        alt: Comunidad del Seignanx
+        href: https://carte.seignanx.com
+  - title: Colectividades
+    description: Hacer accesibles los servicios y equipamientos locales.
+    logos:
+      - src: /logos/begles.png
+        alt: Ciudad de Bègles
+        href: https://carte.mairie-begles.fr
+      - src: /logos/aube-attractivite.png
+        alt: Aube Atractivo
+        href: https://datas.osezlaube.fr
+      - src: /logos/bearn-des-gaves.jpg
+        alt: CC Béarn des Gaves
+        href: https://carte.bearndesgaves.com
+      - src: /logos/lons-carto-guide.png
+        alt: Lons-le-Saunier
+        href: https://acheteralons.fr
+      - src: /logos/st-paul-les-dax-fr.png
+        alt: Saint-Paul-lès-Dax
+        href: https://carte.st-paul-les-dax.fr
+      - src: /logos/anglet-ville.jpg
+        alt: Anglet — Info en el mapa
+        href: https://carte.anglet.fr
+      - src: /logos/caf40.png
+        alt: Parentalidad Landas — CAF40
+        href: https://www.parentalite40.fr/
+      - src: /logos/cd40.png
+        alt: Landas — Consejo Departamental
+        href: https://city-cd40.elasa.teritorio.xyz
+      - src: /logos/gpv-rive-droite.gif
+        alt: GPV Orilla Derecha — Burdeos
+        href: https://carte.gpvrivedroite.fr
+      - src: /logos/hossegor.jpg
+        alt: Soorts-Hossegor
+        href: https://carte-soorts.hossegor.fr
+      - src: /logos/tousego.png
+        alt: TousEGO — Universidad de Brest
+        href: https://plan.univ-brest.fr
+  - title: Alimentación
+    description: Cartografiar productores, comercios e iniciativas locales.
+    logos:
+      - src: /logos/pays-alo.jpg
+        alt: Pays Adour Landes Océanes
+        href: https://alimentation.pays-alo.fr/
+      - src: /logos/landes-attractivite-2.png
+        alt: Rutas Gastronómicas Landesas
+        href: https://routeslandaisesgourmandes.fr
+  - title: Salud
+    description: Facilitar el acceso a los profesionales y servicios.
+    logos:
+      - src: /logos/cpts-sb.png
+        alt: CPTS Boost'UP — Seignanx & Bayona
+        href: https://carte.boostupsante.fr
 ---
-
-  ::reference-card
-  ---
-  logo: /logos/anglet-tourism.jpg
-  title: Anglet Turismo
-  link: https://carte.anglet-tourisme.com
-  ---
-  Mapa turístico de la estación balnearia vasca, entre playas de surf y servicios culturales.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/anglet-ville.jpg
-  title: Anglet — Info en el mapa
-  link: https://carte.anglet.fr
-  ---
-  Mapa interactivo de servicios, equipamientos y comercios del municipio vasco de Anglet.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/armagnac-dartagnan.jpg
-  title: Armagnac D'Artagnan
-  link: https://carte.armagnac-dartagnan.com/
-  ---
-  Mapa del Gers: viñedos de Armagnac, bastidas medievales y gastronomía gascona.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/aube-attractivite.png
-  title: Aube Atractivo
-  link: https://datas.osezlaube.fr
-  ---
-  Mapa de recursos económicos y turísticos del territorio de l'Aube.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/aube-tourisme.png
-  title: Aube Champagne Turismo
-  link: https://carte.aube-champagne.com
-  ---
-  Descubra los viñedos de Champagne, Troyes y los lagos del Forêt d'Orient.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/bearn-des-gaves.jpg
-  title: CC Béarn des Gaves
-  link: https://carte.bearndesgaves.com
-  ---
-  Servicios públicos, turismo y recursos en el piedemonte pirenaico bearnés.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/begles.png
-  title: Ciudad de Bègles
-  link: https://carte.mairie-begles.fr
-  ---
-  Mapa de servicios, equipamientos y comercios del municipio de la Gironda.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/bidarttourisme.png
-  title: Bidart Turismo
-  link: https://carte.bidarttourisme.com
-  ---
-  Mapa de turismo y ofertas del balneario vasco de Bidart.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/biscagrandslacs.jpeg
-  title: Bisca Grands Lacs
-  link: https://carte.biscagrandslacs.com
-  ---
-  Mapa turístico de los Grands Lacs de las Landas: naturaleza, actividades náuticas y playas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/caf40.png
-  title: Parentalidad Landas — CAF40
-  link: https://www.parentalite40.fr/
-  ---
-  Mapa de recursos y servicios de parentalidad en el departamento de las Landas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/cd40.png
-  title: Landas — Consejo Departamental
-  link: https://city-cd40.elasa.teritorio.xyz
-  ---
-  Mapa departamental de equipamientos y servicios públicos de las Landas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/cinor.png
-  title: CINOR — Isla Reunión
-  link: https://explorer.tourismenordreunion.re/
-  ---
-  Exploración de los sitios naturales y culturales del norte de la isla de La Reunión.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/cocm.png
-  title: COCM — Martinica
-  link: https://cartinfo.cocm.fr
-  ---
-  Mapa de información turística de la Comunidad de Aglomeración del Norte de Martinica.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/cpts-sb.png
-  title: CPTS Boost'UP — Seignanx & Bayona
-  link: https://carte.boostupsante.fr
-  ---
-  Directorio interactivo de profesionales de salud en el Seignanx y Bayona.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/gpv-rive-droite.gif
-  title: GPV Orilla Derecha — Burdeos
-  link: https://carte.gpvrivedroite.fr
-  ---
-  Mapa de proyectos de renovación urbana en la Orilla Derecha de Burdeos Metrópolis.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/granddax.png
-  title: Grand Dax Turismo y Termalismo
-  link: https://infoalacarte.fr
-  ---
-  Mapa de alojamientos, restaurantes y curas termales de la estación landesa.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/granville.png
-  title: Granville Terre & Mer
-  link: https://carte.tourisme-granville-terre-mer.com
-  ---
-  Descubra la costa normanda, el Mont-Saint-Michel y las islas Chausey.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/haute-vienne.jpg
-  title: Lemosín Nuevos Horizontes
-  link: https://carte.visitlimousin.com
-  ---
-  Mapa turístico del Lemosín: naturaleza, patrimonio y gastronomía.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/hossegor.jpg
-  title: Soorts-Hossegor
-  link: https://carte-soorts.hossegor.fr
-  ---
-  Mapa interactivo de servicios, comercios y ocio en Soorts-Hossegor.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/interco-abl.png
-  title: L'ABEL — Label Destination
-  link: https://carte.label-destination.com
-  ---
-  Mapa turístico y patrimonial del territorio Label Destination en Allier.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/lacsgorgesverdon.jpg
-  title: Lagos y Gargantas del Verdon
-  link: https://carte.lacs-gorges-verdon.fr
-  ---
-  Exploración de sitios naturales, deportes y ocio en el Verdon y el lago de Sainte-Croix.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/landes-attractivite-2.png
-  title: Rutas Gastronómicas Landesas
-  link: https://routeslandaisesgourmandes.fr
-  ---
-  Mapa de productores locales, restaurantes y mercados de las rutas gastronómicas de las Landas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/landesatlantiquesud.png
-  title: Landes Atlántico Sur
-  link: https://carte.landesatlantiquesud.com
-  ---
-  Mapa turístico del litoral landés entre Bayona y Mimizan.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/lavalleedukiwi.jpg
-  title: La Vallée du Kiwi
-  link: https://carte.lavalleedukiwi.com
-  ---
-  Turismo y productos locales del Pays d'Orthe et Arrigans, el valle del kiwi landés.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/lecoeurdeslandes.png
-  title: Pays Tarusate — Tartas
-  link: https://carte.lecoeurdeslandes.com
-  ---
-  Mapa turístico del Pays Tarusate: naturaleza, patrimonio y actividades alrededor de Tartas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/lons-carto-guide.png
-  title: Lons-le-Saunier
-  link: https://acheteralons.fr
-  ---
-  Directorio cartográfico de comercios y productores locales de la capital jurasiana.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/mimizan.png
-  title: Mimizan Turismo
-  link: https://carte.mimizan-tourisme.com
-  ---
-  Mapa turístico de Mimizan y el litoral landés: playas, bosque y naturaleza.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/nc-sud-tourisme.jpg
-  title: Provincia Sur — Nueva Caledonia
-  link: https://map.sudtourisme.nc/
-  ---
-  Mapa oficial de turismo de la provincia Sur, al otro lado del mundo.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/pays-alo.jpg
-  title: Pays Adour Landes Océanes
-  link: https://alimentation.pays-alo.fr/
-  ---
-  Directorio cartográfico de productores locales y circuitos cortos del territorio.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/perpignan-mm.png
-  title: Perpignan Méditerranée Métropole
-  link: https://carte.perpignanmediterranee-tourisme.com/
-  ---
-  Destino catalán — valorización del patrimonio y de las ofertas turísticas.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/pointsdevue-eus.png
-  title: Points de Vue — País Vasco
-  link: https://carte.pointsdevue.eus
-  ---
-  Mapa interactivo de obras de arte público y puntos de vista culturales en el País Vasco.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/seignanx.png
-  title: Comunidad del Seignanx
-  link: https://carte.seignanx.com
-  ---
-  Mapa de puntos de interés y servicios del Seignanx, a las puertas del País Vasco.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/st-paul-les-dax-fr.png
-  title: Saint-Paul-lès-Dax
-  link: https://carte.st-paul-les-dax.fr
-  ---
-  Servicios municipales, equipamientos y comercios de la ciudad termal landesa.
-  ::
-
-  ::reference-card
-  ---
-  logo: /logos/tousego.png
-  title: TousEGO — Universidad de Brest
-  link: https://plan.univ-brest.fr
-  ---
-  Mapa interactivo del campus y la ciudad de Brest para estudiantes y personal de la UBO.
-  ::
-
 ::
 
 ::cta-section

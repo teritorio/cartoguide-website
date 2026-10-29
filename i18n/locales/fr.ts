@@ -33,9 +33,6 @@ export default defineI18nLocale(async () => ({
     notFound: 'Page introuvable',
     mapLoading: 'Chargement de la carte…',
   },
-  references: {
-    openMap: 'Ouvrir la carte',
-  },
   news: {
     headline: 'Actualités',
     pageTitle: 'Toutes les actualités',
