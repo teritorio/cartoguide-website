@@ -28,10 +28,19 @@ title: Everything your users need to find, filter and get around
   ::feature-item
   ---
   icon: i-lucide-search
-  title: Geographic and isochrone search
+  title: Geographic search
   image: /images/features/placeholder.svg
   ---
-  Find any point of interest or address (National Address Database) with real-time autocomplete. Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point.
+  Find any point of interest or address (National Address Database) with real-time autocomplete. Navigate directly to the result on the map.
+  ::
+
+  ::feature-item
+  ---
+  icon: i-lucide-radar
+  title: Isochrone search
+  image: /images/features/placeholder.svg
+  ---
+  Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point.
   ::
 
   ::feature-item

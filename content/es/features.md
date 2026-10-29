@@ -28,10 +28,19 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   ::feature-item
   ---
   icon: i-lucide-search
-  title: Búsqueda geográfica e isócrona
+  title: Búsqueda geográfica
   image: /images/features/placeholder.svg
   ---
-  Encuentre cualquier punto de interés o dirección (Base de Direcciones Nacional) gracias al autocompletado en tiempo real. Lance una búsqueda isócrona a 15, 30 o 60 minutos en bicicleta, en coche o a pie para identificar los recursos accesibles desde cualquier punto.
+  Encuentre cualquier punto de interés o dirección (Base de Direcciones Nacional) gracias al autocompletado en tiempo real. Navegue directamente al resultado en el mapa.
+  ::
+
+  ::feature-item
+  ---
+  icon: i-lucide-radar
+  title: Búsqueda isócrona
+  image: /images/features/placeholder.svg
+  ---
+  Lance una búsqueda isócrona a 15, 30 o 60 minutos en bicicleta, en coche o a pie para identificar los recursos accesibles desde cualquier punto.
   ::
 
   ::feature-item

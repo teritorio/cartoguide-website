@@ -28,10 +28,19 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   ::feature-item
   ---
   icon: i-lucide-search
-  title: Recherche géographique et isochrone
+  title: Recherche géographique
   image: /images/features/placeholder.svg
   ---
-  Retrouvez n'importe quel point d'intérêt ou adresse (Base Adresse Nationale) grâce à l'autocomplétion en temps réel. Lancez une recherche isochrone à 15, 30 ou 60 minutes à vélo, en voiture ou à pied pour identifier les ressources accessibles depuis n'importe quel point.
+  Retrouvez n'importe quel point d'intérêt ou adresse (Base Adresse Nationale) grâce à l'autocomplétion en temps réel. Naviguez directement vers le résultat sur la carte.
+  ::
+
+  ::feature-item
+  ---
+  icon: i-lucide-radar
+  title: Recherche isochrone
+  image: /images/features/placeholder.svg
+  ---
+  Lancez une recherche isochrone à 15, 30 ou 60 minutes à vélo, en voiture ou à pied pour identifier les ressources accessibles depuis n'importe quel point.
   ::
 
   ::feature-item
