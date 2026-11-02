@@ -25,7 +25,8 @@
     "@nuxtjs/seo": "^4.0.2",
     "@sentry/nuxt": "^10.65.0",
     "better-sqlite3": "^12.8.0",
-    "nuxt": "^4.4.2"
+    "nuxt": "^4.4.2",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
