@@ -7,7 +7,11 @@ defineProps<{
 </script>
 
 <template>
-  <section class="bg-slate-100 py-16 sm:py-24">
+  <section class="relative overflow-hidden bg-slate-100 py-16 sm:py-24">
+    <div
+      class="absolute inset-0 pointer-events-none opacity-[0.12]"
+      style="background-image: url('/cartographic-grid.svg'); background-size: 80px 80px;"
+    />
     <UContainer>
       <SectionHeader :headline="headline" :title="title" />
       <div v-if="items?.length" class="mt-12 grid gap-4 sm:grid-cols-2">
