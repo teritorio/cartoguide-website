@@ -7,9 +7,9 @@ defineProps<{
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-slate-100 py-16 sm:py-24">
+  <section class="relative z-0 overflow-hidden bg-slate-100 py-16 sm:py-24">
     <div
-      class="absolute inset-0 pointer-events-none opacity-[0.12]"
+      class="absolute inset-0 z-[-1] pointer-events-none opacity-[0.22]"
       style="background-image: url('/cartographic-grid.svg'); background-size: 80px 80px;"
     />
     <UContainer>
