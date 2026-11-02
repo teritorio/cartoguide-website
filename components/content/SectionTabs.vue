@@ -49,7 +49,7 @@ function handleKeydown(event: KeyboardEvent, index: number) {
           <button
             v-for="(tab, i) in tabs"
             :id="`tab-${toAnchorId(tab)}`"
-            :ref="el => { if (el) tabRefs[i] = el as HTMLButtonElement }"
+            :ref="(el: unknown) => { if (el) tabRefs[i] = el as HTMLButtonElement }"
             :key="i"
             type="button"
             role="tab"

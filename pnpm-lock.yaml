@@ -193,6 +193,9 @@ importers:
       remark-gfm:
         specifier: ^4.0.1
         version: 4.0.1(supports-color@10.2.2)
+      ufo:
+        specifier: ^1.6.4
+        version: 1.6.4
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^7.7.3

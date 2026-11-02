@@ -26,7 +26,8 @@
     "@sentry/nuxt": "^10.65.0",
     "better-sqlite3": "^12.8.0",
     "nuxt": "^4.4.2",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "ufo": "^1.6.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
