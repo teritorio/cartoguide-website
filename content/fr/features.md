@@ -29,9 +29,10 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   ---
   icon: i-lucide-search
   title: Recherche géographique
-  image: /images/features/placeholder.svg
+  image: /images/features/search.webp
+  imagePosition: top
   ---
-  Retrouvez n'importe quel point d'intérêt ou adresse (Base Adresse Nationale) grâce à l'autocomplétion en temps réel. Naviguez directement vers le résultat sur la carte.
+  Retrouvez n'importe quel point d'intérêt ou adresse ([Base Adresse Nationale](https://adresse.data.gouv.fr)) grâce à l'autocomplétion en temps réel. Naviguez directement vers le résultat sur la carte.
   ::
 
   ::feature-item
@@ -58,7 +59,7 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   title: Données multisources connectées
   image: /images/features/placeholder.svg
   ---
-  Agrégez OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS et vos données propriétaires (Elasa) en une seule carte. Un ETL synchronise automatiquement toutes les sources chaque soir.
+  Agrégez OpenStreetMap, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS et vos données propriétaires ([Elasa](https://github.com/teritorio/elasa)) en une seule carte. Un [ETL](https://github.com/teritorio/elasa-datasources) synchronise automatiquement toutes les sources chaque soir.
   ::
 
   ::feature-item

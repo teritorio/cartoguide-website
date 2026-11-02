@@ -29,9 +29,10 @@ title: Everything your users need to find, filter and get around
   ---
   icon: i-lucide-search
   title: Geographic search
-  image: /images/features/placeholder.svg
+  image: /images/features/search.webp
+  imagePosition: top
   ---
-  Find any point of interest or address (National Address Database) with real-time autocomplete. Navigate directly to the result on the map.
+  Find any point of interest or address ([National Address Database](https://adresse.data.gouv.fr)) with real-time autocomplete. Navigate directly to the result on the map.
   ::
 
   ::feature-item
@@ -58,7 +59,7 @@ title: Everything your users need to find, filter and get around
   title: Connected multi-source data
   image: /images/features/placeholder.svg
   ---
-  Aggregate OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and your proprietary data (Elasa) into a single map. An ETL automatically synchronizes all sources every evening.
+  Aggregate OpenStreetMap, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and your proprietary data ([Elasa](https://github.com/teritorio/elasa)) into a single map. An [ETL](https://github.com/teritorio/elasa-datasources) automatically synchronizes all sources every evening.
   ::
 
   ::feature-item

@@ -3,6 +3,7 @@ defineProps<{
   icon?: string
   title: string
   image?: string
+  imagePosition?: string
   video?: string
 }>()
 
@@ -10,7 +11,7 @@ const { iconBg, iconColor } = useFeatureVariant()
 
 const registerFeatureIndex = inject<(() => number) | null>('registerFeatureIndex', null)
 const featureIndex = registerFeatureIndex ? registerFeatureIndex() : 0
-const isReversed = computed(() => featureIndex % 2 !== 0)
+const isReversed = computed(() => featureIndex % 2 === 0)
 
 const videoEl = ref<HTMLVideoElement | null>(null)
 const isPlaying = ref(true)
@@ -27,8 +28,10 @@ function togglePlay() {
 </script>
 
 <template>
-  <div class="py-10 sm:py-14" :class="isReversed ? 'bg-slate-50' : 'bg-white'">
-    <UContainer>
+  <div class="relative overflow-hidden py-10 sm:py-14" :class="isReversed ? 'bg-slate-100' : 'bg-white'">
+    <div v-if="isReversed" class="feature-bg absolute inset-0 pointer-events-none" />
+    <div v-if="isReversed" class="feature-dots absolute inset-0 pointer-events-none opacity-[0.25]" />
+    <UContainer class="relative">
       <div
         class="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16"
         :class="isReversed ? 'lg:[&>*:first-child]:order-last' : ''"
@@ -49,10 +52,10 @@ function togglePlay() {
         <!-- Visual side -->
         <div
           v-if="video || image"
-          class="relative overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm"
+          class="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm"
         >
           <template v-if="video">
-            <video ref="videoEl" :src="video" autoplay loop muted playsinline class="w-full" />
+            <video ref="videoEl" :src="video" autoplay loop muted playsinline class="h-full w-full object-cover" />
             <button
               class="absolute bottom-3 right-3 flex size-9 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
               :aria-label="isPlaying ? 'Pause' : 'Play'"
@@ -61,7 +64,14 @@ function togglePlay() {
               <UIcon :name="isPlaying ? 'i-lucide-pause' : 'i-lucide-play'" class="size-4" />
             </button>
           </template>
-          <img v-else-if="image" :src="image" :alt="title" class="h-full w-full object-cover" loading="lazy">
+          <img
+            v-else-if="image"
+            :src="image"
+            :alt="title"
+            class="h-full w-full object-cover"
+            :style="imagePosition ? { objectPosition: imagePosition } : undefined"
+            loading="lazy"
+          >
         </div>
 
         <!-- Placeholder when no visual -->
@@ -74,3 +84,16 @@ function togglePlay() {
     </UContainer>
   </div>
 </template>
+
+<style scoped>
+.feature-bg {
+  background:
+    radial-gradient(ellipse 55% 90% at 75% 50%, rgba(255, 255, 255, 0.9) 0%, transparent 100%),
+    linear-gradient(to bottom, var(--color-primary-100), transparent);
+}
+
+.feature-dots {
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+</style>

@@ -29,9 +29,10 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   ---
   icon: i-lucide-search
   title: Búsqueda geográfica
-  image: /images/features/placeholder.svg
+  image: /images/features/search.webp
+  imagePosition: top
   ---
-  Encuentre cualquier punto de interés o dirección (Base de Direcciones Nacional) gracias al autocompletado en tiempo real. Navegue directamente al resultado en el mapa.
+  Encuentre cualquier punto de interés o dirección ([Base de Direcciones Nacional](https://adresse.data.gouv.fr)) gracias al autocompletado en tiempo real. Navegue directamente al resultado en el mapa.
   ::
 
   ::feature-item
@@ -58,7 +59,7 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   title: Datos multifuente conectados
   image: /images/features/placeholder.svg
   ---
-  Agregue OpenStreetMap, Sirtaqui, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS y sus datos propietarios (Elasa) en un único mapa. Un ETL sincroniza automáticamente todas las fuentes cada noche.
+  Agregue OpenStreetMap, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS y sus datos propietarios ([Elasa](https://github.com/teritorio/elasa)) en un único mapa. Un [ETL](https://github.com/teritorio/elasa-datasources) sincroniza automáticamente todas las fuentes cada noche.
   ::
 
   ::feature-item
