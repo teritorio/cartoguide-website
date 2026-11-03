@@ -29,7 +29,7 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   ---
   icon: i-lucide-search
   title: Búsqueda geográfica
-  image: /images/features/search.webp
+  video: /images/features/search.webm
   imagePosition: top
   ---
   Encuentre cualquier punto de interés o dirección ([Base de Direcciones Nacional](https://adresse.data.gouv.fr)) gracias al autocompletado en tiempo real. Navegue directamente al resultado en el mapa.
@@ -39,7 +39,8 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   ---
   icon: i-lucide-radar
   title: Búsqueda isócrona
-  image: /images/features/placeholder.svg
+  video: /images/features/isochrone.webm
+  imagePosition: top right
   ---
   Lance una búsqueda isócrona a 15, 30 o 60 minutos en bicicleta, en coche o a pie para identificar los recursos accesibles desde cualquier punto.
   ::
@@ -48,7 +49,8 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   ---
   icon: i-lucide-filter
   title: Filtrado por categoría
-  image: /images/features/placeholder.svg
+  video: /images/features/filters.webm
+  imagePosition: top left
   ---
   Filtre los puntos de interés por categoría y subcategoría: alojamientos, restaurantes, actividades, servicios públicos, transporte… Afine su selección con la navegación multinivel y los filtros por valor (p. ej. tipo de cocina, equipamientos disponibles).
   ::

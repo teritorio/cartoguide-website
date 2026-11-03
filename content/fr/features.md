@@ -29,7 +29,7 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   ---
   icon: i-lucide-search
   title: Recherche géographique
-  image: /images/features/search.webp
+  video: /images/features/search.webm
   imagePosition: top
   ---
   Retrouvez n'importe quel point d'intérêt ou adresse ([Base Adresse Nationale](https://adresse.data.gouv.fr)) grâce à l'autocomplétion en temps réel. Naviguez directement vers le résultat sur la carte.
@@ -39,7 +39,8 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   ---
   icon: i-lucide-radar
   title: Recherche isochrone
-  image: /images/features/placeholder.svg
+  video: /images/features/isochrone.webm
+  imagePosition: top right
   ---
   Lancez une recherche isochrone à 15, 30 ou 60 minutes à vélo, en voiture ou à pied pour identifier les ressources accessibles depuis n'importe quel point.
   ::
@@ -48,7 +49,8 @@ title: Tout ce dont vos usagers ont besoin pour trouver, filtrer et se déplacer
   ---
   icon: i-lucide-filter
   title: Filtrage par catégorie
-  image: /images/features/placeholder.svg
+  video: /images/features/filters.webm
+  imagePosition: top left
   ---
   Filtrez les points d'intérêt par catégorie et sous-catégorie : hébergements, restaurants, activités, services publics, transports… Affinez votre sélection grâce à la navigation multi-niveaux et aux filtres par valeur (ex : type de cuisine, équipements disponibles).
   ::

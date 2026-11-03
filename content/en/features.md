@@ -29,7 +29,7 @@ title: Everything your users need to find, filter and get around
   ---
   icon: i-lucide-search
   title: Geographic search
-  image: /images/features/search.webp
+  video: /images/features/search.webm
   imagePosition: top
   ---
   Find any point of interest or address ([National Address Database](https://adresse.data.gouv.fr)) with real-time autocomplete. Navigate directly to the result on the map.
@@ -39,7 +39,8 @@ title: Everything your users need to find, filter and get around
   ---
   icon: i-lucide-radar
   title: Isochrone search
-  image: /images/features/placeholder.svg
+  video: /images/features/isochrone.webm
+  imagePosition: top right
   ---
   Run an isochrone search within 15, 30 or 60 minutes by bike, car or on foot to identify resources accessible from any given point.
   ::
@@ -48,7 +49,8 @@ title: Everything your users need to find, filter and get around
   ---
   icon: i-lucide-filter
   title: Category filtering
-  image: /images/features/placeholder.svg
+  video: /images/features/filters.webm
+  imagePosition: top left
   ---
   Filter points of interest by category and sub-category: accommodation, restaurants, activities, public services, transport… Refine your selection with multi-level navigation and value-based filters (e.g. cuisine type, available facilities).
   ::

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useIntersectionObserver } from '@vueuse/core'
+
 defineProps<{
   icon?: string
   title: string
@@ -14,7 +16,7 @@ const featureIndex = registerFeatureIndex ? registerFeatureIndex() : 0
 const isReversed = computed(() => featureIndex % 2 === 0)
 
 const videoEl = ref<HTMLVideoElement | null>(null)
-const isPlaying = ref(true)
+const isPlaying = ref(false)
 
 function togglePlay() {
   if (!videoEl.value)
@@ -25,6 +27,17 @@ function togglePlay() {
     videoEl.value.play()
   isPlaying.value = !isPlaying.value
 }
+
+useIntersectionObserver(videoEl, ([entry]) => {
+  if (entry?.isIntersecting) {
+    videoEl.value?.play()
+    isPlaying.value = true
+  }
+  else {
+    videoEl.value?.pause()
+    isPlaying.value = false
+  }
+}, { threshold: 0.5 })
 </script>
 
 <template>
@@ -55,7 +68,7 @@ function togglePlay() {
           class="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm"
         >
           <template v-if="video">
-            <video ref="videoEl" :src="video" autoplay loop muted playsinline class="h-full w-full object-cover" />
+            <video ref="videoEl" :src="video" loop muted playsinline class="h-full w-full object-cover" :style="imagePosition ? { objectPosition: imagePosition } : undefined" />
             <button
               class="absolute bottom-3 right-3 flex size-9 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
               :aria-label="isPlaying ? 'Pause' : 'Play'"
