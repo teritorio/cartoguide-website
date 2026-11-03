@@ -10,5 +10,10 @@ export default defineAppConfig({
         linkTitle: 'font-medium text-[15px] text-highlighted mb-1',
       },
     },
+    header: {
+      slots: {
+        root: 'bg-default border-b border-default',
+      },
+    },
   },
 })

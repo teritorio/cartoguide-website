@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260">
+  <rect width="400" height="260" fill="#f1f5f9"/>
+  <rect x="1" y="1" width="398" height="258" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="0" y1="0" x2="400" y2="260" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="400" y1="0" x2="0" y2="260" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="200" y="136" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">screenshot à venir</text>
+</svg>

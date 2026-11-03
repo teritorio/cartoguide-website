@@ -50,7 +50,7 @@ const navItems = computed(() => [
       <AppLanguageSwitcher />
     </template>
     <template #body>
-      <UNavigationMenu orientation="vertical" :items="navItems" />
+      <UNavigationMenu orientation="vertical" :items="navItems" @click="drawerOpen = false" />
       <UButton
         :label="t('nav.seeCartoGuide')"
         :to="APP_URL"

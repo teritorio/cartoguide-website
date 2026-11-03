@@ -1,21 +1,20 @@
 import { mountSuspended } from '@nuxt/test-utils/runtime'
 import { describe, expect, it } from 'vitest'
 import { h } from 'vue'
-import LandingCta from '~/components/content/LandingCta.vue'
-import LandingFaq from '~/components/content/LandingFaq.vue'
-import LandingFeature from '~/components/content/LandingFeature.vue'
-import LandingFeatures from '~/components/content/LandingFeatures.vue'
-import LandingHero from '~/components/content/LandingHero.vue'
-import LandingReferences from '~/components/content/LandingReferences.vue'
-import LandingSectionHeader from '~/components/content/LandingSectionHeader.vue'
-import LandingServices from '~/components/content/LandingServices.vue'
-import LandingStep from '~/components/content/LandingStep.vue'
-import LandingUseCase from '~/components/content/LandingUseCase.vue'
-import LandingUseCases from '~/components/content/LandingUseCases.vue'
+import CtaSection from '~/components/content/CtaSection.vue'
+import FaqSection from '~/components/content/FaqSection.vue'
+import FeatureCard from '~/components/content/FeatureCard.vue'
+import FeaturesGrid from '~/components/content/FeaturesGrid.vue'
+import HeroSection from '~/components/content/HeroSection.vue'
+import SectionHeader from '~/components/content/SectionHeader.vue'
+import ServicesSection from '~/components/content/ServicesSection.vue'
+import StepItem from '~/components/content/StepItem.vue'
+import UseCaseCard from '~/components/content/UseCaseCard.vue'
+import UseCasesGrid from '~/components/content/UseCasesGrid.vue'
 
-describe('landingSectionHeader', () => {
+describe('sectionHeader', () => {
   it('renders headline, title, and description', async () => {
-    const component = await mountSuspended(LandingSectionHeader, {
+    const component = await mountSuspended(SectionHeader, {
       props: {
         headline: 'My Headline',
         title: 'My Title',
@@ -28,7 +27,7 @@ describe('landingSectionHeader', () => {
   })
 
   it('renders headline alone when no title is provided', async () => {
-    const component = await mountSuspended(LandingSectionHeader, {
+    const component = await mountSuspended(SectionHeader, {
       props: {
         headline: 'My Headline',
       },
@@ -38,14 +37,14 @@ describe('landingSectionHeader', () => {
   })
 
   it('hides when neither title nor headline is provided', async () => {
-    const component = await mountSuspended(LandingSectionHeader, {
+    const component = await mountSuspended(SectionHeader, {
       props: {},
     })
     expect(component.text()).toBe('')
   })
 
   it('hides headline when not provided', async () => {
-    const component = await mountSuspended(LandingSectionHeader, {
+    const component = await mountSuspended(SectionHeader, {
       props: {
         title: 'My Title',
       },
@@ -55,7 +54,7 @@ describe('landingSectionHeader', () => {
   })
 
   it('hides description when not provided', async () => {
-    const component = await mountSuspended(LandingSectionHeader, {
+    const component = await mountSuspended(SectionHeader, {
       props: {
         title: 'My Title',
       },
@@ -66,9 +65,9 @@ describe('landingSectionHeader', () => {
   })
 })
 
-describe('landingHero', () => {
+describe('heroSection', () => {
   it('renders title and description', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         title: 'Hero Title',
         description: 'Hero Description',
@@ -79,7 +78,7 @@ describe('landingHero', () => {
   })
 
   it('renders headline when provided', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         headline: 'Hero Headline',
         title: 'Hero Title',
@@ -90,7 +89,7 @@ describe('landingHero', () => {
   })
 
   it('hides buttons when no label or to', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         title: 'Hero Title',
         description: 'Hero Description',
@@ -102,7 +101,7 @@ describe('landingHero', () => {
   })
 
   it('renders primary button with locale-resolved path', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         title: 'Hero Title',
         description: 'Hero Description',
@@ -114,7 +113,7 @@ describe('landingHero', () => {
   })
 
   it('renders secondary button', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         title: 'Hero Title',
         description: 'Hero Description',
@@ -126,7 +125,7 @@ describe('landingHero', () => {
   })
 
   it('preserves external URLs', async () => {
-    const component = await mountSuspended(LandingHero, {
+    const component = await mountSuspended(HeroSection, {
       props: {
         title: 'Hero Title',
         description: 'Hero Description',
@@ -137,11 +136,65 @@ describe('landingHero', () => {
     const link = component.find('a[href="https://github.com/teritorio/vido"]')
     expect(link.exists()).toBe(true)
   })
+
+  it('uses screenshotAlt as img alt when provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+        screenshotAlt: 'Custom alt text',
+      },
+    })
+    const img = component.find('img')
+    expect(img.exists()).toBe(true)
+    expect(img.attributes('alt')).toBe('Custom alt text')
+  })
+
+  it('falls back to title as img alt when screenshotAlt is not provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+      },
+    })
+    const img = component.find('img')
+    expect(img.exists()).toBe(true)
+    expect(img.attributes('alt')).toBe('Hero Title')
+  })
+
+  it('renders an iframe when widgetUrl is provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        widgetUrl: 'https://widget.example.com',
+        screenshotAlt: 'Widget alt',
+      },
+    })
+    const iframe = component.find('iframe')
+    expect(iframe.exists()).toBe(true)
+    expect(iframe.attributes('src')).toBe('https://widget.example.com')
+    expect(iframe.attributes('title')).toBe('Widget alt')
+  })
+
+  it('renders screenshot (not iframe) when only screenshot is provided', async () => {
+    const component = await mountSuspended(HeroSection, {
+      props: {
+        title: 'Hero Title',
+        description: 'Hero Description',
+        screenshot: '/hero.webp',
+      },
+    })
+    expect(component.find('iframe').exists()).toBe(false)
+    expect(component.find('img').exists()).toBe(true)
+  })
 })
 
-describe('landingCta', () => {
+describe('ctaSection', () => {
   it('renders title', async () => {
-    const component = await mountSuspended(LandingCta, {
+    const component = await mountSuspended(CtaSection, {
       props: {
         title: 'CTA Title',
       },
@@ -150,7 +203,7 @@ describe('landingCta', () => {
   })
 
   it('renders description when provided', async () => {
-    const component = await mountSuspended(LandingCta, {
+    const component = await mountSuspended(CtaSection, {
       props: {
         title: 'CTA Title',
         description: 'CTA Description',
@@ -160,7 +213,7 @@ describe('landingCta', () => {
   })
 
   it('hides description when not provided', async () => {
-    const component = await mountSuspended(LandingCta, {
+    const component = await mountSuspended(CtaSection, {
       props: {
         title: 'CTA Title',
       },
@@ -169,7 +222,7 @@ describe('landingCta', () => {
   })
 
   it('renders primary and secondary buttons', async () => {
-    const component = await mountSuspended(LandingCta, {
+    const component = await mountSuspended(CtaSection, {
       props: {
         title: 'CTA Title',
         primaryLabel: 'Primary',
@@ -183,7 +236,7 @@ describe('landingCta', () => {
   })
 
   it('hides buttons when no label', async () => {
-    const component = await mountSuspended(LandingCta, {
+    const component = await mountSuspended(CtaSection, {
       props: {
         title: 'CTA Title',
       },
@@ -194,9 +247,9 @@ describe('landingCta', () => {
   })
 })
 
-describe('landingFeature', () => {
+describe('featureCard', () => {
   it('renders title', async () => {
-    const component = await mountSuspended(LandingFeature, {
+    const component = await mountSuspended(FeatureCard, {
       props: {
         title: 'Feature Title',
       },
@@ -205,7 +258,7 @@ describe('landingFeature', () => {
   })
 
   it('renders icon when provided', async () => {
-    const component = await mountSuspended(LandingFeature, {
+    const component = await mountSuspended(FeatureCard, {
       props: {
         icon: 'i-lucide-check',
         title: 'Feature Title',
@@ -215,7 +268,7 @@ describe('landingFeature', () => {
   })
 
   it('hides icon container when not provided', async () => {
-    const component = await mountSuspended(LandingFeature, {
+    const component = await mountSuspended(FeatureCard, {
       props: {
         title: 'Feature Title',
       },
@@ -224,7 +277,7 @@ describe('landingFeature', () => {
   })
 
   it('renders slot content', async () => {
-    const component = await mountSuspended(LandingFeature, {
+    const component = await mountSuspended(FeatureCard, {
       props: {
         title: 'Feature Title',
       },
@@ -236,9 +289,9 @@ describe('landingFeature', () => {
   })
 })
 
-describe('landingFeatures', () => {
+describe('featuresGrid', () => {
   it('renders section header props', async () => {
-    const component = await mountSuspended(LandingFeatures, {
+    const component = await mountSuspended(FeaturesGrid, {
       props: {
         headline: 'Features Headline',
         title: 'Features Title',
@@ -251,7 +304,7 @@ describe('landingFeatures', () => {
   })
 
   it('renders slot children', async () => {
-    const component = await mountSuspended(LandingFeatures, {
+    const component = await mountSuspended(FeaturesGrid, {
       props: {
         title: 'Features Title',
       },
@@ -263,9 +316,9 @@ describe('landingFeatures', () => {
   })
 })
 
-describe('landingStep', () => {
+describe('stepItem', () => {
   it('renders icon when provided', async () => {
-    const component = await mountSuspended(LandingStep, {
+    const component = await mountSuspended(StepItem, {
       props: {
         icon: 'i-lucide-rocket',
         title: 'Step Title',
@@ -276,7 +329,7 @@ describe('landingStep', () => {
   })
 
   it('hides icon when not provided', async () => {
-    const component = await mountSuspended(LandingStep, {
+    const component = await mountSuspended(StepItem, {
       props: {
         title: 'Step Title',
       },
@@ -286,7 +339,7 @@ describe('landingStep', () => {
   })
 
   it('renders slot content', async () => {
-    const component = await mountSuspended(LandingStep, {
+    const component = await mountSuspended(StepItem, {
       props: {
         title: 'Step Title',
       },
@@ -299,8 +352,8 @@ describe('landingStep', () => {
 })
 
 describe('landingUseCase', () => {
-  it('renders icon and title via LandingFeature', async () => {
-    const component = await mountSuspended(LandingUseCase, {
+  it('renders icon and title via FeatureCard', async () => {
+    const component = await mountSuspended(UseCaseCard, {
       props: {
         icon: 'i-lucide-map',
         title: 'Use Case Title',
@@ -311,7 +364,7 @@ describe('landingUseCase', () => {
   })
 
   it('renders slot content', async () => {
-    const component = await mountSuspended(LandingUseCase, {
+    const component = await mountSuspended(UseCaseCard, {
       props: {
         title: 'Use Case Title',
       },
@@ -323,9 +376,9 @@ describe('landingUseCase', () => {
   })
 })
 
-describe('landingUseCases', () => {
-  it('renders section header via LandingFeatures', async () => {
-    const component = await mountSuspended(LandingUseCases, {
+describe('useCasesGrid', () => {
+  it('renders section header via FeaturesGrid', async () => {
+    const component = await mountSuspended(UseCasesGrid, {
       props: {
         headline: 'UseCases Headline',
         title: 'UseCases Title',
@@ -338,7 +391,7 @@ describe('landingUseCases', () => {
   })
 
   it('renders slot children', async () => {
-    const component = await mountSuspended(LandingUseCases, {
+    const component = await mountSuspended(UseCasesGrid, {
       props: {
         title: 'UseCases Title',
       },
@@ -350,9 +403,9 @@ describe('landingUseCases', () => {
   })
 })
 
-describe('landingServices', () => {
+describe('servicesSection', () => {
   it('renders section header props', async () => {
-    const component = await mountSuspended(LandingServices, {
+    const component = await mountSuspended(ServicesSection, {
       props: {
         headline: 'Services Headline',
         title: 'Services Title',
@@ -363,7 +416,7 @@ describe('landingServices', () => {
   })
 
   it('renders slot content', async () => {
-    const component = await mountSuspended(LandingServices, {
+    const component = await mountSuspended(ServicesSection, {
       props: {
         title: 'Services Title',
       },
@@ -375,7 +428,7 @@ describe('landingServices', () => {
   })
 
   it('renders CTA button when label and link are provided', async () => {
-    const component = await mountSuspended(LandingServices, {
+    const component = await mountSuspended(ServicesSection, {
       props: {
         title: 'Services Title',
         ctaLabel: 'See roadmap',
@@ -386,7 +439,7 @@ describe('landingServices', () => {
   })
 
   it('hides CTA button when no label', async () => {
-    const component = await mountSuspended(LandingServices, {
+    const component = await mountSuspended(ServicesSection, {
       props: {
         title: 'Services Title',
       },
@@ -395,7 +448,7 @@ describe('landingServices', () => {
   })
 
   it('uses white background for visual alternation with References', async () => {
-    const component = await mountSuspended(LandingServices, {
+    const component = await mountSuspended(ServicesSection, {
       props: {
         title: 'Services Title',
       },
@@ -404,54 +457,33 @@ describe('landingServices', () => {
   })
 })
 
-describe('landingFaq', () => {
+describe('faqSection', () => {
   it('renders headline and title from i18n', async () => {
-    const component = await mountSuspended(LandingFaq)
+    const component = await mountSuspended(FaqSection)
     expect(component.text()).toContain('FAQ')
     expect(component.text()).toContain('Do you have questions about CartoGuide?')
   })
 
-  it('renders all 8 FAQ questions from i18n', async () => {
-    const component = await mountSuspended(LandingFaq)
+  it('renders questions passed via items prop', async () => {
+    const component = await mountSuspended(FaqSection, {
+      props: {
+        items: [
+          { question: 'What data can we use with CartoGuide?', answer: 'Various sources.' },
+          { question: 'Can CartoGuide be customised?', answer: 'Yes, from the back-office.' },
+        ],
+      },
+    })
     expect(component.text()).toContain('What data can we use with CartoGuide?')
-    expect(component.text()).toContain('Can CartoGuide integrate with our existing information system?')
-    expect(component.text()).toContain('Do we need to change or migrate our current tools?')
-    expect(component.text()).toContain('How does OpenStreetMap integrate with CartoGuide?')
-    expect(component.text()).toContain('Can CartoGuide be customised to our territory and our field?')
-    expect(component.text()).toContain('How does a CartoGuide project work?')
-    expect(component.text()).toContain('What can Teritorio bring us beyond the software?')
-    expect(component.text()).toContain('Why is CartoGuide open source software?')
+    expect(component.text()).toContain('Can CartoGuide be customised?')
+  })
+
+  it('renders empty accordion when no items provided', async () => {
+    const component = await mountSuspended(FaqSection)
+    expect(component.find('section').exists()).toBe(true)
   })
 
   it('has white background as last section before footer', async () => {
-    const component = await mountSuspended(LandingFaq)
+    const component = await mountSuspended(FaqSection)
     expect(component.find('section').classes()).not.toContain('bg-slate-100')
-  })
-})
-
-describe('landingReferences', () => {
-  it('renders section header props', async () => {
-    const component = await mountSuspended(LandingReferences, {
-      props: {
-        headline: 'References Headline',
-        title: 'References Title',
-        description: 'References Description',
-      },
-    })
-    expect(component.text()).toContain('References Headline')
-    expect(component.text()).toContain('References Title')
-    expect(component.text()).toContain('References Description')
-  })
-
-  it('renders slot content', async () => {
-    const component = await mountSuspended(LandingReferences, {
-      props: {
-        title: 'References Title',
-      },
-      slots: {
-        default: () => h('span', 'Reference content'),
-      },
-    })
-    expect(component.text()).toContain('Reference content')
   })
 })

@@ -15,7 +15,7 @@ defineProps<{
         <h3 v-if="title" class="text-base font-semibold text-slate-900">
           {{ title }}
         </h3>
-        <div class="text-sm text-slate-600 [&_p]:m-0" :class="{ 'mt-1': title }">
+        <div class="text-base leading-[1.6] text-slate-600 [&_p]:m-0" :class="{ 'mt-1': title }">
           <MDCSlot :use="$slots.default" />
         </div>
       </div>

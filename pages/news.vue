@@ -13,23 +13,21 @@ useSeoMeta({
   title: t('news.pageTitle'),
   description: t('news.pageDescription'),
 })
-
-defineOgImageComponent('OgImage')
 </script>
 
 <template>
-  <div>
-    <LandingPageHeader
+  <div class="flex flex-col flex-1">
+    <PageHeader
       :headline="t('news.headline')"
       :title="t('news.pageTitle')"
       :description="t('news.pageDescription')"
     />
 
-    <UContainer class="py-16">
-      <div v-if="!newsItems?.length" class="py-12 text-center text-slate-500">
-        {{ t('news.empty') }}
-      </div>
-      <div v-else class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div v-if="!newsItems?.length" class="flex flex-1 items-center justify-center text-slate-500">
+      {{ t('news.empty') }}
+    </div>
+    <UContainer v-else class="py-16">
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <UCard
           v-for="item in newsItems"
           :key="item.url"

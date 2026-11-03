@@ -19,11 +19,6 @@ const footerColumns = computed(() => [
       { label: 'Clearance', to: 'https://clearance.teritorio.xyz/', target: '_blank' },
       { label: 'OpenStreetMap', to: 'https://www.openstreetmap.org', target: '_blank' },
       { label: 'Documentation', to: 'https://documentation.communecarte.org/fr/cartoguide/', target: '_blank' },
-    ],
-  },
-  {
-    label: t('footer.company'),
-    children: [
       { label: 'Teritorio', to: 'https://teritorio.fr', target: '_blank' },
     ],
   },
@@ -31,10 +26,10 @@ const footerColumns = computed(() => [
 </script>
 
 <template>
-  <UFooter :ui="{ top: 'border-b border-t border-default' }">
+  <UFooter :ui="{ root: 'bg-gray-100 dark:bg-zinc-800', top: 'border-t border-default bg-white dark:bg-gray-900' }">
     <template #top>
       <UContainer>
-        <UFooterColumns :columns="footerColumns" :ui="{ root: 'block!', left: 'hidden!', center: 'grid! grid-cols-1! sm:grid-cols-3! gap-8' }" />
+        <UFooterColumns :columns="footerColumns" :ui="{ root: 'block!', left: 'hidden!', center: 'grid! grid-cols-1! sm:grid-cols-2! gap-8' }" />
       </UContainer>
     </template>
     <template #left>
@@ -59,6 +54,7 @@ const footerColumns = computed(() => [
         variant="ghost"
         color="neutral"
         aria-label="GitHub"
+        class="hover:bg-white!"
       />
     </template>
   </UFooter>
