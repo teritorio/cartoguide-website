@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useIntersectionObserver } from '@vueuse/core'
+import { useEventListener, useIntersectionObserver } from '@vueuse/core'
 
 defineProps<{
   icon?: string
@@ -7,6 +7,7 @@ defineProps<{
   image?: string
   imagePosition?: string
   video?: string
+  contain?: boolean
 }>()
 
 const { iconBg, iconColor } = useFeatureVariant()
@@ -38,6 +39,30 @@ useIntersectionObserver(videoEl, ([entry]) => {
     isPlaying.value = false
   }
 }, { threshold: 0.5 })
+
+const isExpanded = ref(false)
+const expandedVideoEl = ref<HTMLVideoElement | null>(null)
+
+function expand() {
+  isExpanded.value = true
+  document.body.style.overflow = 'hidden'
+  nextTick(() => expandedVideoEl.value?.play())
+}
+
+function collapse() {
+  isExpanded.value = false
+  document.body.style.overflow = ''
+}
+
+useEventListener('keydown', (e: KeyboardEvent) => {
+  if (e.key === 'Escape' && isExpanded.value)
+    collapse()
+})
+
+onUnmounted(() => {
+  if (isExpanded.value)
+    document.body.style.overflow = ''
+})
 </script>
 
 <template>
@@ -68,14 +93,23 @@ useIntersectionObserver(videoEl, ([entry]) => {
           class="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm"
         >
           <template v-if="video">
-            <video ref="videoEl" :src="video" loop muted playsinline class="h-full w-full object-cover" :style="imagePosition ? { objectPosition: imagePosition } : undefined" />
-            <button
-              class="absolute bottom-3 right-3 flex size-9 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
-              :aria-label="isPlaying ? 'Pause' : 'Play'"
-              @click="togglePlay"
-            >
-              <UIcon :name="isPlaying ? 'i-lucide-pause' : 'i-lucide-play'" class="size-4" />
-            </button>
+            <video ref="videoEl" :src="video" loop muted playsinline class="h-full w-full" :class="contain ? 'object-contain' : 'object-cover'" :style="imagePosition ? { objectPosition: imagePosition } : undefined" />
+            <div class="absolute bottom-3 right-3 flex gap-2">
+              <button
+                class="flex size-9 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
+                aria-label="Agrandir"
+                @click="expand"
+              >
+                <UIcon name="i-lucide-expand" class="size-4" />
+              </button>
+              <button
+                class="flex size-9 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
+                :aria-label="isPlaying ? 'Pause' : 'Play'"
+                @click="togglePlay"
+              >
+                <UIcon :name="isPlaying ? 'i-lucide-pause' : 'i-lucide-play'" class="size-4" />
+              </button>
+            </div>
           </template>
           <img
             v-else-if="image"
@@ -96,6 +130,38 @@ useIntersectionObserver(videoEl, ([entry]) => {
       </div>
     </UContainer>
   </div>
+
+  <!-- Expanded video modal -->
+  <Teleport to="body">
+    <Transition name="fade">
+      <div
+        v-if="isExpanded && video"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+        @click.self="collapse"
+      >
+        <button
+          class="absolute top-4 right-4 flex size-9 items-center justify-center rounded-full bg-primary-700/90 text-white/70 backdrop-blur-sm transition-colors hover:text-white"
+          aria-label="Fermer"
+          @click="collapse"
+        >
+          <UIcon name="i-lucide-x" class="size-4" />
+        </button>
+        <div class="w-full max-w-7xl">
+          <video
+            ref="expandedVideoEl"
+            :src="video"
+            loop
+            muted
+            playsinline
+            class="w-full rounded-t-2xl object-contain max-h-[88vh]"
+          />
+          <div class="rounded-b-2xl bg-primary-700/90 px-4 py-2.5 backdrop-blur-sm">
+            <span class="text-sm font-medium text-white">{{ title }}</span>
+          </div>
+        </div>
+      </div>
+    </Transition>
+  </Teleport>
 </template>
 
 <style scoped>
@@ -108,5 +174,15 @@ useIntersectionObserver(videoEl, ([entry]) => {
 .feature-dots {
   background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
   background-size: 24px 24px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

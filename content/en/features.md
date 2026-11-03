@@ -61,14 +61,15 @@ title: Everything your users need to find, filter and get around
   title: Connected multi-source data
   image: /images/features/placeholder.svg
   ---
-  Aggregate OpenStreetMap, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS and your proprietary data ([Elasa](https://github.com/teritorio/elasa)) into a single map. An [ETL](https://github.com/teritorio/elasa-datasources) automatically synchronizes all sources every evening.
+  Aggregate [OpenStreetMap](https://www.openstreetmap.org), [Apidae](https://www.apidae-tourisme.com), [Tourinsoft](https://www.tourinsoft.com), [Geotrek](https://geotrek.fr), [Open Agenda](https://openagenda.com), [GTFS](https://gtfs.org) and your proprietary data ([Elasa](https://github.com/teritorio/elasa)) into a single map. An [ETL](https://github.com/teritorio/elasa-datasources) automatically synchronizes all sources every evening.
   ::
 
   ::feature-item
   ---
   icon: i-lucide-list
   title: List view and export
-  image: /images/features/placeholder.svg
+  video: /images/features/list-export.webm
+  contain: true
   ---
   Switch between map view and list view to browse or compare points of interest in a category. Export results as CSV or GeoJSON to reuse in your own tools.
   ::

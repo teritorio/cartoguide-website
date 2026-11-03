@@ -61,14 +61,15 @@ title: Todo lo que sus usuarios necesitan para buscar, filtrar y moverse
   title: Datos multifuente conectados
   image: /images/features/placeholder.svg
   ---
-  Agregue OpenStreetMap, Apidae, Tourinsoft, Geotrek, Open Agenda, GTFS y sus datos propietarios ([Elasa](https://github.com/teritorio/elasa)) en un único mapa. Un [ETL](https://github.com/teritorio/elasa-datasources) sincroniza automáticamente todas las fuentes cada noche.
+  Agregue [OpenStreetMap](https://www.openstreetmap.org), [Apidae](https://www.apidae-tourisme.com), [Tourinsoft](https://www.tourinsoft.com), [Geotrek](https://geotrek.fr), [Open Agenda](https://openagenda.com), [GTFS](https://gtfs.org) y sus datos propietarios ([Elasa](https://github.com/teritorio/elasa)) en un único mapa. Un [ETL](https://github.com/teritorio/elasa-datasources) sincroniza automáticamente todas las fuentes cada noche.
   ::
 
   ::feature-item
   ---
   icon: i-lucide-list
   title: Vista lista y exportación
-  image: /images/features/placeholder.svg
+  video: /images/features/list-export.webm
+  contain: true
   ---
   Alterne entre la vista mapa y la vista lista para explorar o comparar los puntos de interés de una categoría. Exporte los resultados en CSV o GeoJSON para reutilizarlos en sus herramientas.
   ::
