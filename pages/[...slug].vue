@@ -11,8 +11,9 @@ const path = computed(() => {
 })
 
 const { data: page } = await useAsyncData(
-  `slug-${locale.value}-${slug.value.join('/')}`,
+  () => `slug-${locale.value}-${slug.value.join('/')}`,
   () => queryCollection(collectionName.value).path(path.value).first(),
+  { watch: [locale] },
 )
 
 if (!page.value) {

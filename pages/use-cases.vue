@@ -4,8 +4,9 @@ const { t, locale } = useI18n()
 const collectionName = computed(() => `content_${locale.value}` as const)
 
 const { data: page } = await useAsyncData(
-  `use-cases-${locale.value}`,
+  () => `use-cases-${locale.value}`,
   () => queryCollection(collectionName.value).path(`/${locale.value}/use-cases`).first(),
+  { watch: [locale] },
 )
 
 if (!page.value) {

@@ -5,8 +5,9 @@ const { typeColor, formatDate } = useNewsFormatting()
 const collectionName = computed(() => `news_${locale.value}` as 'news_fr' | 'news_en' | 'news_es')
 
 const { data: newsItems } = await useAsyncData(
-  `news-all-${locale.value}`,
+  () => `news-all-${locale.value}`,
   () => queryCollection(collectionName.value).order('date', 'DESC').all(),
+  { watch: [locale] },
 )
 
 useSeoMeta({
